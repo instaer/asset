@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[336],{7351:function(n,u,_){(window.__NEXT_P=window.__NEXT_P||[]).push(["/sudoku",function(){return _(8570)}])}},function(n){n.O(0,[131,549,570,774,888,179],function(){return n(n.s=7351)}),_N_E=n.O()}]);
