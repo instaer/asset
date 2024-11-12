@@ -1,1 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[429],{759:function(n,_,u){(window.__NEXT_P=window.__NEXT_P||[]).push(["/wordle",function(){return u(4798)}])}},function(n){n.O(0,[761,868,549,798,774,888,179],function(){return n(n.s=759)}),_N_E=n.O()}]);
