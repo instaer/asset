@@ -1,1 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[248],{1957:function(n,_,u){(window.__NEXT_P=window.__NEXT_P||[]).push(["/bar-chart",function(){return u(1517)}])}},function(n){n.O(0,[628,469,774,888,179],function(){return n(n.s=1957)}),_N_E=n.O()}]);
