@@ -1,0 +1,36 @@
+{
+    "faqs": [
+      {
+        "q": "Comment personnaliser le style du graphique ?",
+        "a": "<p>Cliquez sur le bouton 'Customize Style' situé sous le bouton 'Create' pour ouvrir une fenêtre de personnalisation. Cette fenêtre contient trois onglets avec des options adaptées au type de graphique sélectionné :</p><ul><li><b>Basique :</b> Largeur du graphique, marges, orientation des barres (pour les graphiques en barres), etc.</li><li><b>Style :</b> Couleur de fond, palettes de couleurs, styles de ligne, etc.</li><li><b>Axes et légende :</b> Étiquettes des axes, paramètres des étiquettes pour les graphiques circulaires, positionnement de la légende, etc.</li></ul><p>Chaque onglet offre des options spécifiques pour vous permettre de personnaliser l'apparence de vos graphiques.</p>"
+      },
+      {
+        "q": "Comment ajuster l'espace entre le graphique et la légende ?",
+        "a": "<p>Si la légende chevauche le graphique ou semble trop proche/éloignée, vous pouvez ajuster l'espacement en suivant ces étapes :</p><ol><li>Cliquez sur 'Customize Style'</li><li>Rendez-vous dans l'onglet 'Basique'</li><li>Trouvez les 'Paramètres de marge'</li><li>Ajustez les valeurs des marges :</li></ol><ul><li><b>Pour une légende à droite :</b> Ajustez la marge droite</li><li><b>Pour une légende en haut :</b> Ajustez la marge supérieure</li><li><b>Pour une légende en bas :</b> Ajustez la marge inférieure</li><li><b>Pour une légende à gauche :</b> Ajustez la marge gauche</li></ul><p>Ces paramètres vous permettent de peaufiner l'espacement entre le graphique et ses bordures extérieures.</p>"
+      },
+      {
+        "q": "Le graphique utilise-t-il toutes les données de mon fichier Excel ?",
+        "a": "<p>Non. Les données sont d'abord extraites de la feuille sélectionnée (par défaut, la première feuille), que vous pouvez filtrer et résumer. Par défaut, le graphique affichera jusqu'à 500 lignes (modifiable dans 'Limites d'affichage des données' sous 'Options avancées').</p><p>En général, 500 lignes suffisent pour produire des graphiques significatifs. Pour mieux représenter les données globales, vous pouvez choisir 'Échantillonner N lignes uniformément' ou 'Échantillonner N lignes aléatoirement' dans 'Gestion des dépassements'.</p>"
+      },
+      {
+        "q": "Comment créer un graphique avec deux axes Y ?",
+        "a": "<p>Vous pouvez créer un graphique avec deux axes Y en utilisant un graphique combiné, qui permet d'afficher des données avec des unités ou échelles différentes :</p><ul><li>Un axe principal (à gauche)</li><li>Un axe secondaire (à droite)</li></ul><p>Étapes pour créer ce type de graphique :</p><ol><li>Sélectionnez 'Graphique combiné' dans le menu déroulant Type de graphique</li><li>Configurez les deux axes dans les 'Paramètres des axes Y doubles' :<ul><li>Choisissez le type de graphique pour chaque axe</li><li>Sélectionnez les colonnes à afficher sur l'axe principal (les colonnes restantes seront assignées automatiquement à l'axe secondaire)</li></ul></li></ol><p>Ce type de graphique est particulièrement utile pour comparer des données avec des unités ou échelles différentes (par exemple, quantité et prix).</p>"
+      },
+      {
+        "q": "Qu'est-ce que 'Show Values As' et quand l'utiliser ?",
+        "a": "<p>'Show Values As' détermine comment les résultats calculés sont affichés dans le graphique. Voici les options principales :</p><ul><li><b>Pas de calcul :</b> Affiche les données brutes (utile pour les valeurs de dimension en double)</li><li><b>Total par ligne :</b> Affiche la somme des colonnes sélectionnées pour chaque ligne</li><li><b>Différence entre colonnes adjacentes :</b> Affiche la différence entre chaque colonne et la précédente</li></ul><p>Choisissez l'option qui présente le mieux votre histoire de données.</p>"
+      },
+      {
+        "q": "Qu'est-ce que 'Summarize Values By' et comment ça fonctionne ?",
+        "a": "<p>'Summarize Values By' détermine comment vos données brutes sont calculées. Cela permet de :</p><ul><li>Faire la somme des valeurs</li><li>Compter les occurrences</li><li>Calculer des moyennes</li></ul><p>Cette fonctionnalité traite automatiquement vos données brutes lors de la création des graphiques, sans besoin de prétraitement dans Excel. L'affichage final dépend de votre sélection dans 'Show Values As'.</p>"
+      },
+      {
+        "q": "Comment sont gérées les valeurs en double dans la colonne Étiquette/axe X ?",
+        "a": "<p>Par défaut, seule la première ligne avec une étiquette/valeur d'axe X en double est utilisée. Pour résumer ces données :</p><ol><li>Activez 'Résumé des données' dans 'Configurer le graphique'</li><li>Choisissez une option 'Summarize Values By' (Somme, Moyenne, etc.)</li><li>Réglez 'Show Values As' sur 'Pas de calcul'</li></ol>"
+      },
+      {
+        "q": "Que se passe-t-il si les colonnes de données contiennent des valeurs non numériques ?",
+        "a": "<p>Toutes les valeurs non numériques dans les colonnes de données (à l'exception de la colonne Étiquette/axe X) seront automatiquement converties en 0 lors de la création du graphique.</p>"
+      }
+    ]
+  }

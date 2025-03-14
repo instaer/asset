@@ -1,0 +1,71 @@
+{
+  "index": {
+    "title": "Créer des Graphiques en Ligne à partir d'Excel | ExcelToChart.com",
+    "description": "Créez des graphiques en ligne à partir de vos données Excel. Générateur de graphiques facile à utiliser pour les barres, lignes, camemberts, nuages de points et graphiques combinés avec personnalisation des styles.",
+    "h1": "Créateur de Graphiques Excel en Ligne",
+    "h2": "Créez des Graphiques Professionnels en Ligne à partir de Vos Données Excel",
+    "select_file_button": {
+      "label": "Sélectionner un fichier Excel",
+      "text": "Formats pris en charge : .xlsx, .xls et .csv.",
+      "no_upload_error": "Veuillez sélectionner un fichier Excel.",
+      "file_type_error": "Le type de fichier doit être .xlsx, .xls ou .csv.",
+      "file_size_error": "La taille du fichier ne peut pas dépasser {{fileSize}}Mo.",
+      "sheet_read_error": "Impossible de traiter le fichier. Veuillez vérifier le format.",
+      "excel_read_error": "Veuillez sélectionner un fichier Excel valide."
+    },
+    "configure_button": "Configurer le Graphique",
+    "configure_button_text": "Cliquez pour personnaliser la sélection des données.",
+    "create_button": "Créer",
+    "customize_style_button": "Personnaliser le Style",
+    "key_features_title": "Caractéristiques Principales de {{name}}",
+    "faqs_title": "Foire Aux Questions",
+    "more_charts_title": "Autres Graphiques Que Vous Pouvez Créer"
+  },
+  "charts": [
+    {
+      "name": "Graphique à Barres",
+      "title": "Créer des Graphiques à Barres en Ligne à partir d'Excel | ExcelToChart.com",
+      "description": "Créez des graphiques à barres en ligne à partir de vos données Excel. Générateur facile à utiliser avec options de barres verticales, horizontales, empilées et personnalisation des styles.",
+      "h1": "Créateur de Graphiques à Barres Excel",
+      "h2": "Créez des Graphiques à Barres Professionnels en Ligne à partir de Vos Données Excel",
+      "info": "Idéal pour comparer des valeurs entre différentes catégories. Parfait pour afficher des chiffres de ventes, des réponses à des sondages ou des classements de manière claire et concise.",
+      "shortInfo": "Idéal pour comparer des valeurs entre catégories"
+    },
+    {
+      "name": "Graphique en Lignes",
+      "title": "Créer des Graphiques en Lignes en Ligne à partir d'Excel | ExcelToChart.com",
+      "description": "Créez des graphiques en lignes en ligne à partir de vos données Excel. Générateur facile à utiliser pour des tracés multi-séries et des graphiques en aires avec personnalisation simple.",
+      "h1": "Créateur de Graphiques en Lignes Excel",
+      "h2": "Créez des Graphiques en Lignes Professionnels en Ligne à partir de Vos Données Excel (y compris des Graphiques en Aires)",
+      "info": "Parfait pour suivre les variations dans le temps et repérer les tendances. Idéal pour visualiser des prix boursiers, des revenus mensuels ou des changements de température au fil de l'année.",
+      "shortInfo": "Suivre les variations dans le temps et repérer les tendances"
+    },
+    {
+      "name": "Graphique en Secteurs",
+      "title": "Créer des Graphiques en Secteurs en Ligne à partir d'Excel | ExcelToChart.com",
+      "description": "Créez des graphiques en secteurs en ligne à partir de vos données Excel. Générateur facile à utiliser avec options de graphiques en anneaux et visualisations en pourcentages.",
+      "h1": "Créateur de Graphiques en Secteurs Excel",
+      "h2": "Créez des Graphiques en Secteurs Professionnels en Ligne à partir de Vos Données Excel (y compris des Graphiques en Anneaux)",
+      "info": "Montrez les parts d'un tout en pourcentages ou proportions. Idéal pour illustrer des parts de marché, des allocations budgétaires ou des répartitions démographiques.",
+      "shortInfo": "Montrez les parts d'un tout en pourcentages ou proportions"
+    },
+    {
+      "name": "Nuage de Points",
+      "title": "Créer des Nuages de Points en Ligne à partir d'Excel | ExcelToChart.com",
+      "description": "Créez des nuages de points en ligne à partir de vos données Excel. Générateur facile à utiliser, parfait pour l'analyse de corrélation.",
+      "h1": "Créateur de Nuages de Points Excel",
+      "h2": "Créez des Nuages de Points Professionnels en Ligne à partir de Vos Données Excel",
+      "info": "Idéal pour révéler les relations entre deux variables. Utile pour analyser des corrélations comme taille vs poids ou ventes vs dépenses publicitaires.",
+      "shortInfo": "Révélez les relations entre deux variables"
+    },
+    {
+      "name": "Graphique Combiné",
+      "title": "Créer des Graphiques Combinés en Ligne à partir d'Excel | ExcelToChart.com",
+      "description": "Créez des graphiques combinés en ligne à partir de vos données Excel. Générateur facile à utiliser pour des visualisations à double axe combinant barres et lignes avec personnalisation des styles.",
+      "h1": "Créateur de Graphiques Combinés Excel",
+      "h2": "Créez des Graphiques Combinés Professionnels en Ligne à partir de Vos Données Excel",
+      "info": "Combinez barres et lignes pour afficher des métriques connexes. Parfait pour comparer volumes de ventes et tendances ou performances réelles vs objectifs.",
+      "shortInfo": "Combinez barres et lignes pour afficher des métriques connexes"
+    }
+  ]
+}

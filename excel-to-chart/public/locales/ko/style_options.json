@@ -1,0 +1,279 @@
+{
+  "dialog_title": "스타일 사용자 지정",
+  "reset_button": "초기화",
+  "confirm_button": "확인",
+  "basic_tab": {
+    "label": "기본 설정",
+    "chart_width": {
+      "label": "차트 너비",
+      "helper_text": "모든 데이터를 명확하고 완전하게 표시할 수 있도록 너비를 설정하세요."
+    },
+    "bar_direction": {
+      "label": "막대 방향",
+      "options": [
+        "세로",
+        "가로"
+      ],
+      "helper_text": "막대를 가로 또는 세로로 표시하도록 설정하세요."
+    },
+    "grid_lines": {
+      "label": "격자선",
+      "vertical": {
+        "label": "세로",
+        "options": [
+          "표시",
+          "숨기기"
+        ]
+      },
+      "horizontal": {
+        "label": "가로",
+        "options": [
+          "표시",
+          "숨기기"
+        ]
+      },
+      "helper_text": "차트 배경에 격자선을 표시하거나 숨길 수 있습니다."
+    },
+    "margin_settings": {
+      "label": "여백 설정",
+      "top": {
+        "label": "위쪽"
+      },
+      "bottom": {
+        "label": "아래쪽"
+      },
+      "left": {
+        "label": "왼쪽"
+      },
+      "right": {
+        "label": "오른쪽"
+      },
+      "helper_text": "레이블을 위해 차트 가장자리와 플롯 영역 간의 간격을 조정하세요."
+    }
+  },
+  "style_tab": {
+    "label": "스타일",
+    "background_color": {
+      "label": "배경 색상",
+      "options": [
+        "따뜻한 베이지",
+        "투명",
+        "흰색",
+        "밝은 회색"
+      ],
+      "helper_text": "차트 디스플레이 및 저장된 이미지의 배경 색상을 선택하세요."
+    },
+    "color_style": {
+      "label": "색상 스타일",
+      "options": [
+        "미니멀리스트",
+        "비즈니스",
+        "테크",
+        "노르딕",
+        "선셋",
+        "빈티지"
+      ],
+      "helper_text": "차트에 사용할 사전 정의된 색상 팔레트를 선택하세요."
+    },
+    "bar_label_type": {
+      "label": "막대 레이블",
+      "options": [
+        "없음",
+        "값"
+      ],
+      "helper_text": "각 막대에 값을 표시할 방식을 선택하세요."
+    },
+    "line_style": {
+      "label": "선 스타일",
+      "options": [
+        "직선",
+        "자연스러운 곡선",
+        "Catmull-Rom 곡선",
+        "단조 X",
+        "단조 Y",
+        "계단형",
+        "이전 단계",
+        "다음 단계"
+      ],
+      "helper_text": "선형 차트에서 데이터 포인트를 연결하는 방식을 선택하세요."
+    },
+    "area_fill": {
+      "label": "영역 채우기",
+      "options": [
+        "없음",
+        "선 아래 채우기"
+      ],
+      "helper_text": "단순 선형 표시 또는 선 아래 영역을 채울지 선택하세요."
+    },
+    "pie_top_items": {
+      "label": "파이 상위 항목",
+      "helper_text": "상위 N개의 항목을 표시하고 나머지는 '기타'로 그룹화합니다."
+    },
+    "pie_inner_radius": {
+      "label": "파이 내부 반경",
+      "helper_text": "중앙 구멍의 크기 (0% = 파이, 50% = 도넛)."
+    }
+  },
+  "axes_legend_tab": {
+    "label": "축 및 범례",
+    "axis_range": {
+      "label": "Y축 범위",
+      "x_axis_range_label": "X축 범위",
+      "min": {
+        "label": "최소값"
+      },
+      "max": {
+        "label": "최대값"
+      },
+      "helper_text": "데이터 축의 최소 및 최대 값을 설정합니다."
+    },
+    "axis_scale_type_settings": {
+      "label": "축 스케일 유형 설정",
+      "x_axis": {
+        "label": "X축",
+        "options": [
+          "자동",
+          "선형 (숫자만)",
+          "포인트"
+        ],
+        "helper_text": "X축을 따라 데이터 포인트를 배치하는 방식을 선택하세요."
+      },
+      "y_axis": {
+        "label": "Y축",
+        "options": [
+          "선형",
+          "로그 스케일 (선형 차트 전용)",
+          "제곱근 스케일 (선형 차트 전용)"
+        ],
+        "helper_text": "Y축에서 데이터 포인트를 배치하는 방식을 선택하세요."
+      }
+    },
+    "x_axis_label_settings": {
+      "label": "X축 레이블 설정",
+      "text": {
+        "label": "텍스트",
+        "helper_text": "X축 아래에 표시할 텍스트 (비워 두면 숨김)."
+      },
+      "y_offset": {
+        "label": "수직 오프셋",
+        "helper_text": "X축과 레이블 사이의 수직 거리 (값이 클수록 아래로 이동)."
+      }
+    },
+    "y_axis_label_settings": {
+      "label": "Y축 레이블 설정",
+      "primary_y_axis_label_settings": "기본 Y축 레이블 설정",
+      "text": {
+        "label": "텍스트",
+        "helper_text": "Y축 옆에 표시할 텍스트 (비워 두면 숨김)."
+      },
+      "x_offset": {
+        "label": "수평 오프셋",
+        "helper_text_primary": "기본 (왼쪽) Y축과 레이블 사이의 수평 거리 (음수 값은 왼쪽으로 이동).",
+        "helper_text": "Y축과 레이블 사이의 수평 거리 (음수 값은 왼쪽으로 이동)."
+      }
+    },
+    "secondary_y_axis_label_settings": {
+      "label": "보조 Y축 레이블 설정",
+      "text": {
+        "label": "텍스트",
+        "helper_text": "보조 (오른쪽) Y축 옆에 표시할 텍스트 (비워 두면 숨김)."
+      },
+      "x_offset": {
+        "label": "수평 오프셋",
+        "helper_text": "보조 (오른쪽) Y축과 레이블 사이의 수평 거리 (음수 값은 왼쪽으로 이동)."
+      }
+    },
+    "reference_line_settings": {
+      "vertical_label": "참조선 설정 (세로)",
+      "horizontal_label": "참조선 설정 (가로)",
+      "show": {
+        "label": "표시"
+      },
+      "y_axis_value": {
+        "label": "Y축 값"
+      },
+      "label_name": {
+        "label": "레이블 이름"
+      },
+      "label_position": {
+        "label": "레이블 위치",
+        "options": [
+          "시작",
+          "중간",
+          "끝"
+        ]
+      },
+      "line_color": {
+        "label": "선 색상",
+        "options": [
+          "밝은 회색",
+          "밝은 파랑",
+          "주황색",
+          "녹색",
+          "보라색",
+          "검정색"
+        ]
+      },
+      "horizontal_helper_text": "가로선에 사용자 지정 레이블, 색상 및 X축 값을 추가하여 데이터를 비교하세요.",
+      "vertical_helper_text": "세로선에 사용자 지정 레이블, 색상 및 Y축 값을 추가하여 데이터를 비교하세요."
+    },
+    "arc_label_settings": {
+      "label": "호 레이블 설정",
+      "display_type": {
+        "label": "표시 형식",
+        "options": [
+          "없음",
+          "레이블만",
+          "값만",
+          "비율만",
+          "레이블 (값)",
+          "레이블 (비율)",
+          "값 (비율)",
+          "비율 (값)"
+        ],
+        "helper_text": "파이 차트 세그먼트에서 레이블을 표시하는 방식을 선택하세요."
+      },
+      "min_percentage": {
+        "label": "최소 레이블 비율",
+        "helper_text": "레이블을 표시할 최소 비율을 설정하세요."
+      },
+      "radius": {
+        "label": "레이블 위치",
+        "helper_text": "중심에서의 거리 (50% = 중심에서 중간)."
+      }
+    },
+    "legend_settings": {
+      "label": "범례 설정",
+      "show": {
+        "label": "표시"
+      },
+      "direction": {
+        "label": "레이아웃 방향",
+        "options": [
+          "가로",
+          "세로"
+        ]
+      },
+      "vertical": {
+        "label": "수직 정렬",
+        "options": [
+          "위쪽",
+          "중간",
+          "아래쪽"
+        ]
+      },
+      "horizontal": {
+        "label": "수평 정렬",
+        "options": [
+          "왼쪽",
+          "중간",
+          "오른쪽"
+        ]
+      },
+      "padding": {
+        "label": "패딩"
+      },
+      "helper_text": "범례의 표시, 위치 및 간격 옵션을 제어하여 가독성을 향상시키세요."
+    }
+  }
+}

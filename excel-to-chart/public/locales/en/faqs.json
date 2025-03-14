@@ -1,0 +1,36 @@
+{
+  "faqs": [
+    {
+      "q": "How do I customize the chart style?",
+      "a": "<p>Click the 'Customize Style' text button below the 'Create' button to open a dialog. The dialog contains three tabs with different style settings available for your selected chart type:</p><ul><li><b>Basic:</b> Chart width, margin settings, bar orientation for bar charts, etc.</li><li><b>Style:</b> Background color, color schemes, line styles, etc.</li><li><b>Axes & Legend:</b> Axis labels, pie chart label settings, and legend configurations, etc.</li></ul><p>Each tab provides specific customization options to help you achieve your desired chart appearance.</p>"
+    },
+    {
+      "q": "How do I adjust the spacing between the chart and legend?",
+      "a": "<p>If your legend overlaps with the chart or appears too close/far, you can adjust the spacing in these steps:</p><ol><li>Click 'Customize Style'</li><li>Go to the 'Basic' tab</li><li>Find 'Margin Settings'</li><li>Adjust the margin values:</li></ol><ul><li><b>For right-side legends:</b> Adjust the 'Right' margin value</li><li><b>For top legends:</b> Adjust the 'Top' margin value</li><li><b>For bottom legends:</b> Adjust the 'Bottom' margin value</li><li><b>For left-side legends:</b> Adjust the 'Left' margin value</li></ul><p>Each margin setting controls the spacing between the chart and its outer boundaries, allowing you to fine-tune the layout.</p>"
+    },
+    {
+      "q": "Does the chart use all data from my Excel file?",
+      "a": "<p>No. Data is first read from your selected sheet (default is the first sheet), which you can filter and summarize. By default, the chart will display up to 500 rows of data (adjustable in 'Data Display Limits' under 'Advanced Options').</p><p>Usually, 500 rows are sufficient for creating meaningful charts. If you want to better represent overall data characteristics, you can choose 'Sample N Rows Evenly' or 'Sample N Rows Randomly' in 'Overflow Handling' to sample up to 500 rows either evenly or randomly.</p>"
+    },
+    {
+      "q": "How do I create a chart with two Y-axes?",
+      "a": "<p>You can create a chart with two Y-axes using a Combo Chart, which allows you to display data with different units or scales using separate Y-axes:</p><ul><li>A primary axis (left side)</li><li>A secondary axis (right side)</li></ul><p>To create one:</p><ol><li>Select 'Combo Chart' in the Chart Type dropdown</li><li>Configure both axes in 'Dual Y-Axis Settings':<ul><li>Choose chart types for each axis</li><li>Select which columns to display on the primary axis (remaining columns will automatically use the secondary axis)</li></ul></li></ol><p>This is particularly useful when comparing data with different units or scales (e.g., quantity vs. price).</p>"
+    },
+    {
+      "q": "What is 'Show Values As' and when should I use it?",
+      "a": "<p>'Show Values As' determines how your calculated results are displayed in the chart. Common options include:</p><ul><li><b>No Calculation:</b> Shows raw data (useful for duplicate dimension values)</li><li><b>Row Total:</b> Shows the sum of selected columns for each row</li><li><b>Adjacent Column Difference:</b> Shows the difference between each column and the previous one</li></ul><p>Choose the option that best presents your data story.</p>"
+    },
+    {
+      "q": "What is 'Summarize Values By' and how does it work?",
+      "a": "<p>'Summarize Values By' determines how your raw data is calculated. It allows you to:</p><ul><li>Sum up values</li><li>Count occurrences</li><li>Calculate averages</li></ul><p>This feature automatically processes your raw data when creating charts, eliminating the need for pre-processing in Excel. The final display depends on your 'Show Values As' selection.</p>"
+    },
+    {
+      "q": "How are duplicate values in the Label/X-Axis Column handled?",
+      "a": "<p>By default, only the first row with a duplicate label/x-axis value is used. To summarize these data:</p><ol><li>Enable 'Data Summary' in 'Configure Chart'</li><li>Choose a 'Summarize Values By' option (Sum, Average, etc.)</li><li>Set 'Show Values As' to 'No Calculation'</li></ol>"
+    },
+    {
+      "q": "What happens if Data Columns contain non-numeric values?",
+      "a": "<p>Any non-numeric values in Data Columns (excluding the Label/X-Axis Column) will automatically be converted to 0 during chart creation.</p>"
+    }
+  ]
+}

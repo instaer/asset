@@ -1,0 +1,279 @@
+{
+  "dialog_title": "Customize Style",
+  "reset_button": "Reset",
+  "confirm_button": "Okay",
+  "basic_tab": {
+    "label": "Basic",
+    "chart_width": {
+      "label": "Chart Width",
+      "helper_text": "Set width to display all data clearly and completely."
+    },
+    "bar_direction": {
+      "label": "Bar Direction",
+      "options": [
+        "Vertical",
+        "Horizontal"
+      ],
+      "helper_text": "Set bars to display horizontally or vertically."
+    },
+    "grid_lines": {
+      "label": "Grid Lines",
+      "vertical": {
+        "label": "Vertical",
+        "options": [
+          "Show",
+          "Hide"
+        ]
+      },
+      "horizontal": {
+        "label": "Horizontal",
+        "options": [
+          "Show",
+          "Hide"
+        ]
+      },
+      "helper_text": "Show or hide grid lines in the background of chart."
+    },
+    "margin_settings": {
+      "label": "Margin Settings",
+      "top": {
+        "label": "Top"
+      },
+      "bottom": {
+        "label": "Bottom"
+      },
+      "left": {
+        "label": "Left"
+      },
+      "right": {
+        "label": "Right"
+      },
+      "helper_text": "Adjust spacing between chart edges and plot area for labels."
+    }
+  },
+  "style_tab": {
+    "label": "Style",
+    "background_color": {
+      "label": "Background Color",
+      "options": [
+        "Warm Beige",
+        "Transparent",
+        "White",
+        "Light Gray"
+      ],
+      "helper_text": "Select background color for both chart display and saved image."
+    },
+    "color_style": {
+      "label": "Color Style",
+      "options": [
+        "Minimalist",
+        "Business",
+        "Tech",
+        "Nordic",
+        "Sunset",
+        "Vintage"
+      ],
+      "helper_text": "Select a pre-defined color palette for your chart."
+    },
+    "bar_label_type": {
+      "label": "Bar Labels",
+      "options": [
+        "None",
+        "Value"
+      ],
+      "helper_text": "Choose how values are displayed on each bar."
+    },
+    "line_style": {
+      "label": "Line Style",
+      "options": [
+        "Linear",
+        "Smooth Natural",
+        "Smooth Catmull-Rom",
+        "Monotone X",
+        "Monotone Y",
+        "Step",
+        "Step Before",
+        "Step After"
+      ],
+      "helper_text": "Choose how data points are connected on your line chart."
+    },
+    "area_fill": {
+      "label": "Area Fill",
+      "options": [
+        "None",
+        "Fill Below Line"
+      ],
+      "helper_text": "Choose whether to show lines only or fill the area beneath lines."
+    },
+    "pie_top_items": {
+      "label": "Pie Top Items",
+      "helper_text": "Show top N items and group others as 'Other'."
+    },
+    "pie_inner_radius": {
+      "label": "Pie Inner Radius",
+      "helper_text": "Size of center hole (0% = pie, 50% = donut)."
+    }
+  },
+  "axes_legend_tab": {
+    "label": "Axes & Legend",
+    "axis_range": {
+      "label": "Y-Axis Range",
+      "x_axis_range_label": "X-Axis Range",
+      "min": {
+        "label": "Min Value"
+      },
+      "max": {
+        "label": "Max Value"
+      },
+      "helper_text": "Set minimum and maximum values for the data axis scale."
+    },
+    "axis_scale_type_settings": {
+      "label": "Axis Scale Type Settings",
+      "x_axis": {
+        "label": "X-Axis",
+        "options": [
+          "Auto",
+          "Linear (Numbers Only)",
+          "Point"
+        ],
+        "helper_text": "Choose how data points are distributed along the X-axis."
+      },
+      "y_axis": {
+        "label": "Y-Axis",
+        "options": [
+          "Linear",
+          "Logarithmic (Line Charts Only)",
+          "Square Root (Line Charts Only)"
+        ],
+        "helper_text": "Choose how to space your data points on the Y-axis."
+      }
+    },
+    "x_axis_label_settings": {
+      "label": "X-Axis Label Settings",
+      "text": {
+        "label": "Text",
+        "helper_text": "Text shown below X-axis (leave empty to hide)."
+      },
+      "y_offset": {
+        "label": "Vertical Offset",
+        "helper_text": "Vertical distance between X-axis and labels (larger moves down)."
+      }
+    },
+    "y_axis_label_settings": {
+      "label": "Y-Axis Label Settings",
+      "primary_y_axis_label_settings": "Primary Y-Axis Label Settings",
+      "text": {
+        "label": "Text",
+        "helper_text": "Text shown beside Y-axis (leave empty to hide)."
+      },
+      "x_offset": {
+        "label": "Horizontal Offset",
+        "helper_text_primary": "Horizontal distance between primary (left) Y-axis and labels (negative values moves left).",
+        "helper_text": "Horizontal distance between Y-axis and labels (negative values moves left)."
+      }
+    },
+    "secondary_y_axis_label_settings": {
+      "label": "Secondary Y-Axis Label Settings",
+      "text": {
+        "label": "Text",
+        "helper_text": "Text shown beside Secondary (right) Y-axis (leave empty to hide)."
+      },
+      "x_offset": {
+        "label": "Horizontal Offset",
+        "helper_text": "Horizontal distance between secondary (right) Y-axis and labels (negative values moves left)."
+      }
+    },
+    "reference_line_settings": {
+      "vertical_label": "Reference Line Settings (Vertical)",
+      "horizontal_label": "Reference Line Settings (Horizontal)",
+      "show": {
+        "label": "Show"
+      },
+      "y_axis_value": {
+        "label": "Y-Axis Value"
+      },
+      "label_name": {
+        "label": "Label Name"
+      },
+      "label_position": {
+        "label": "Label Position",
+        "options": [
+          "Start",
+          "Middle",
+          "End"
+        ]
+      },
+      "line_color": {
+        "label": "Line Color",
+        "options": [
+          "Light Gray",
+          "Light Blue",
+          "Orange",
+          "Green",
+          "Purple",
+          "Black"
+        ]
+      },
+      "horizontal_helper_text": "Add horizontal lines with custom labels, colors and X-axis values for data comparison.",
+      "vertical_helper_text": "Add horizontal lines with custom labels, colors and Y-axis values for data comparison."
+    },
+    "arc_label_settings": {
+      "label": "Arc Label Settings",
+      "display_type": {
+        "label": "Display Format",
+        "options": [
+          "None",
+          "Label Only",
+          "Value Only",
+          "Percentage Only",
+          "Label (Value)",
+          "Label (Percentage)",
+          "Value (Percentage)",
+          "Percentage (Value)"
+        ],
+        "helper_text": "Choose how labels appear on pie chart segments."
+      },
+      "min_percentage": {
+        "label": "Minimum Label Percentage",
+        "helper_text": "Set the minimum percentage to display labels."
+      },
+      "radius": {
+        "label": "Label Position",
+        "helper_text": "Distance from center (50% = halfway from center)."
+      }
+    },
+    "legend_settings": {
+      "label": "Legend Settings",
+      "show": {
+        "label": "Show"
+      },
+      "direction": {
+        "label": "Layout Direction",
+        "options": [
+          "Row",
+          "Column"
+        ]
+      },
+      "vertical": {
+        "label": "Vertical Alignment",
+        "options": [
+          "Top",
+          "Middle",
+          "Bottom"
+        ]
+      },
+      "horizontal": {
+        "label": "Horizontal Alignment",
+        "options": [
+          "Left",
+          "Middle",
+          "Right"
+        ]
+      },
+      "padding": {
+        "label": "Padding"
+      },
+      "helper_text": "Control legend display, position and spacing options for better readability."
+    }
+  }
+}

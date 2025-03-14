@@ -1,0 +1,181 @@
+{
+  "dialog_title": "Grafiek configureren",
+  "reset_button": "Resetten",
+  "confirm_button": "Oké",
+  "data_tab": {
+    "chart_title": {
+      "label": "Grafiektitel (optioneel)",
+      "placeholder": "Voer grafiektitel in"
+    },
+    "chart_type": {
+      "label": "Grafiektype"
+    },
+    "select_sheet": {
+      "label": "Selecteer blad",
+      "helper_text": "Kies welk Excel-blad je wilt gebruiken."
+    },
+    "data_selection": {
+      "label": "Gegevensselectie",
+      "data_columns": {
+        "label": "Gegevenskolommen",
+        "placeholder": "Zoek kolommen...",
+        "label_value_columns": "Selecteer kolommen voor de grafiek (één labelkolom en één waardekolom).",
+        "x_y_axis_columns": "Selecteer kolommen voor de grafiek (één X-as kolom en minimaal één Y-as kolom)."
+      },
+      "dimension_column": {
+        "label_column_label": "Labelkolom",
+        "x_axis_column_label": "X-as kolom",
+        "label_column_helper_text": "Selecteer de kolom voor segmentnamen in het taartdiagram.",
+        "x_axis_column_helper_text": "Selecteer de kolom voor de horizontale as."
+      }
+    },
+    "dual_y_axis_settings": {
+      "label": "Dubbele Y-as instellingen",
+      "primary_axis_chart_type": {
+        "label": "Primaire (linker) as grafiektype",
+        "options": [
+          "Staafdiagram",
+          "Lijndiagram"
+        ]
+      },
+      "secondary_axis_chart_type": {
+        "label": "Secundaire (rechter) as grafiektype",
+        "options": [
+          "Staafdiagram",
+          "Lijndiagram"
+        ]
+      },
+      "columns_for_primary_axis": {
+        "label": "Kolommen voor primaire as",
+        "helper_text": "Selecteer kolommen voor de linker Y-as; de overige worden weergegeven op de rechter Y-as."
+      }
+    },
+    "advanced_options": {
+      "label": "Geavanceerde opties",
+      "stack_columns": {
+        "label": "Kolommen stapelen (optioneel)",
+        "helper_text": "Kies welke kolommen gestapeld worden in het staafdiagram."
+      },
+      "data_filter": {
+        "label": "Gegevensfilter (optioneel)",
+        "filter_by_column": {
+          "label": "Filter op kolom",
+          "options": [
+            "(Geen filter)"
+          ],
+          "no_filter_option": "(Geen filter)"
+        },
+        "first_operator": {
+          "label": "Filter",
+          "options": [
+            "is gelijk aan",
+            "is niet gelijk aan",
+            "is groter dan",
+            "is kleiner dan",
+            "is groter dan of gelijk aan",
+            "is kleiner dan of gelijk aan",
+            "bevat",
+            "bevat niet",
+            "grootste N items",
+            "kleinste N items"
+          ]
+        },
+        "first_value": {
+          "label": "Waarde"
+        },
+        "logic_operator_and": {
+          "label": "EN"
+        },
+        "logic_operator_or": {
+          "label": "OF"
+        },
+        "second_operator": {
+          "label": "Filter",
+          "options": [
+            "is gelijk aan",
+            "is niet gelijk aan",
+            "is groter dan",
+            "is kleiner dan",
+            "is groter dan of gelijk aan",
+            "is kleiner dan of gelijk aan",
+            "bevat",
+            "bevat niet",
+            "grootste N items",
+            "kleinste N items"
+          ]
+        },
+        "second_value": {
+          "label": "Waarde"
+        },
+        "helper_text": "Pas filters toe op kolommen: selecteer kolom, stel voorwaarden in en voer waarden in."
+      },
+      "data_summary": {
+        "label": "Gegevenssamenvatting (optioneel)",
+        "aggregation_method": {
+          "label": "Waarden samenvatten op basis van",
+          "options": [
+            "(Geen)",
+            "Som",
+            "Aantal",
+            "Gemiddelde",
+            "Maximum",
+            "Minimum"
+          ]
+        },
+        "display_method": {
+          "label": "Waarden weergeven als",
+          "options": [
+            "Geen berekening",
+            "Rijtotaal",
+            "Kolomtotaal",
+            "Rijpercentage (%)",
+            "Kolompercentage (%)",
+            "Totaalpercentage (%)",
+            "Verschil naastgelegen kolom",
+            "Verschil naastgelegen kolom (%)",
+            "Verschil basis kolom",
+            "Verschil basis kolom (%)",
+            "Verschil naastgelegen rij",
+            "Verschil naastgelegen rij (%)"
+          ],
+          "not_applicable_option": "(Niet van toepassing)"
+        },
+        "base_column": {
+          "label": "Basiskolom"
+        },
+        "helper_text": "Vat gegevens samen en transformeer ze om op verschillende niveaus te analyseren."
+      },
+      "data_sorting": {
+        "label": "Gegevens sorteren (optioneel)",
+        "sort_order": {
+          "label": "Sorteervolgorde",
+          "options": [
+            "(Geen sortering)",
+            "Keer rijen om",
+            "Sorteren op kolom oplopend",
+            "Sorteren op kolom aflopend"
+          ]
+        },
+        "sort_column": {
+          "label": "Sorteren op kolom"
+        },
+        "helper_text": "Keer de volgorde van rijen om of sorteer gegevens op basis van kolomwaarden."
+      },
+      "data_display_limits": {
+        "label": "Weergavelimieten gegevens",
+        "max_rows": {
+          "label": "Maximaal aantal rijen"
+        },
+        "sample_method": {
+          "label": "Overloopbeheer",
+          "options": [
+            "Neem de eerste N rijen",
+            "Neem N rijen gelijkmatig verdeeld",
+            "Neem N rijen willekeurig"
+          ]
+        },
+        "helper_text": "Stel het maximale aantal rijen in om weer te geven in de grafiek (maximaal {{maxRows}})."
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "faqs": [
+      {
+        "q": "Como posso personalizar o estilo do gráfico?",
+        "a": "<p>Clique no botão 'Personalizar Estilo' abaixo do botão 'Criar' para abrir um diálogo. O diálogo contém três abas com diferentes opções de estilo disponíveis para o tipo de gráfico selecionado:</p><ul><li><b>Básico:</b> Largura do gráfico, configuração de margens, orientação das barras em gráficos de barras, etc.</li><li><b>Estilo:</b> Cor de fundo, esquemas de cores, estilos de linha, etc.</li><li><b>Eixos e Legenda:</b> Rótulos dos eixos, configurações de rótulos para gráficos de pizza e configurações da legenda, etc.</li></ul><p>Cada aba oferece opções específicas de personalização para ajudá-lo a alcançar a aparência desejada do gráfico.</p>"
+      },
+      {
+        "q": "Como ajustar o espaço entre o gráfico e a legenda?",
+        "a": "<p>Se a legenda estiver sobrepondo o gráfico ou parecer muito próxima/distante, você pode ajustar o espaço seguindo estes passos:</p><ol><li>Clique em 'Personalizar Estilo'</li><li>Vá para a aba 'Básico'</li><li>Encontre 'Configurações de Margem'</li><li>Ajuste os valores das margens:</li></ol><ul><li><b>Para legendas à direita:</b> Ajuste o valor da margem direita</li><li><b>Para legendas no topo:</b> Ajuste o valor da margem superior</li><li><b>Para legendas na parte inferior:</b> Ajuste o valor da margem inferior</li><li><b>Para legendas à esquerda:</b> Ajuste o valor da margem esquerda</li></ul><p>Cada configuração de margem controla o espaço entre o gráfico e suas bordas externas, permitindo que você ajuste o layout com precisão.</p>"
+      },
+      {
+        "q": "O gráfico usa todos os dados do meu arquivo Excel?",
+        "a": "<p>Não. Os dados são inicialmente lidos da planilha selecionada (por padrão, a primeira), que você pode filtrar e resumir. Por padrão, o gráfico exibirá até 500 linhas de dados (ajustável em 'Limites de Exibição de Dados' nas 'Opções Avançadas').</p><p>Geralmente, 500 linhas são suficientes para criar gráficos significativos. Se quiser representar melhor as características gerais dos dados, você pode selecionar 'Amostrar N Linhas Uniformemente' ou 'Amostrar N Linhas Aleatoriamente' na opção 'Gerenciamento de Excedentes' para selecionar até 500 linhas de forma uniforme ou aleatória.</p>"
+      },
+      {
+        "q": "Como criar um gráfico com dois eixos Y?",
+        "a": "<p>Você pode criar um gráfico com dois eixos Y usando um Gráfico Combinado, que permite exibir dados com diferentes unidades ou escalas em eixos Y separados:</p><ul><li>Um eixo primário (lado esquerdo)</li><li>Um eixo secundário (lado direito)</li></ul><p>Para criar um:</p><ol><li>Selecione 'Gráfico Combinado' no menu suspenso do Tipo de Gráfico</li><li>Configure os dois eixos nas 'Configurações de Eixo Y Duplo':<ul><li>Escolha os tipos de gráfico para cada eixo</li><li>Selecione quais colunas exibir no eixo primário (as colunas restantes serão automaticamente atribuídas ao eixo secundário)</li></ul></li></ol><p>Isso é particularmente útil ao comparar dados com unidades ou escalas diferentes (por exemplo, quantidade x preço).</p>"
+      },
+      {
+        "q": "O que significa 'Exibir Valores Como' e quando devo usar?",
+        "a": "<p>'Exibir Valores Como' determina como os resultados calculados são exibidos no gráfico. As opções mais comuns incluem:</p><ul><li><b>Sem Cálculo:</b> Exibe os dados brutos (útil para valores duplicados de dimensão)</li><li><b>Total da Linha:</b> Exibe a soma das colunas selecionadas para cada linha</li><li><b>Diferença da Coluna Adjacente:</b> Exibe a diferença entre cada coluna e a anterior</li></ul><p>Escolha a opção que melhor apresenta sua história de dados.</p>"
+      },
+      {
+        "q": "O que significa 'Resumir Valores Por' e como funciona?",
+        "a": "<p>'Resumir Valores Por' determina como os dados brutos são calculados. Permite que você:</p><ul><li>Some valores</li><li>Conte ocorrências</li><li>Calcule médias</li></ul><p>Essa funcionalidade processa automaticamente seus dados brutos ao criar gráficos, eliminando a necessidade de pré-processamento no Excel. A exibição final depende da seleção em 'Exibir Valores Como'.</p>"
+      },
+      {
+        "q": "Como lidar com valores duplicados na Coluna de Rótulos/Eixo X?",
+        "a": "<p>Por padrão, apenas a primeira linha com um valor duplicado de rótulo/eixo X é utilizada. Para resumir esses dados:</p><ol><li>Ative 'Resumo de Dados' em 'Configurar Gráfico'</li><li>Escolha uma opção em 'Resumir Valores Por' (Soma, Média, etc.)</li><li>Defina 'Exibir Valores Como' para 'Sem Cálculo'</li></ol>"
+      },
+      {
+        "q": "O que acontece se as Colunas de Dados contiverem valores não numéricos?",
+        "a": "<p>Qualquer valor não numérico nas Colunas de Dados (exceto na Coluna de Rótulos/Eixo X) será automaticamente convertido para 0 durante a criação do gráfico.</p>"
+      }
+    ]
+  }

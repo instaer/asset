@@ -1,0 +1,71 @@
+{
+  "index": {
+    "title": "Crea Grafici Online da Excel | ExcelToChart.com",
+    "description": "Crea grafici online dai dati Excel. Strumento facile da usare per creare grafici a barre, linee, torta, dispersione e combo con stile personalizzato.",
+    "h1": "Creatore di Grafici Excel Online",
+    "h2": "Crea Grafici Professionali Online dai Tuoi Dati Excel",
+    "select_file_button": {
+      "label": "Seleziona file Excel",
+      "text": "Supporta i formati .xlsx, .xls e .csv.",
+      "no_upload_error": "Seleziona un file Excel.",
+      "file_type_error": "Il tipo di file deve essere .xlsx, .xls o .csv.",
+      "file_size_error": "La dimensione del file non può superare {{fileSize}}MB.",
+      "sheet_read_error": "Impossibile elaborare il file. Controlla il formato.",
+      "excel_read_error": "Seleziona un file Excel valido."
+    },
+    "configure_button": "Configura Grafico",
+    "configure_button_text": "Clicca per personalizzare la selezione dei dati.",
+    "create_button": "Crea",
+    "customize_style_button": "Personalizza Stile",
+    "key_features_title": "Caratteristiche Principali di {{name}}",
+    "faqs_title": "Domande Frequenti",
+    "more_charts_title": "Altri Grafici che Puoi Creare"
+  },
+  "charts": [
+    {
+      "name": "Grafico a Barre",
+      "title": "Crea Grafici a Barre Online da Excel | ExcelToChart.com",
+      "description": "Crea grafici a barre online dai dati Excel. Strumento intuitivo per grafici a barre verticali, orizzontali e impilati, con opzioni di stile personalizzate.",
+      "h1": "Creatore di Grafici a Barre Excel",
+      "h2": "Crea Grafici a Barre Professionali Online dai Tuoi Dati Excel",
+      "info": "Ideale per confrontare valori tra categorie. Perfetto per visualizzare vendite, risposte a sondaggi o classifiche in modo chiaro e intuitivo.",
+      "shortInfo": "Ideale per confrontare valori tra categorie"
+    },
+    {
+      "name": "Grafico a Linee",
+      "title": "Crea Grafici a Linee Online da Excel | ExcelToChart.com",
+      "description": "Crea grafici a linee online dai dati Excel. Strumento facile per grafici multi-serie e opzioni a area con uno stile personalizzato.",
+      "h1": "Creatore di Grafici a Linee Excel",
+      "h2": "Crea Grafici a Linee Professionali Online dai Tuoi Dati Excel (Compresi Grafici a Area)",
+      "info": "Ideale per monitorare cambiamenti nel tempo e identificare tendenze. Perfetto per visualizzare prezzi azionari, ricavi mensili o variazioni di temperatura annuali.",
+      "shortInfo": "Ideale per monitorare cambiamenti nel tempo e identificare tendenze"
+    },
+    {
+      "name": "Grafico a Torta",
+      "title": "Crea Grafici a Torta Online da Excel | ExcelToChart.com",
+      "description": "Crea grafici a torta online dai dati Excel. Strumento intuitivo per grafici a torta e a ciambella con visualizzazioni percentuali personalizzate.",
+      "h1": "Creatore di Grafici a Torta Excel",
+      "h2": "Crea Grafici a Torta Professionali Online dai Tuoi Dati Excel (Compresi Grafici a Ciambella)",
+      "info": "Mostra le proporzioni o le percentuali di un insieme. Ideale per visualizzare quote di mercato, distribuzione del budget o ripartizione demografica.",
+      "shortInfo": "Mostra proporzioni o percentuali di un insieme"
+    },
+    {
+      "name": "Grafico a Dispersione",
+      "title": "Crea Grafici a Dispersione Online da Excel | ExcelToChart.com",
+      "description": "Crea grafici a dispersione online dai dati Excel. Perfetto per analisi di correlazione con uno strumento semplice da usare.",
+      "h1": "Creatore di Grafici a Dispersione Excel",
+      "h2": "Crea Grafici a Dispersione Professionali Online dai Tuoi Dati Excel",
+      "info": "Rivela relazioni tra due variabili. Utile per analizzare correlazioni come altezza e peso, o vendite e spese pubblicitarie.",
+      "shortInfo": "Rivela relazioni tra due variabili"
+    },
+    {
+      "name": "Grafico Combo",
+      "title": "Crea Grafici Combo Online da Excel | ExcelToChart.com",
+      "description": "Crea grafici combo online dai dati Excel. Combina barre e linee con visualizzazioni a doppio asse personalizzate.",
+      "h1": "Creatore di Grafici Combo Excel",
+      "h2": "Crea Grafici Combo Professionali Online dai Tuoi Dati Excel",
+      "info": "Combina barre e linee per mostrare metriche correlate. Ideale per confrontare volumi di vendita e tendenze o prestazioni reali rispetto agli obiettivi.",
+      "shortInfo": "Combina barre e linee per mostrare metriche correlate"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+    "faqs": [
+      {
+        "q": "Come posso personalizzare lo stile del grafico?",
+        "a": "<p>Fai clic sul pulsante di testo 'Personalizza Stile' sotto il pulsante 'Crea' per aprire una finestra di dialogo. La finestra offre tre schede con diverse opzioni di personalizzazione a seconda del tipo di grafico selezionato:</p><ul><li><b>Base:</b> Larghezza del grafico, margini, orientamento delle barre per i grafici a barre, ecc.</li><li><b>Stile:</b> Colore di sfondo, schemi di colore, stili delle linee, ecc.</li><li><b>Assi e Legenda:</b> Etichette degli assi, impostazioni per etichette nei grafici a torta, configurazioni della legenda, ecc.</li></ul><p>Ogni scheda ti consente di regolare facilmente l'aspetto del grafico secondo le tue preferenze.</p>"
+      },
+      {
+        "q": "Come posso regolare lo spazio tra il grafico e la legenda?",
+        "a": "<p>Se la legenda si sovrappone al grafico o appare troppo vicina/lontana, puoi regolare lo spazio seguendo questi passaggi:</p><ol><li>Fai clic su 'Personalizza Stile'</li><li>Vai alla scheda 'Base'</li><li>Trova l'opzione 'Impostazioni Margini'</li><li>Regola i valori dei margini:</li></ol><ul><li><b>Per le legende a destra:</b> Modifica il margine 'Destro'</li><li><b>Per le legende in alto:</b> Modifica il margine 'Superiore'</li><li><b>Per le legende in basso:</b> Modifica il margine 'Inferiore'</li><li><b>Per le legende a sinistra:</b> Modifica il margine 'Sinistro'</li></ul><p>Questa configurazione ti consente di ottimizzare il layout del grafico.</p>"
+      },
+      {
+        "q": "Il grafico utilizza tutti i dati del mio file Excel?",
+        "a": "<p>No. I dati vengono prima letti dal foglio selezionato (predefinito: il primo foglio), che puoi filtrare o riassumere. Per impostazione predefinita, il grafico visualizza fino a 500 righe di dati (modificabile in 'Limiti di Visualizzazione Dati' sotto 'Opzioni Avanzate').</p><p>Generalmente, 500 righe sono sufficienti per creare grafici significativi. Per rappresentare meglio i dati complessivi, puoi scegliere 'Campiona N Righe Uniformemente' o 'Campiona N Righe Casualmente' in 'Gestione Overflow' per campionare fino a 500 righe in modo uniforme o casuale.</p>"
+      },
+      {
+        "q": "Come posso creare un grafico con due assi Y?",
+        "a": "<p>Puoi creare un grafico con due assi Y utilizzando un grafico combinato, che consente di rappresentare dati con unità o scale diverse:</p><ul><li>Un asse primario (a sinistra)</li><li>Un asse secondario (a destra)</li></ul><p>Per crearlo:</p><ol><li>Seleziona 'Grafico Combinato' nel menu a discesa Tipo di Grafico</li><li>Configura entrambi gli assi in 'Impostazioni Doppio Asse Y':<ul><li>Scegli i tipi di grafico per ciascun asse</li><li>Seleziona quali colonne visualizzare sull'asse primario (le restanti colonne verranno assegnate automaticamente all'asse secondario)</li></ul></li></ol><p>Questa funzione è particolarmente utile per confrontare dati con unità o scale diverse (es. quantità vs. prezzo).</p>"
+      },
+      {
+        "q": "Cosa significa 'Mostra Valori Come' e quando dovrei usarlo?",
+        "a": "<p>'Mostra Valori Come' determina come i risultati calcolati vengono visualizzati nel grafico. Le opzioni comuni includono:</p><ul><li><b>Nessun Calcolo:</b> Mostra i dati grezzi (utile per valori di dimensione duplicati)</li><li><b>Totale Riga:</b> Mostra la somma delle colonne selezionate per ciascuna riga</li><li><b>Differenza Colonna Adiacente:</b> Mostra la differenza tra ciascuna colonna e quella precedente</li></ul><p>Scegli l'opzione che meglio rappresenta i tuoi dati.</p>"
+      },
+      {
+        "q": "Cosa significa 'Riepiloga Valori Per' e come funziona?",
+        "a": "<p>'Riepiloga Valori Per' determina come vengono calcolati i tuoi dati grezzi. Ti consente di:</p><ul><li>Somma dei valori</li><li>Conta delle occorrenze</li><li>Calcolo della media</li></ul><p>Questa funzione elabora automaticamente i dati grezzi durante la creazione del grafico, eliminando la necessità di pre-elaborazione su Excel. La visualizzazione finale dipende dalla selezione di 'Mostra Valori Come'.</p>"
+      },
+      {
+        "q": "Come vengono gestiti i valori duplicati nella colonna Etichetta/Asse X?",
+        "a": "<p>Per impostazione predefinita, viene utilizzata solo la prima riga con un valore duplicato nella colonna Etichetta/Asse X. Per riepilogare questi dati:</p><ol><li>Abilita 'Riepilogo Dati' in 'Configura Grafico'</li><li>Scegli un'opzione 'Riepiloga Valori Per' (Somma, Media, ecc.)</li><li>Imposta 'Mostra Valori Come' su 'Nessun Calcolo'</li></ol>"
+      },
+      {
+        "q": "Cosa succede se le Colonne Dati contengono valori non numerici?",
+        "a": "<p>Qualsiasi valore non numerico nelle Colonne Dati (esclusa la Colonna Etichetta/Asse X) verrà automaticamente convertito in 0 durante la creazione del grafico.</p>"
+      }
+    ]
+  }

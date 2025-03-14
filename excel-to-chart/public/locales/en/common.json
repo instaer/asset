@@ -1,0 +1,71 @@
+{
+  "index": {
+    "title": "Create Charts Online from Excel | ExcelToChart.com",
+    "description": "Create charts online from Excel data. Easy-to-use chart maker for bar, line, pie, scatter, combo charts with custom styling.",
+    "h1": "Online Excel Chart Maker",
+    "h2": "Create Professional Charts Online from Your Excel Data",
+    "select_file_button": {
+      "label": "Select Excel File",
+      "text": "Support .xlsx, .xls and .csv format.",
+      "no_upload_error": "Please select an Excel file.",
+      "file_type_error": "File type must be .xlsx, .xls or .csv.",
+      "file_size_error": "File size cannot exceed {{fileSize}}MB",
+      "sheet_read_error": "Unable to process file. Please check the format.",
+      "excel_read_error": "Please select a valid Excel file."
+    },
+    "configure_button": "Configure Chart",
+    "configure_button_text": "Click to customize data selection.",
+    "create_button": "Create",
+    "customize_style_button": "Customize Style",
+    "key_features_title": "{{name}} Key Features",
+    "faqs_title": "FAQs",
+    "more_charts_title": "More Charts You Can Create"
+  },
+  "charts": [
+    {
+      "name": "Bar Chart",
+      "title": "Create Bar Charts Online from Excel | ExcelToChart.com",
+      "description": "Create bar charts online from Excel data. Easy-to-use bar chart maker with vertical and horizontal bars, stacked options, and custom styling.",
+      "h1": "Excel Bar Chart Maker",
+      "h2": "Create Professional Bar Charts Online from Your Excel Data",
+      "info": "Perfect for comparing values across categories. Ideal for showing sales figures, survey responses, or rankings - making data easy to understand at a glance.",
+      "shortInfo": "Perfect for comparing values across categories"
+    },
+    {
+      "name": "Line Chart",
+      "title": "Create Line Charts Online from Excel | ExcelToChart.com",
+      "description": "Create line charts online from Excel data. Easy-to-use line chart maker with multi-series plots and area chart options. Simple custom styling.",
+      "h1": "Excel Line Chart Maker",
+      "h2": "Create Professional Line Charts Online from Your Excel Data (Including Area Charts)",
+      "info": "Best for tracking changes over time and spotting trends. Great for visualizing stock prices, monthly revenue, or temperature changes throughout the year.",
+      "shortInfo": "Best for tracking changes over time and spotting trends"
+    },
+    {
+      "name": "Pie Chart",
+      "title": "Create Pie Charts Online from Excel | ExcelToChart.com",
+      "description": "Create pie charts online from Excel data. Easy-to-use pie chart maker with donut chart options and percentage visualizations. Simple custom styling.",
+      "h1": "Excel Pie Chart Maker",
+      "h2": "Create Professional Pie Charts Online from Your Excel Data (Including Donut Charts)",
+      "info": "Shows parts of a whole as percentages or proportions. Excellent for displaying market share, budget allocation, or demographic breakdowns.",
+      "shortInfo": "Shows parts of a whole as percentages or proportions"
+    },
+    {
+      "name": "Scatter Chart",
+      "title": "Create Scatter Charts Online from Excel | ExcelToChart.com",
+      "description": "Create scatter charts online from Excel data. Easy-to-use scatter plot maker, perfect for correlation analysis.",
+      "h1": "Excel Scatter Chart Maker",
+      "h2": "Create Professional Scatter Charts Online from Your Excel Data",
+      "info": "Reveals relationships between two variables. Useful for analyzing correlations like height vs. weight, or sales vs. advertising spend.",
+      "shortInfo": "Reveals relationships between two variables"
+    },
+    {
+      "name": "Combo Chart",
+      "title": "Create Combo Charts Online from Excel | ExcelToChart.com",
+      "description": "Create combo charts online from Excel data. Easy-to-use combo chart maker for dual-axis visualizations combining bars and lines with custom styling.",
+      "h1": "Excel Combo Chart Maker",
+      "h2": "Create Professional Combo Charts Online from Your Excel Data",
+      "info": "Combines bars and lines to show related metrics. Perfect for comparing sales volumes with trends or actual vs. target performance.",
+      "shortInfo": "Combines bars and lines to show related metrics"
+    }
+  ]
+}

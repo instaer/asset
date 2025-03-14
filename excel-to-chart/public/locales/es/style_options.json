@@ -1,0 +1,279 @@
+{
+  "dialog_title": "Personalizar estilo",
+  "reset_button": "Restablecer",
+  "confirm_button": "Aceptar",
+  "basic_tab": {
+    "label": "Básico",
+    "chart_width": {
+      "label": "Ancho del gráfico",
+      "helper_text": "Ajusta el ancho para mostrar todos los datos de manera clara y completa."
+    },
+    "bar_direction": {
+      "label": "Dirección de barras",
+      "options": [
+        "Vertical",
+        "Horizontal"
+      ],
+      "helper_text": "Configura las barras para que se muestren horizontal o verticalmente."
+    },
+    "grid_lines": {
+      "label": "Líneas de la cuadrícula",
+      "vertical": {
+        "label": "Vertical",
+        "options": [
+          "Mostrar",
+          "Ocultar"
+        ]
+      },
+      "horizontal": {
+        "label": "Horizontal",
+        "options": [
+          "Mostrar",
+          "Ocultar"
+        ]
+      },
+      "helper_text": "Muestra u oculta las líneas de la cuadrícula en el fondo del gráfico."
+    },
+    "margin_settings": {
+      "label": "Ajustes de margen",
+      "top": {
+        "label": "Superior"
+      },
+      "bottom": {
+        "label": "Inferior"
+      },
+      "left": {
+        "label": "Izquierdo"
+      },
+      "right": {
+        "label": "Derecho"
+      },
+      "helper_text": "Ajusta el espacio entre los bordes del gráfico y el área de trazado para las etiquetas."
+    }
+  },
+  "style_tab": {
+    "label": "Estilo",
+    "background_color": {
+      "label": "Color de fondo",
+      "options": [
+        "Beige cálido",
+        "Transparente",
+        "Blanco",
+        "Gris claro"
+      ],
+      "helper_text": "Selecciona el color de fondo para la visualización del gráfico y la imagen guardada."
+    },
+    "color_style": {
+      "label": "Estilo de color",
+      "options": [
+        "Minimalista",
+        "Negocios",
+        "Tecnología",
+        "Nórdico",
+        "Atardecer",
+        "Vintage"
+      ],
+      "helper_text": "Selecciona una paleta de colores predefinida para tu gráfico."
+    },
+    "bar_label_type": {
+      "label": "Etiquetas de barras",
+      "options": [
+        "Ninguna",
+        "Valor"
+      ],
+      "helper_text": "Elige cómo se muestran los valores en cada barra."
+    },
+    "line_style": {
+      "label": "Estilo de línea",
+      "options": [
+        "Lineal",
+        "Suave natural",
+        "Suave Catmull-Rom",
+        "Monótono X",
+        "Monótono Y",
+        "Escalón",
+        "Escalón antes",
+        "Escalón después"
+      ],
+      "helper_text": "Elige cómo se conectan los puntos de datos en tu gráfico de línea."
+    },
+    "area_fill": {
+      "label": "Relleno de área",
+      "options": [
+        "Ninguno",
+        "Rellenar debajo de la línea"
+      ],
+      "helper_text": "Elige si mostrar solo líneas o rellenar el área debajo de las líneas."
+    },
+    "pie_top_items": {
+      "label": "Elementos principales del gráfico circular",
+      "helper_text": "Muestra los N elementos principales y agrupa el resto como 'Otros'."
+    },
+    "pie_inner_radius": {
+      "label": "Radio interno del gráfico circular",
+      "helper_text": "Tamaño del agujero central (0% = circular, 50% = tipo dona)."
+    }
+  },
+  "axes_legend_tab": {
+    "label": "Ejes y leyenda",
+    "axis_range": {
+      "label": "Rango del eje Y",
+      "x_axis_range_label": "Rango del eje X",
+      "min": {
+        "label": "Valor mínimo"
+      },
+      "max": {
+        "label": "Valor máximo"
+      },
+      "helper_text": "Establece los valores mínimo y máximo para la escala del eje de datos."
+    },
+    "axis_scale_type_settings": {
+      "label": "Ajustes del tipo de escala del eje",
+      "x_axis": {
+        "label": "Eje X",
+        "options": [
+          "Automático",
+          "Lineal (solo números)",
+          "Punto"
+        ],
+        "helper_text": "Elige cómo se distribuyen los puntos de datos a lo largo del eje X."
+      },
+      "y_axis": {
+        "label": "Eje Y",
+        "options": [
+          "Lineal",
+          "Logarítmico (solo gráficos de línea)",
+          "Raíz cuadrada (solo gráficos de línea)"
+        ],
+        "helper_text": "Elige cómo espaciar los puntos de datos en el eje Y."
+      }
+    },
+    "x_axis_label_settings": {
+      "label": "Configuración de etiquetas del eje X",
+      "text": {
+        "label": "Texto",
+        "helper_text": "Texto que se muestra debajo del eje X (déjalo vacío para ocultar)."
+      },
+      "y_offset": {
+        "label": "Desplazamiento vertical",
+        "helper_text": "Distancia vertical entre el eje X y las etiquetas (valores mayores las mueven hacia abajo)."
+      }
+    },
+    "y_axis_label_settings": {
+      "label": "Configuración de etiquetas del eje Y",
+      "primary_y_axis_label_settings": "Configuración de etiquetas del eje Y principal",
+      "text": {
+        "label": "Texto",
+        "helper_text": "Texto que se muestra junto al eje Y (déjalo vacío para ocultar)."
+      },
+      "x_offset": {
+        "label": "Desplazamiento horizontal",
+        "helper_text_primary": "Distancia horizontal entre el eje Y principal (izquierdo) y las etiquetas (valores negativos las mueven hacia la izquierda).",
+        "helper_text": "Distancia horizontal entre el eje Y y las etiquetas (valores negativos las mueven hacia la izquierda)."
+      }
+    },
+    "secondary_y_axis_label_settings": {
+      "label": "Configuración del eje Y secundario",
+      "text": {
+        "label": "Texto",
+        "helper_text": "Texto que se muestra junto al eje Y secundario (derecho) (déjalo vacío para ocultar)."
+      },
+      "x_offset": {
+        "label": "Desplazamiento horizontal",
+        "helper_text": "Distancia horizontal entre el eje Y secundario (derecho) y las etiquetas (valores negativos las mueven hacia la izquierda)."
+      }
+    },
+    "reference_line_settings": {
+      "vertical_label": "Configuración de línea de referencia (Vertical)",
+      "horizontal_label": "Configuración de línea de referencia (Horizontal)",
+      "show": {
+        "label": "Mostrar"
+      },
+      "y_axis_value": {
+        "label": "Valor del eje Y"
+      },
+      "label_name": {
+        "label": "Nombre de la etiqueta"
+      },
+      "label_position": {
+        "label": "Posición de la etiqueta",
+        "options": [
+          "Inicio",
+          "Centro",
+          "Final"
+        ]
+      },
+      "line_color": {
+        "label": "Color de la línea",
+        "options": [
+          "Gris claro",
+          "Azul claro",
+          "Naranja",
+          "Verde",
+          "Púrpura",
+          "Negro"
+        ]
+      },
+      "horizontal_helper_text": "Agrega líneas horizontales con etiquetas personalizadas, colores y valores del eje X para comparar datos.",
+      "vertical_helper_text": "Agrega líneas verticales con etiquetas personalizadas, colores y valores del eje Y para comparar datos."
+    },
+    "arc_label_settings": {
+      "label": "Configuración de etiquetas de arco",
+      "display_type": {
+        "label": "Formato de visualización",
+        "options": [
+          "Ninguno",
+          "Solo etiqueta",
+          "Solo valor",
+          "Solo porcentaje",
+          "Etiqueta (Valor)",
+          "Etiqueta (Porcentaje)",
+          "Valor (Porcentaje)",
+          "Porcentaje (Valor)"
+        ],
+        "helper_text": "Elige cómo aparecen las etiquetas en los segmentos del gráfico circular."
+      },
+      "min_percentage": {
+        "label": "Porcentaje mínimo para etiquetas",
+        "helper_text": "Establece el porcentaje mínimo para mostrar etiquetas."
+      },
+      "radius": {
+        "label": "Posición de la etiqueta",
+        "helper_text": "Distancia desde el centro (50% = a mitad de camino desde el centro)."
+      }
+    },
+    "legend_settings": {
+      "label": "Configuración de leyenda",
+      "show": {
+        "label": "Mostrar"
+      },
+      "direction": {
+        "label": "Dirección del diseño",
+        "options": [
+          "Fila",
+          "Columna"
+        ]
+      },
+      "vertical": {
+        "label": "Alineación vertical",
+        "options": [
+          "Arriba",
+          "Centro",
+          "Abajo"
+        ]
+      },
+      "horizontal": {
+        "label": "Alineación horizontal",
+        "options": [
+          "Izquierda",
+          "Centro",
+          "Derecha"
+        ]
+      },
+      "padding": {
+        "label": "Espaciado"
+      },
+      "helper_text": "Controla la visualización, posición y opciones de espaciado de la leyenda para una mejor legibilidad."
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "dialog_title": "Configurar Gráfico",
+  "reset_button": "Redefinir",
+  "confirm_button": "Confirmar",
+  "data_tab": {
+    "chart_title": {
+      "label": "Título do Gráfico (Opcional)",
+      "placeholder": "Insira o título do gráfico"
+    },
+    "chart_type": {
+      "label": "Tipo de Gráfico"
+    },
+    "select_sheet": {
+      "label": "Selecionar Planilha",
+      "helper_text": "Escolha qual planilha do Excel usar."
+    },
+    "data_selection": {
+      "label": "Seleção de Dados",
+      "data_columns": {
+        "label": "Colunas de Dados",
+        "placeholder": "Pesquisar colunas...",
+        "label_value_columns": "Selecione as colunas para incluir no gráfico (uma coluna de rótulo + uma coluna de valor).",
+        "x_y_axis_columns": "Selecione as colunas para incluir no gráfico (uma coluna para o eixo X + pelo menos uma para o eixo Y)."
+      },
+      "dimension_column": {
+        "label_column_label": "Coluna de Rótulo",
+        "x_axis_column_label": "Coluna do Eixo X",
+        "label_column_helper_text": "Selecione a coluna para os nomes dos segmentos do gráfico de pizza.",
+        "x_axis_column_helper_text": "Selecione a coluna a ser exibida no eixo horizontal."
+      }
+    },
+    "dual_y_axis_settings": {
+      "label": "Configurações de Eixo Y Duplo",
+      "primary_axis_chart_type": {
+        "label": "Tipo de Gráfico do Eixo Principal (esquerdo)",
+        "options": [
+          "Gráfico de Barras",
+          "Gráfico de Linhas"
+        ]
+      },
+      "secondary_axis_chart_type": {
+        "label": "Tipo de Gráfico do Eixo Secundário (direito)",
+        "options": [
+          "Gráfico de Barras",
+          "Gráfico de Linhas"
+        ]
+      },
+      "columns_for_primary_axis": {
+        "label": "Colunas para o Eixo Principal",
+        "helper_text": "Selecione as colunas para exibir no eixo Y esquerdo. As demais aparecerão no eixo Y direito."
+      }
+    },
+    "advanced_options": {
+      "label": "Opções Avançadas",
+      "stack_columns": {
+        "label": "Agrupar Colunas (Opcional)",
+        "helper_text": "Escolha quais colunas empilhar no gráfico de barras."
+      },
+      "data_filter": {
+        "label": "Filtro de Dados (Opcional)",
+        "filter_by_column": {
+          "label": "Filtrar por Coluna",
+          "options": [
+            "(Sem Filtro)"
+          ],
+          "no_filter_option": "(Sem Filtro)"
+        },
+        "first_operator": {
+          "label": "Filtro",
+          "options": [
+            "igual a",
+            "diferente de",
+            "maior que",
+            "menor que",
+            "maior ou igual a",
+            "menor ou igual a",
+            "contém",
+            "não contém",
+            "maiores N itens",
+            "menores N itens"
+          ]
+        },
+        "first_value": {
+          "label": "Valor"
+        },
+        "logic_operator_and": {
+          "label": "E"
+        },
+        "logic_operator_or": {
+          "label": "OU"
+        },
+        "second_operator": {
+          "label": "Filtro",
+          "options": [
+            "igual a",
+            "diferente de",
+            "maior que",
+            "menor que",
+            "maior ou igual a",
+            "menor ou igual a",
+            "contém",
+            "não contém",
+            "maiores N itens",
+            "menores N itens"
+          ]
+        },
+        "second_value": {
+          "label": "Valor"
+        },
+        "helper_text": "Aplique filtros às colunas: selecione a coluna, defina as condições e insira os valores."
+      },
+      "data_summary": {
+        "label": "Resumo de Dados (Opcional)",
+        "aggregation_method": {
+          "label": "Resumir Valores Por",
+          "options": [
+            "(Nenhum)",
+            "Soma",
+            "Contagem",
+            "Média",
+            "Máximo",
+            "Mínimo"
+          ]
+        },
+        "display_method": {
+          "label": "Exibir Valores Como",
+          "options": [
+            "Nenhum cálculo",
+            "Total da Linha",
+            "Total da Coluna",
+            "Percentual da Linha (%)",
+            "Percentual da Coluna (%)",
+            "Percentual Geral (%)",
+            "Diferença da Coluna Adjacente",
+            "Diferença da Coluna Adjacente (%)",
+            "Diferença da Coluna Base",
+            "Diferença da Coluna Base (%)",
+            "Diferença da Linha Adjacente",
+            "Diferença da Linha Adjacente (%)"
+          ],
+          "not_applicable_option": "(Não Aplicável)"
+        },
+        "base_column": {
+          "label": "Coluna Base"
+        },
+        "helper_text": "Resuma e transforme os dados para análise em diferentes níveis."
+      },
+      "data_sorting": {
+        "label": "Ordenação de Dados (Opcional)",
+        "sort_order": {
+          "label": "Ordem de Classificação",
+          "options": [
+            "(Sem Ordenação)",
+            "Inverter Linhas",
+            "Ordenar por Coluna (Ascendente)",
+            "Ordenar por Coluna (Descendente)"
+          ]
+        },
+        "sort_column": {
+          "label": "Classificar por Coluna"
+        },
+        "helper_text": "Inverta a ordem das linhas ou classifique os dados pelos valores das colunas."
+      },
+      "data_display_limits": {
+        "label": "Limites de Exibição de Dados",
+        "max_rows": {
+          "label": "Máximo de Linhas"
+        },
+        "sample_method": {
+          "label": "Tratamento de Excesso",
+          "options": [
+            "Exibir Primeiras N Linhas",
+            "Amostrar N Linhas Uniformemente",
+            "Amostrar N Linhas Aleatoriamente"
+          ]
+        },
+        "helper_text": "Defina o número máximo de linhas a serem exibidas no gráfico (até {{maxRows}})."
+      }
+    }
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "dialog_title": "自定义样式",
+  "reset_button": "重置",
+  "confirm_button": "确认",
+  "basic_tab": {
+    "label": "基础设置",
+    "chart_width": {
+      "label": "图表宽度",
+      "helper_text": "设置宽度以清晰完整地显示所有数据。"
+    },
+    "bar_direction": {
+      "label": "柱状图方向",
+      "options": [
+        "垂直",
+        "水平"
+      ],
+      "helper_text": "设置柱状图以水平或垂直方式显示。"
+    },
+    "grid_lines": {
+      "label": "网格线",
+      "vertical": {
+        "label": "垂直线",
+        "options": [
+          "显示",
+          "隐藏"
+        ]
+      },
+      "horizontal": {
+        "label": "水平线",
+        "options": [
+          "显示",
+          "隐藏"
+        ]
+      },
+      "helper_text": "显示或隐藏图表背景中的网格线。"
+    },
+    "margin_settings": {
+      "label": "边距设置",
+      "top": {
+        "label": "上边距"
+      },
+      "bottom": {
+        "label": "下边距"
+      },
+      "left": {
+        "label": "左边距"
+      },
+      "right": {
+        "label": "右边距"
+      },
+      "helper_text": "调整图表边缘和绘图区之间的间距以适应标签。"
+    }
+  },
+  "style_tab": {
+    "label": "样式",
+    "background_color": {
+      "label": "背景颜色",
+      "options": [
+        "暖米色",
+        "透明",
+        "白色",
+        "浅灰色"
+      ],
+      "helper_text": "选择图表显示和保存图片时的背景颜色。"
+    },
+    "color_style": {
+      "label": "配色风格",
+      "options": [
+        "极简",
+        "商务",
+        "科技",
+        "北欧",
+        "日落",
+        "复古"
+      ],
+      "helper_text": "选择图表的预设配色方案。"
+    },
+    "bar_label_type": {
+      "label": "柱状图标签",
+      "options": [
+        "无",
+        "数值"
+      ],
+      "helper_text": "选择如何在每个柱状图上显示数值。"
+    },
+    "line_style": {
+      "label": "折线样式",
+      "options": [
+        "直线",
+        "平滑自然",
+        "平滑 Catmull-Rom",
+        "单调 X",
+        "单调 Y",
+        "阶梯",
+        "阶梯前",
+        "阶梯后"
+      ],
+      "helper_text": "选择数据点在折线图上的连接方式。"
+    },
+    "area_fill": {
+      "label": "区域填充",
+      "options": [
+        "无",
+        "填充线下区域"
+      ],
+      "helper_text": "选择仅显示线条或填充线条下的区域。"
+    },
+    "pie_top_items": {
+      "label": "饼图前N项",
+      "helper_text": "显示前N项数据，并将其余数据分组为“其他”。"
+    },
+    "pie_inner_radius": {
+      "label": "饼图内半径",
+      "helper_text": "中心孔的大小（0% = 饼图，50% = 环形图）。"
+    }
+  },
+  "axes_legend_tab": {
+    "label": "坐标轴与图例",
+    "axis_range": {
+      "label": "Y轴范围",
+      "x_axis_range_label": "X轴范围",
+      "min": {
+        "label": "最小值"
+      },
+      "max": {
+        "label": "最大值"
+      },
+      "helper_text": "设置数据轴比例的最小值和最大值。"
+    },
+    "axis_scale_type_settings": {
+      "label": "轴比例类型设置",
+      "x_axis": {
+        "label": "X轴",
+        "options": [
+          "自动",
+          "线性（仅数字）",
+          "点"
+        ],
+        "helper_text": "选择数据点在X轴上的分布方式。"
+      },
+      "y_axis": {
+        "label": "Y轴",
+        "options": [
+          "线性",
+          "对数（仅折线图）",
+          "平方根（仅折线图）"
+        ],
+        "helper_text": "选择Y轴上数据点的间距方式。"
+      }
+    },
+    "x_axis_label_settings": {
+      "label": "X轴标签设置",
+      "text": {
+        "label": "文本",
+        "helper_text": "显示在X轴下方的文本（留空则隐藏）。"
+      },
+      "y_offset": {
+        "label": "垂直偏移",
+        "helper_text": "X轴与标签之间的垂直距离（值越大越往下移）。"
+      }
+    },
+    "y_axis_label_settings": {
+      "label": "Y轴标签设置",
+      "primary_y_axis_label_settings": "主Y轴标签设置",
+      "text": {
+        "label": "文本",
+        "helper_text": "显示在Y轴旁边的文本（留空则隐藏）。"
+      },
+      "x_offset": {
+        "label": "水平偏移",
+        "helper_text_primary": "主（左侧）Y轴与标签之间的水平距离（负值向左移）。",
+        "helper_text": "Y轴与标签之间的水平距离（负值向左移）。"
+      }
+    },
+    "secondary_y_axis_label_settings": {
+      "label": "次Y轴标签设置",
+      "text": {
+        "label": "文本",
+        "helper_text": "显示在次（右侧）Y轴旁边的文本（留空则隐藏）。"
+      },
+      "x_offset": {
+        "label": "水平偏移",
+        "helper_text": "次（右侧）Y轴与标签之间的水平距离（负值向左移）。"
+      }
+    },
+    "reference_line_settings": {
+      "vertical_label": "参考线设置（垂直）",
+      "horizontal_label": "参考线设置（水平）",
+      "show": {
+        "label": "显示"
+      },
+      "y_axis_value": {
+        "label": "Y轴值"
+      },
+      "label_name": {
+        "label": "标签名称"
+      },
+      "label_position": {
+        "label": "标签位置",
+        "options": [
+          "起始",
+          "中间",
+          "末尾"
+        ]
+      },
+      "line_color": {
+        "label": "线条颜色",
+        "options": [
+          "浅灰色",
+          "浅蓝色",
+          "橙色",
+          "绿色",
+          "紫色",
+          "黑色"
+        ]
+      },
+      "horizontal_helper_text": "添加带有自定义标签、颜色和X轴值的水平线以进行数据对比。",
+      "vertical_helper_text": "添加带有自定义标签、颜色和Y轴值的垂直线以进行数据对比。"
+    },
+    "arc_label_settings": {
+      "label": "弧形标签设置",
+      "display_type": {
+        "label": "显示格式",
+        "options": [
+          "无",
+          "仅显示标签",
+          "仅显示数值",
+          "仅显示百分比",
+          "标签（数值）",
+          "标签（百分比）",
+          "数值（百分比）",
+          "百分比（数值）"
+        ],
+        "helper_text": "选择饼图分段上标签的显示方式。"
+      },
+      "min_percentage": {
+        "label": "最小显示百分比",
+        "helper_text": "设置显示标签的最小百分比。"
+      },
+      "radius": {
+        "label": "标签位置",
+        "helper_text": "距离中心的距离（50% = 距离中心一半）。"
+      }
+    },
+    "legend_settings": {
+      "label": "图例设置",
+      "show": {
+        "label": "显示"
+      },
+      "direction": {
+        "label": "布局方向",
+        "options": [
+          "行",
+          "列"
+        ]
+      },
+      "vertical": {
+        "label": "垂直对齐",
+        "options": [
+          "顶部",
+          "居中",
+          "底部"
+        ]
+      },
+      "horizontal": {
+        "label": "水平对齐",
+        "options": [
+          "左对齐",
+          "居中",
+          "右对齐"
+        ]
+      },
+      "padding": {
+        "label": "内边距"
+      },
+      "helper_text": "调整图例的显示方式、位置和间距以提升可读性。"
+    }
+  }
+}

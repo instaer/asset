@@ -1,0 +1,71 @@
+{
+  "index": {
+    "title": "Crear Gráficos en Línea desde Excel | ExcelToChart.com",
+    "description": "Crea gráficos en línea a partir de datos de Excel. Generador de gráficos fácil de usar para gráficos de barras, líneas, pastel, dispersión y combinados con opciones de estilo personalizables.",
+    "h1": "Generador de Gráficos en Línea desde Excel",
+    "h2": "Crea Gráficos Profesionales en Línea a partir de tus Datos de Excel",
+    "select_file_button": {
+      "label": "Seleccionar archivo Excel",
+      "text": "Compatible con formatos .xlsx, .xls y .csv.",
+      "no_upload_error": "Por favor, selecciona un archivo Excel.",
+      "file_type_error": "El tipo de archivo debe ser .xlsx, .xls o .csv.",
+      "file_size_error": "El tamaño del archivo no puede superar {{fileSize}}MB",
+      "sheet_read_error": "No se puede procesar el archivo. Verifica el formato.",
+      "excel_read_error": "Por favor, selecciona un archivo Excel válido."
+    },
+    "configure_button": "Configurar Gráfico",
+    "configure_button_text": "Haz clic para personalizar la selección de datos.",
+    "create_button": "Crear Gráfico",
+    "customize_style_button": "Personalizar Estilo",
+    "key_features_title": "Características Principales de {{name}}",
+    "faqs_title": "Preguntas Frecuentes",
+    "more_charts_title": "Más Gráficos que Puedes Crear"
+  },
+  "charts": [
+    {
+      "name": "Gráfico de Barras",
+      "title": "Crear Gráficos de Barras en Línea desde Excel | ExcelToChart.com",
+      "description": "Crea gráficos de barras en línea a partir de datos de Excel. Generador fácil de usar con barras verticales, horizontales, apiladas y opciones de estilo personalizables.",
+      "h1": "Generador de Gráficos de Barras en Excel",
+      "h2": "Crea Gráficos Profesionales de Barras a partir de tus Datos de Excel",
+      "info": "Perfecto para comparar valores entre categorías. Ideal para mostrar cifras de ventas, respuestas de encuestas o clasificaciones de manera clara y comprensible.",
+      "shortInfo": "Perfecto para comparar valores entre categorías"
+    },
+    {
+      "name": "Gráfico de Líneas",
+      "title": "Crear Gráficos de Líneas en Línea desde Excel | ExcelToChart.com",
+      "description": "Crea gráficos de líneas en línea a partir de datos de Excel. Generador fácil de usar para gráficos de líneas con múltiples series y opciones de gráficos de área.",
+      "h1": "Generador de Gráficos de Líneas en Excel",
+      "h2": "Crea Gráficos Profesionales de Líneas a partir de tus Datos de Excel (Incluidos Gráficos de Área)",
+      "info": "Ideal para rastrear cambios a lo largo del tiempo y detectar tendencias. Útil para visualizar precios de acciones, ingresos mensuales o cambios de temperatura durante el año.",
+      "shortInfo": "Ideal para rastrear cambios y detectar tendencias"
+    },
+    {
+      "name": "Gráfico de Pastel",
+      "title": "Crear Gráficos de Pastel en Línea desde Excel | ExcelToChart.com",
+      "description": "Crea gráficos de pastel en línea a partir de datos de Excel. Generador fácil de usar con opciones de gráficos de dona y visualización de porcentajes.",
+      "h1": "Generador de Gráficos de Pastel en Excel",
+      "h2": "Crea Gráficos Profesionales de Pastel a partir de tus Datos de Excel (Incluidos Gráficos de Dona)",
+      "info": "Muestra las partes de un todo como porcentajes o proporciones. Perfecto para representar cuotas de mercado, distribución de presupuestos o desglose demográfico.",
+      "shortInfo": "Muestra las partes de un todo como porcentajes o proporciones"
+    },
+    {
+      "name": "Gráfico de Dispersión",
+      "title": "Crear Gráficos de Dispersión en Línea desde Excel | ExcelToChart.com",
+      "description": "Crea gráficos de dispersión en línea a partir de datos de Excel. Generador fácil de usar ideal para análisis de correlaciones.",
+      "h1": "Generador de Gráficos de Dispersión en Excel",
+      "h2": "Crea Gráficos Profesionales de Dispersión a partir de tus Datos de Excel",
+      "info": "Revela relaciones entre dos variables. Útil para analizar correlaciones como altura vs peso, o ventas vs gasto en publicidad.",
+      "shortInfo": "Revela relaciones entre dos variables"
+    },
+    {
+      "name": "Gráfico Combinado",
+      "title": "Crear Gráficos Combinados en Línea desde Excel | ExcelToChart.com",
+      "description": "Crea gráficos combinados en línea a partir de datos de Excel. Generador fácil de usar para visualizaciones de doble eje que combinan barras y líneas con opciones de estilo personalizables.",
+      "h1": "Generador de Gráficos Combinados en Excel",
+      "h2": "Crea Gráficos Profesionales Combinados a partir de tus Datos de Excel",
+      "info": "Combina barras y líneas para mostrar métricas relacionadas. Ideal para comparar volúmenes de ventas con tendencias o desempeño real vs objetivo.",
+      "shortInfo": "Combina barras y líneas para mostrar métricas relacionadas"
+    }
+  ]
+}

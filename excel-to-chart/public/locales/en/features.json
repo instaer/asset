@@ -1,0 +1,36 @@
+{
+  "features": [
+    {
+      "title": "Easy & Quick Charts",
+      "info": "Create professional charts instantly by selecting an Excel file. No Excel expertise required - just adjust settings and generate."
+    },
+    {
+      "title": "Data Privacy First",
+      "info": "Files processed locally in your browser. No data upload needed, ensuring complete privacy and security of your sensitive information."
+    },
+    {
+      "title": "Multiple Chart Types",
+      "info": "Create various chart types including bar, line, pie, scatter and combo charts to best visualize your data."
+    },
+    {
+      "title": "Advanced Combo Charts",
+      "info": "Create dynamic combination charts that blend bar and line elements with dual Y-axes, ideal for visualizing multi-scale data relationships."
+    },
+    {
+      "title": "Custom Styling",
+      "info": "Customize every aspect of your charts with real-time preview - from color themes and margins to grid lines and legends."
+    },
+    {
+      "title": "Data Analysis Tools",
+      "info": "Flexible dimension selection and data aggregation options. Support various Excel summarize values and show value functions."
+    },
+    {
+      "title": "Dynamic Data Filtering",
+      "info": "Filter your data using flexible operators like greater than, less than, contains, or top N items—and build charts from the refined dataset."
+    },
+    {
+      "title": "Responsive Viewing",
+      "info": "View charts on any device with full-screen support, zoom capabilities, and interactive data tooltips perfect for presentations."
+    }
+  ]
+}

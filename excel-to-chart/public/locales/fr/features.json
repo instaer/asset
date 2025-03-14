@@ -1,0 +1,36 @@
+{
+    "features": [
+      {
+        "title": "Des graphiques faciles et rapides",
+        "info": "Créez instantanément des graphiques professionnels en sélectionnant un fichier Excel. Aucune expertise Excel n'est requise : ajustez simplement vos paramètres et générez vos graphiques."
+      },
+      {
+        "title": "Confidentialité des données avant tout",
+        "info": "Vos fichiers sont traités localement dans votre navigateur. Aucun téléchargement n'est nécessaire, garantissant une confidentialité et une sécurité totales de vos informations sensibles."
+      },
+      {
+        "title": "Une variété de types de graphiques",
+        "info": "Créez différents types de graphiques, y compris des histogrammes, des courbes, des camemberts, des nuages de points et des graphiques combinés, pour mieux visualiser vos données."
+      },
+      {
+        "title": "Graphiques combinés avancés",
+        "info": "Créez des graphiques combinés dynamiques mêlant des éléments de barres et de lignes avec des axes Y doubles, idéaux pour visualiser des relations de données multi-échelles."
+      },
+      {
+        "title": "Personnalisation avancée",
+        "info": "Personnalisez chaque aspect de vos graphiques avec un aperçu en temps réel : thèmes de couleurs, marges, lignes de grille, légendes, et bien plus encore."
+      },
+      {
+        "title": "Outils d'analyse de données",
+        "info": "Options flexibles de sélection de dimensions et d'agrégation des données. Prise en charge des fonctions de résumé et d'affichage des valeurs Excel."
+      },
+      {
+        "title": "Filtrage dynamique des données",
+        "info": "Filtrez vos données à l'aide d'opérateurs flexibles comme supérieur à, inférieur à, contient ou les N premiers éléments, et créez des graphiques à partir de l'ensemble raffiné."
+      },
+      {
+        "title": "Affichage réactif",
+        "info": "Visualisez vos graphiques sur n'importe quel appareil avec un mode plein écran, des fonctionnalités de zoom et des info-bulles interactives parfaites pour les présentations."
+      }
+    ]
+  }

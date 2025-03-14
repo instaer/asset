@@ -1,0 +1,36 @@
+{
+    "features": [
+      {
+        "title": "Gráficos Rápidos e Fáceis",
+        "info": "Crie gráficos profissionais instantaneamente selecionando um arquivo Excel. Não é necessário ser especialista em Excel – basta ajustar as configurações e gerar."
+      },
+      {
+        "title": "Privacidade de Dados em Primeiro Lugar",
+        "info": "Os arquivos são processados localmente no seu navegador. Nenhum dado é enviado, garantindo total privacidade e segurança das suas informações sensíveis."
+      },
+      {
+        "title": "Vários Tipos de Gráficos",
+        "info": "Crie diferentes tipos de gráficos, incluindo barras, linhas, pizza, dispersão e gráficos combinados, para visualizar seus dados da melhor forma."
+      },
+      {
+        "title": "Gráficos Combinados Avançados",
+        "info": "Crie gráficos combinados dinâmicos que misturam elementos de barras e linhas com eixos Y duplos, ideais para visualizar relações de dados em múltiplas escalas."
+      },
+      {
+        "title": "Estilo Personalizável",
+        "info": "Personalize cada detalhe dos seus gráficos com visualização em tempo real – desde temas de cores e margens até linhas de grade e legendas."
+      },
+      {
+        "title": "Ferramentas de Análise de Dados",
+        "info": "Seleção flexível de dimensões e opções de agregação de dados. Suporte para várias funções de resumo e exibição de valores do Excel."
+      },
+      {
+        "title": "Filtragem Dinâmica de Dados",
+        "info": "Filtre seus dados com operadores flexíveis, como maior que, menor que, contém ou os N melhores itens – e crie gráficos com o conjunto de dados refinado."
+      },
+      {
+        "title": "Visualização Responsiva",
+        "info": "Visualize gráficos em qualquer dispositivo com suporte a tela cheia, recursos de zoom e dicas de dados interativas, perfeitas para apresentações."
+      }
+    ]
+  }

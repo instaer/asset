@@ -1,0 +1,71 @@
+{
+  "index": {
+    "title": "Erstellen Sie Online-Diagramme aus Excel | ExcelToChart.com",
+    "description": "Erstellen Sie professionelle Diagramme online aus Excel-Daten. Einfacher Diagrammersteller für Balken-, Linien-, Kreis-, Streu- und Kombinationsdiagramme mit anpassbarem Stil.",
+    "h1": "Online-Excel-Diagrammersteller",
+    "h2": "Erstellen Sie professionelle Diagramme aus Ihren Excel-Daten",
+    "select_file_button": {
+      "label": "Excel-Datei auswählen",
+      "text": "Unterstützte Formate: .xlsx, .xls und .csv.",
+      "no_upload_error": "Bitte wählen Sie eine Excel-Datei aus.",
+      "file_type_error": "Die Datei muss im Format .xlsx, .xls oder .csv vorliegen.",
+      "file_size_error": "Die Dateigröße darf {{fileSize}}MB nicht überschreiten.",
+      "sheet_read_error": "Datei konnte nicht verarbeitet werden. Bitte überprüfen Sie das Format.",
+      "excel_read_error": "Bitte wählen Sie eine gültige Excel-Datei aus."
+    },
+    "configure_button": "Diagramm konfigurieren",
+    "configure_button_text": "Klicken Sie, um die Datenauswahl anzupassen.",
+    "create_button": "Erstellen",
+    "customize_style_button": "Stil anpassen",
+    "key_features_title": "{{name}} Hauptfunktionen",
+    "faqs_title": "Häufig gestellte Fragen",
+    "more_charts_title": "Weitere Diagramme, die Sie erstellen können"
+  },
+  "charts": [
+    {
+      "name": "Balkendiagramm",
+      "title": "Erstellen Sie Online-Balkendiagramme aus Excel | ExcelToChart.com",
+      "description": "Erstellen Sie Balkendiagramme online aus Excel-Daten. Einfacher Diagrammersteller mit vertikalen und horizontalen Balken, gestapelten Optionen und benutzerdefiniertem Stil.",
+      "h1": "Excel-Balkendiagrammersteller",
+      "h2": "Erstellen Sie professionelle Balkendiagramme aus Ihren Excel-Daten",
+      "info": "Ideal zum Vergleichen von Werten über Kategorien hinweg. Perfekt für Verkaufszahlen, Umfrageergebnisse oder Rankings – macht Daten auf einen Blick verständlich.",
+      "shortInfo": "Ideal zum Vergleichen von Werten über Kategorien"
+    },
+    {
+      "name": "Liniendiagramm",
+      "title": "Erstellen Sie Online-Liniendiagramme aus Excel | ExcelToChart.com",
+      "description": "Erstellen Sie Liniendiagramme online aus Excel-Daten. Einfacher Diagrammersteller mit Multi-Serien- und Flächendiagrammoptionen. Individuelle Anpassungen möglich.",
+      "h1": "Excel-Liniendiagrammersteller",
+      "h2": "Erstellen Sie professionelle Liniendiagramme aus Ihren Excel-Daten (einschließlich Flächendiagramme)",
+      "info": "Perfekt, um Veränderungen im Zeitverlauf zu verfolgen und Trends zu erkennen. Ideal für Aktienkurse, monatliche Einnahmen oder Temperaturverläufe.",
+      "shortInfo": "Perfekt, um Veränderungen im Zeitverlauf zu verfolgen"
+    },
+    {
+      "name": "Kreisdiagramm",
+      "title": "Erstellen Sie Online-Kreisdiagramme aus Excel | ExcelToChart.com",
+      "description": "Erstellen Sie Kreisdiagramme online aus Excel-Daten. Einfacher Diagrammersteller mit Donut-Diagrammoptionen und Prozentvisualisierungen.",
+      "h1": "Excel-Kreisdiagrammersteller",
+      "h2": "Erstellen Sie professionelle Kreisdiagramme aus Ihren Excel-Daten (einschließlich Donut-Diagramme)",
+      "info": "Zeigt Anteile eines Ganzen in Prozent oder Proportionen. Ideal für Marktanteile, Budgetverteilungen oder demografische Zusammensetzungen.",
+      "shortInfo": "Zeigt Anteile eines Ganzen in Prozent oder Proportionen"
+    },
+    {
+      "name": "Punktdiagramm",
+      "title": "Erstellen Sie Online-Punktdiagramme aus Excel | ExcelToChart.com",
+      "description": "Erstellen Sie Punktdiagramme online aus Excel-Daten. Einfacher Streudiagrammersteller, ideal für Korrelationsanalysen.",
+      "h1": "Excel-Punktdiagrammersteller",
+      "h2": "Erstellen Sie professionelle Punktdiagramme aus Ihren Excel-Daten",
+      "info": "Zeigt Beziehungen zwischen zwei Variablen. Nützlich für Korrelationen wie Größe vs. Gewicht oder Umsatz vs. Werbeausgaben.",
+      "shortInfo": "Zeigt Beziehungen zwischen zwei Variablen"
+    },
+    {
+      "name": "Kombinationsdiagramm",
+      "title": "Erstellen Sie Online-Kombinationsdiagramme aus Excel | ExcelToChart.com",
+      "description": "Erstellen Sie Kombinationsdiagramme online aus Excel-Daten. Einfacher Diagrammersteller für Dual-Achsen-Visualisierungen mit Balken und Linien.",
+      "h1": "Excel-Kombinationsdiagrammersteller",
+      "h2": "Erstellen Sie professionelle Kombinationsdiagramme aus Ihren Excel-Daten",
+      "info": "Kombiniert Balken und Linien, um zusammenhängende Metriken darzustellen. Perfekt, um Verkaufszahlen mit Trends oder Ist- vs. Zielwerte zu vergleichen.",
+      "shortInfo": "Kombiniert Balken und Linien, um zusammenhängende Metriken darzustellen"
+    }
+  ]
+}

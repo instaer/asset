@@ -1,0 +1,279 @@
+{
+  "dialog_title": "Personalizza Stile",
+  "reset_button": "Reimposta",
+  "confirm_button": "Ok",
+  "basic_tab": {
+    "label": "Base",
+    "chart_width": {
+      "label": "Larghezza Grafico",
+      "helper_text": "Imposta la larghezza per visualizzare chiaramente e completamente tutti i dati."
+    },
+    "bar_direction": {
+      "label": "Direzione Barre",
+      "options": [
+        "Verticale",
+        "Orizzontale"
+      ],
+      "helper_text": "Imposta le barre per visualizzarle orizzontalmente o verticalmente."
+    },
+    "grid_lines": {
+      "label": "Linee Griglia",
+      "vertical": {
+        "label": "Verticali",
+        "options": [
+          "Mostra",
+          "Nascondi"
+        ]
+      },
+      "horizontal": {
+        "label": "Orizzontali",
+        "options": [
+          "Mostra",
+          "Nascondi"
+        ]
+      },
+      "helper_text": "Mostra o nascondi le linee della griglia sullo sfondo del grafico."
+    },
+    "margin_settings": {
+      "label": "Impostazioni Margini",
+      "top": {
+        "label": "Superiore"
+      },
+      "bottom": {
+        "label": "Inferiore"
+      },
+      "left": {
+        "label": "Sinistra"
+      },
+      "right": {
+        "label": "Destra"
+      },
+      "helper_text": "Regola lo spazio tra i bordi del grafico e l'area di tracciamento per le etichette."
+    }
+  },
+  "style_tab": {
+    "label": "Stile",
+    "background_color": {
+      "label": "Colore Sfondo",
+      "options": [
+        "Beige Caldo",
+        "Trasparente",
+        "Bianco",
+        "Grigio Chiaro"
+      ],
+      "helper_text": "Seleziona il colore dello sfondo per la visualizzazione del grafico e l'immagine salvata."
+    },
+    "color_style": {
+      "label": "Stile Colore",
+      "options": [
+        "Minimalista",
+        "Business",
+        "Tech",
+        "Nordico",
+        "Tramonto",
+        "Vintage"
+      ],
+      "helper_text": "Scegli una palette di colori predefinita per il tuo grafico."
+    },
+    "bar_label_type": {
+      "label": "Etichette Barre",
+      "options": [
+        "Nessuna",
+        "Valore"
+      ],
+      "helper_text": "Scegli come visualizzare i valori su ciascuna barra."
+    },
+    "line_style": {
+      "label": "Stile Linea",
+      "options": [
+        "Lineare",
+        "Naturale Morbido",
+        "Catmull-Rom Morbido",
+        "Monotono X",
+        "Monotono Y",
+        "A Gradini",
+        "Gradini Prima",
+        "Gradini Dopo"
+      ],
+      "helper_text": "Scegli come collegare i punti dati nel grafico a linee."
+    },
+    "area_fill": {
+      "label": "Riempimento Area",
+      "options": [
+        "Nessuno",
+        "Riempimento Sotto la Linea"
+      ],
+      "helper_text": "Scegli se visualizzare solo le linee o riempire l'area sotto di esse."
+    },
+    "pie_top_items": {
+      "label": "Elementi Top Grafico a Torta",
+      "helper_text": "Mostra i primi N elementi e raggruppa gli altri come 'Altro'."
+    },
+    "pie_inner_radius": {
+      "label": "Raggio Interno Grafico a Torta",
+      "helper_text": "Dimensione del foro centrale (0% = torta, 50% = ciambella)."
+    }
+  },
+  "axes_legend_tab": {
+    "label": "Assi & Legenda",
+    "axis_range": {
+      "label": "Intervallo Asse Y",
+      "x_axis_range_label": "Intervallo Asse X",
+      "min": {
+        "label": "Valore Minimo"
+      },
+      "max": {
+        "label": "Valore Massimo"
+      },
+      "helper_text": "Imposta i valori minimo e massimo per la scala dell'asse dati."
+    },
+    "axis_scale_type_settings": {
+      "label": "Impostazioni Scala Assi",
+      "x_axis": {
+        "label": "Asse X",
+        "options": [
+          "Auto",
+          "Lineare (Solo Numeri)",
+          "Punti"
+        ],
+        "helper_text": "Scegli come distribuire i punti dati lungo l'asse X."
+      },
+      "y_axis": {
+        "label": "Asse Y",
+        "options": [
+          "Lineare",
+          "Logaritmica (Solo Grafici a Linea)",
+          "Radice Quadrata (Solo Grafici a Linea)"
+        ],
+        "helper_text": "Scegli come distribuire i punti dati lungo l'asse Y."
+      }
+    },
+    "x_axis_label_settings": {
+      "label": "Impostazioni Etichetta Asse X",
+      "text": {
+        "label": "Testo",
+        "helper_text": "Testo mostrato sotto l'asse X (lascia vuoto per nasconderlo)."
+      },
+      "y_offset": {
+        "label": "Offset Verticale",
+        "helper_text": "Distanza verticale tra l'asse X e le etichette (valori maggiori spostano verso il basso)."
+      }
+    },
+    "y_axis_label_settings": {
+      "label": "Impostazioni Etichetta Asse Y",
+      "primary_y_axis_label_settings": "Impostazioni Etichetta Asse Y Primario",
+      "text": {
+        "label": "Testo",
+        "helper_text": "Testo mostrato accanto all'asse Y (lascia vuoto per nasconderlo)."
+      },
+      "x_offset": {
+        "label": "Offset Orizzontale",
+        "helper_text_primary": "Distanza orizzontale tra l'asse Y primario (sinistra) e le etichette (valori negativi spostano verso sinistra).",
+        "helper_text": "Distanza orizzontale tra l'asse Y e le etichette (valori negativi spostano verso sinistra)."
+      }
+    },
+    "secondary_y_axis_label_settings": {
+      "label": "Impostazioni Etichetta Asse Y Secondario",
+      "text": {
+        "label": "Testo",
+        "helper_text": "Testo mostrato accanto all'asse Y secondario (destra) (lascia vuoto per nasconderlo)."
+      },
+      "x_offset": {
+        "label": "Offset Orizzontale",
+        "helper_text": "Distanza orizzontale tra l'asse Y secondario (destra) e le etichette (valori negativi spostano verso sinistra)."
+      }
+    },
+    "reference_line_settings": {
+      "vertical_label": "Impostazioni Linea di Riferimento (Verticale)",
+      "horizontal_label": "Impostazioni Linea di Riferimento (Orizzontale)",
+      "show": {
+        "label": "Mostra"
+      },
+      "y_axis_value": {
+        "label": "Valore Asse Y"
+      },
+      "label_name": {
+        "label": "Nome Etichetta"
+      },
+      "label_position": {
+        "label": "Posizione Etichetta",
+        "options": [
+          "Inizio",
+          "Centro",
+          "Fine"
+        ]
+      },
+      "line_color": {
+        "label": "Colore Linea",
+        "options": [
+          "Grigio Chiaro",
+          "Blu Chiaro",
+          "Arancione",
+          "Verde",
+          "Viola",
+          "Nero"
+        ]
+      },
+      "horizontal_helper_text": "Aggiungi linee orizzontali con etichette, colori e valori asse X personalizzati per confrontare i dati.",
+      "vertical_helper_text": "Aggiungi linee verticali con etichette, colori e valori asse Y personalizzati per confrontare i dati."
+    },
+    "arc_label_settings": {
+      "label": "Impostazioni Etichette Arco",
+      "display_type": {
+        "label": "Formato Visualizzazione",
+        "options": [
+          "Nessuno",
+          "Solo Etichetta",
+          "Solo Valore",
+          "Solo Percentuale",
+          "Etichetta (Valore)",
+          "Etichetta (Percentuale)",
+          "Valore (Percentuale)",
+          "Percentuale (Valore)"
+        ],
+        "helper_text": "Scegli come visualizzare le etichette sui segmenti del grafico a torta."
+      },
+      "min_percentage": {
+        "label": "Percentuale Minima Etichetta",
+        "helper_text": "Imposta la percentuale minima per visualizzare le etichette."
+      },
+      "radius": {
+        "label": "Posizione Etichetta",
+        "helper_text": "Distanza dal centro (50% = a metà strada dal centro)."
+      }
+    },
+    "legend_settings": {
+      "label": "Impostazioni Legenda",
+      "show": {
+        "label": "Mostra"
+      },
+      "direction": {
+        "label": "Direzione Layout",
+        "options": [
+          "Riga",
+          "Colonna"
+        ]
+      },
+      "vertical": {
+        "label": "Allineamento Verticale",
+        "options": [
+          "In Alto",
+          "Al Centro",
+          "In Basso"
+        ]
+      },
+      "horizontal": {
+        "label": "Allineamento Orizzontale",
+        "options": [
+          "A Sinistra",
+          "Al Centro",
+          "A Destra"
+        ]
+      },
+      "padding": {
+        "label": "Spaziatura"
+      },
+      "helper_text": "Controlla la visualizzazione, la posizione e le opzioni di spaziatura della legenda per una migliore leggibilità."
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "index": {
+    "title": "Crie Gráficos Online a partir do Excel | ExcelToChart.com",
+    "description": "Crie gráficos profissionais online a partir de dados do Excel. Ferramenta fácil para criar gráficos de barras, linhas, pizza, dispersão e combinação com personalização de estilo.",
+    "h1": "Criador de Gráficos Online para Excel",
+    "h2": "Crie Gráficos Profissionais a partir dos Seus Dados do Excel",
+    "select_file_button": {
+      "label": "Selecionar Arquivo Excel",
+      "text": "Formatos suportados: .xlsx, .xls e .csv.",
+      "no_upload_error": "Por favor, selecione um arquivo Excel.",
+      "file_type_error": "O tipo de arquivo deve ser .xlsx, .xls ou .csv.",
+      "file_size_error": "O tamanho do arquivo não pode exceder {{fileSize}}MB.",
+      "sheet_read_error": "Não foi possível processar o arquivo. Verifique o formato.",
+      "excel_read_error": "Por favor, selecione um arquivo Excel válido."
+    },
+    "configure_button": "Configurar Gráfico",
+    "configure_button_text": "Clique para personalizar a seleção de dados.",
+    "create_button": "Criar",
+    "customize_style_button": "Personalizar Estilo",
+    "key_features_title": "Principais Recursos de {{name}}",
+    "faqs_title": "Perguntas Frequentes",
+    "more_charts_title": "Mais Gráficos que Você Pode Criar"
+  },
+  "charts": [
+    {
+      "name": "Gráfico de Barras",
+      "title": "Crie Gráficos de Barras Online a partir do Excel | ExcelToChart.com",
+      "description": "Crie gráficos de barras online a partir de dados do Excel. Ferramenta simples com opções de barras verticais, horizontais, empilhadas e estilo personalizado.",
+      "h1": "Criador de Gráficos de Barras para Excel",
+      "h2": "Crie Gráficos de Barras Profissionais a partir dos Seus Dados do Excel",
+      "info": "Ideal para comparar valores entre categorias. Perfeito para vendas, resultados de pesquisas ou classificações – facilita a compreensão dos dados de forma clara.",
+      "shortInfo": "Ideal para comparar valores entre categorias"
+    },
+    {
+      "name": "Gráfico de Linhas",
+      "title": "Crie Gráficos de Linhas Online a partir do Excel | ExcelToChart.com",
+      "description": "Crie gráficos de linhas online a partir de dados do Excel. Ferramenta fácil com opções de múltiplas séries e gráficos de área personalizáveis.",
+      "h1": "Criador de Gráficos de Linhas para Excel",
+      "h2": "Crie Gráficos de Linhas Profissionais a partir dos Seus Dados do Excel (Incluindo Gráficos de Área)",
+      "info": "Ótimo para acompanhar mudanças ao longo do tempo e identificar tendências. Ideal para preços de ações, receitas mensais ou mudanças de temperatura ao longo do ano.",
+      "shortInfo": "Ótimo para acompanhar mudanças ao longo do tempo e identificar tendências"
+    },
+    {
+      "name": "Gráfico de Pizza",
+      "title": "Crie Gráficos de Pizza Online a partir do Excel | ExcelToChart.com",
+      "description": "Crie gráficos de pizza online a partir de dados do Excel. Ferramenta fácil com opções de gráficos do tipo donut e visualização de porcentagens.",
+      "h1": "Criador de Gráficos de Pizza para Excel",
+      "h2": "Crie Gráficos de Pizza Profissionais a partir dos Seus Dados do Excel (Incluindo Gráficos Donut)",
+      "info": "Exibe partes de um todo em porcentagens ou proporções. Excelente para visualização de participação de mercado, alocação de orçamento ou distribuição demográfica.",
+      "shortInfo": "Exibe partes de um todo em porcentagens ou proporções"
+    },
+    {
+      "name": "Gráfico de Dispersão",
+      "title": "Crie Gráficos de Dispersão Online a partir do Excel | ExcelToChart.com",
+      "description": "Crie gráficos de dispersão online a partir de dados do Excel. Ferramenta simples para análises de correlação.",
+      "h1": "Criador de Gráficos de Dispersão para Excel",
+      "h2": "Crie Gráficos de Dispersão Profissionais a partir dos Seus Dados do Excel",
+      "info": "Revela relações entre duas variáveis. Útil para analisar correlações como altura vs. peso ou vendas vs. despesas com publicidade.",
+      "shortInfo": "Revela relações entre duas variáveis"
+    },
+    {
+      "name": "Gráfico Combinado",
+      "title": "Crie Gráficos Combinados Online a partir do Excel | ExcelToChart.com",
+      "description": "Crie gráficos combinados online a partir de dados do Excel. Ferramenta simples para visualizações com duas eixos combinando barras e linhas.",
+      "h1": "Criador de Gráficos Combinados para Excel",
+      "h2": "Crie Gráficos Combinados Profissionais a partir dos Seus Dados do Excel",
+      "info": "Combina barras e linhas para mostrar métricas relacionadas. Perfeito para comparar volume de vendas com tendências ou desempenho real vs. meta.",
+      "shortInfo": "Combina barras e linhas para mostrar métricas relacionadas"
+    }
+  ]
+}

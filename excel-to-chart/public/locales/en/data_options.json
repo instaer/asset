@@ -1,0 +1,181 @@
+{
+  "dialog_title": "Configure Chart",
+  "reset_button": "Reset",
+  "confirm_button": "Okay",
+  "data_tab": {
+    "chart_title": {
+      "label": "Chart Title (Optional)",
+      "placeholder": "Enter chart title"
+    },
+    "chart_type": {
+      "label": "Chart Type"
+    },
+    "select_sheet": {
+      "label": "Select Sheet",
+      "helper_text": "Choose which Excel sheet to use."
+    },
+    "data_selection": {
+      "label": "Data Selection",
+      "data_columns": {
+        "label": "Data Columns",
+        "placeholder": "Search columns...",
+        "label_value_columns": "Select columns to include in your chart (one label column + one value column).",
+        "x_y_axis_columns": "Select columns to include in your chart (one x-Axis column + at least one y-Axis column)."
+      },
+      "dimension_column": {
+        "label_column_label": "Label Column",
+        "x_axis_column_label": "X-Axis Column",
+        "label_column_helper_text": "Select the column for pie segment names.",
+        "x_axis_column_helper_text": "Select the column to be displayed on horizontal axis."
+      }
+    },
+    "dual_y_axis_settings": {
+      "label": "Dual Y-Axis Settings",
+      "primary_axis_chart_type": {
+        "label": "Primary (left) Axis Chart Type",
+        "options": [
+          "Bar Chart",
+          "Line Chart"
+        ]
+      },
+      "secondary_axis_chart_type": {
+        "label": "Secondary (right) Axis Chart Type",
+        "options": [
+          "Bar Chart",
+          "Line Chart"
+        ]
+      },
+      "columns_for_primary_axis": {
+        "label": "Columns for Primary Axis",
+        "helper_text": "Select columns to display on left Y-axis, others will show on right Y-axis."
+      }
+    },
+    "advanced_options": {
+      "label": "Advanced Options",
+      "stack_columns": {
+        "label": "Stack Columns (Optional)",
+        "helper_text": "Choose which columns to stack in your bar chart."
+      },
+      "data_filter": {
+        "label": "Data Filter (Optional)",
+        "filter_by_column": {
+          "label": "Filter By Column",
+          "options": [
+            "(No Filter)"
+          ],
+          "no_filter_option": "(No Filter)"
+        },
+        "first_operator": {
+          "label": "Filter",
+          "options": [
+            "equals",
+            "does not equal",
+            "greater than",
+            "less than",
+            "greater than or equal to",
+            "less than or equal to",
+            "contains",
+            "does not contain",
+            "largest N items",
+            "smallest N items"
+          ]
+        },
+        "first_value": {
+          "label": "Value"
+        },
+        "logic_operator_and": {
+          "label": "AND"
+        },
+        "logic_operator_or": {
+          "label": "OR"
+        },
+        "second_operator": {
+          "label": "Filter",
+          "options": [
+            "equals",
+            "does not equal",
+            "greater than",
+            "less than",
+            "greater than or equal to",
+            "less than or equal to",
+            "contains",
+            "does not contain",
+            "largest N items",
+            "smallest N items"
+          ]
+        },
+        "second_value": {
+          "label": "Value"
+        },
+        "helper_text": "Apply column filters: select column, set conditions, and enter values."
+      },
+      "data_summary": {
+        "label": "Data Summary (Optional)",
+        "aggregation_method": {
+          "label": "Summarize Values By",
+          "options": [
+            "(None)",
+            "Sum",
+            "Count",
+            "Average",
+            "Maximum",
+            "Minimum"
+          ]
+        },
+        "display_method": {
+          "label": "Show Values As",
+          "options": [
+            "No Calculation",
+            "Row Total",
+            "Column Total",
+            "Row Percentage (%)",
+            "Column Percentage (%)",
+            "Overall Percentage (%)",
+            "Adjacent Column Difference",
+            "Adjacent Column Difference %",
+            "Base Column Difference",
+            "Base Column Difference %",
+            "Adjacent Row Difference",
+            "Adjacent Row Difference %"
+          ],
+          "not_applicable_option": "(Not Applicable)"
+        },
+        "base_column": {
+          "label": "Base Column"
+        },
+        "helper_text": "Summarize and transform data to analyze at different levels."
+      },
+      "data_sorting": {
+        "label": "Data Sorting (Optional)",
+        "sort_order": {
+          "label": "Sort Order",
+          "options": [
+            "(No Sort)",
+            "Reverse Rows",
+            "Sort By Column Ascending",
+            "Sort By Column Descending"
+          ]
+        },
+        "sort_column": {
+          "label": "Sort By Column"
+        },
+        "helper_text": "Reverse row order or sort data by column values."
+      },
+      "data_display_limits": {
+        "label": "Data Display Limits",
+        "max_rows": {
+          "label": "Max Rows"
+        },
+        "sample_method": {
+          "label": "Overflow Handling",
+          "options": [
+            "Take First N Rows",
+            "Sample N Rows Evenly",
+            "Sample N Rows Randomly"
+          ]
+        },
+        "helper_text": "Set max rows to display in chart (up to {{maxRows}})."
+      }
+    }
+  }
+}

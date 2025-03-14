@@ -1,0 +1,279 @@
+{
+  "dialog_title": "Personnaliser le style",
+  "reset_button": "Réinitialiser",
+  "confirm_button": "OK",
+  "basic_tab": {
+    "label": "Basique",
+    "chart_width": {
+      "label": "Largeur du graphique",
+      "helper_text": "Définissez une largeur permettant d’afficher toutes les données de manière claire et complète."
+    },
+    "bar_direction": {
+      "label": "Orientation des barres",
+      "options": [
+        "Verticale",
+        "Horizontale"
+      ],
+      "helper_text": "Affichez les barres horizontalement ou verticalement."
+    },
+    "grid_lines": {
+      "label": "Lignes de grille",
+      "vertical": {
+        "label": "Verticales",
+        "options": [
+          "Afficher",
+          "Masquer"
+        ]
+      },
+      "horizontal": {
+        "label": "Horizontales",
+        "options": [
+          "Afficher",
+          "Masquer"
+        ]
+      },
+      "helper_text": "Affichez ou masquez les lignes de grille en arrière-plan du graphique."
+    },
+    "margin_settings": {
+      "label": "Réglages des marges",
+      "top": {
+        "label": "Haut"
+      },
+      "bottom": {
+        "label": "Bas"
+      },
+      "left": {
+        "label": "Gauche"
+      },
+      "right": {
+        "label": "Droite"
+      },
+      "helper_text": "Ajustez l'espace entre les bords du graphique et la zone de tracé pour les étiquettes."
+    }
+  },
+  "style_tab": {
+    "label": "Style",
+    "background_color": {
+      "label": "Couleur de fond",
+      "options": [
+        "Beige chaud",
+        "Transparent",
+        "Blanc",
+        "Gris clair"
+      ],
+      "helper_text": "Choisissez la couleur de fond pour l'affichage du graphique et l'image sauvegardée."
+    },
+    "color_style": {
+      "label": "Palette de couleurs",
+      "options": [
+        "Minimaliste",
+        "Professionnel",
+        "Technologique",
+        "Nordique",
+        "Coucher de soleil",
+        "Vintage"
+      ],
+      "helper_text": "Sélectionnez une palette de couleurs prédéfinie pour votre graphique."
+    },
+    "bar_label_type": {
+      "label": "Étiquettes des barres",
+      "options": [
+        "Aucune",
+        "Valeur"
+      ],
+      "helper_text": "Choisissez comment afficher les valeurs sur chaque barre."
+    },
+    "line_style": {
+      "label": "Style de ligne",
+      "options": [
+        "Linéaire",
+        "Lissé naturel",
+        "Lissé Catmull-Rom",
+        "Monotone X",
+        "Monotone Y",
+        "Étape",
+        "Étape avant",
+        "Étape après"
+      ],
+      "helper_text": "Choisissez comment connecter les points de données sur votre graphique en ligne."
+    },
+    "area_fill": {
+      "label": "Remplissage de la zone",
+      "options": [
+        "Aucun",
+        "Remplir sous la ligne"
+      ],
+      "helper_text": "Choisissez d'afficher uniquement les lignes ou de remplir la zone sous les lignes."
+    },
+    "pie_top_items": {
+      "label": "Éléments principaux (camembert)",
+      "helper_text": "Affichez les N principaux éléments et regroupez les autres sous 'Autre'."
+    },
+    "pie_inner_radius": {
+      "label": "Rayon intérieur (camembert)",
+      "helper_text": "Taille du trou central (0 % = camembert, 50 % = donut)."
+    }
+  },
+  "axes_legend_tab": {
+    "label": "Axes & Légendes",
+    "axis_range": {
+      "label": "Plage des valeurs (axe Y)",
+      "x_axis_range_label": "Plage des valeurs (axe X)",
+      "min": {
+        "label": "Valeur minimale"
+      },
+      "max": {
+        "label": "Valeur maximale"
+      },
+      "helper_text": "Définissez les valeurs minimale et maximale pour l'échelle de l'axe des données."
+    },
+    "axis_scale_type_settings": {
+      "label": "Type d'échelle des axes",
+      "x_axis": {
+        "label": "Axe X",
+        "options": [
+          "Auto",
+          "Linéaire (nombres uniquement)",
+          "Point"
+        ],
+        "helper_text": "Choisissez comment les points de données sont distribués le long de l'axe X."
+      },
+      "y_axis": {
+        "label": "Axe Y",
+        "options": [
+          "Linéaire",
+          "Logarithmique (graphiques en ligne uniquement)",
+          "Racine carrée (graphiques en ligne uniquement)"
+        ],
+        "helper_text": "Choisissez comment espacer vos points de données sur l'axe Y."
+      }
+    },
+    "x_axis_label_settings": {
+      "label": "Paramètres des étiquettes (axe X)",
+      "text": {
+        "label": "Texte",
+        "helper_text": "Texte affiché sous l'axe X (laissez vide pour masquer)."
+      },
+      "y_offset": {
+        "label": "Décalage vertical",
+        "helper_text": "Distance verticale entre l'axe X et les étiquettes (plus grand = déplacement vers le bas)."
+      }
+    },
+    "y_axis_label_settings": {
+      "label": "Paramètres des étiquettes (axe Y)",
+      "primary_y_axis_label_settings": "Paramètres des étiquettes (axe Y principal)",
+      "text": {
+        "label": "Texte",
+        "helper_text": "Texte affiché à côté de l'axe Y (laissez vide pour masquer)."
+      },
+      "x_offset": {
+        "label": "Décalage horizontal",
+        "helper_text_primary": "Distance horizontale entre l'axe Y principal (gauche) et les étiquettes (valeurs négatives = déplacement vers la gauche).",
+        "helper_text": "Distance horizontale entre l'axe Y et les étiquettes (valeurs négatives = déplacement vers la gauche)."
+      }
+    },
+    "secondary_y_axis_label_settings": {
+      "label": "Paramètres des étiquettes (axe Y secondaire)",
+      "text": {
+        "label": "Texte",
+        "helper_text": "Texte affiché à côté de l'axe Y secondaire (droite) (laissez vide pour masquer)."
+      },
+      "x_offset": {
+        "label": "Décalage horizontal",
+        "helper_text": "Distance horizontale entre l'axe Y secondaire (droite) et les étiquettes (valeurs négatives = déplacement vers la gauche)."
+      }
+    },
+    "reference_line_settings": {
+      "vertical_label": "Réglages des lignes de référence (verticales)",
+      "horizontal_label": "Réglages des lignes de référence (horizontales)",
+      "show": {
+        "label": "Afficher"
+      },
+      "y_axis_value": {
+        "label": "Valeur (axe Y)"
+      },
+      "label_name": {
+        "label": "Nom de l'étiquette"
+      },
+      "label_position": {
+        "label": "Position de l'étiquette",
+        "options": [
+          "Début",
+          "Milieu",
+          "Fin"
+        ]
+      },
+      "line_color": {
+        "label": "Couleur de la ligne",
+        "options": [
+          "Gris clair",
+          "Bleu clair",
+          "Orange",
+          "Vert",
+          "Violet",
+          "Noir"
+        ]
+      },
+      "horizontal_helper_text": "Ajoutez des lignes horizontales avec des étiquettes, couleurs et valeurs d'axe X personnalisées pour comparer les données.",
+      "vertical_helper_text": "Ajoutez des lignes verticales avec des étiquettes, couleurs et valeurs d'axe Y personnalisées pour comparer les données."
+    },
+    "arc_label_settings": {
+      "label": "Paramètres des étiquettes (arc)",
+      "display_type": {
+        "label": "Format d'affichage",
+        "options": [
+          "Aucun",
+          "Étiquette uniquement",
+          "Valeur uniquement",
+          "Pourcentage uniquement",
+          "Étiquette (Valeur)",
+          "Étiquette (Pourcentage)",
+          "Valeur (Pourcentage)",
+          "Pourcentage (Valeur)"
+        ],
+        "helper_text": "Choisissez comment afficher les étiquettes sur les segments du graphique en camembert."
+      },
+      "min_percentage": {
+        "label": "Pourcentage minimum pour les étiquettes",
+        "helper_text": "Définissez le pourcentage minimum pour afficher les étiquettes."
+      },
+      "radius": {
+        "label": "Position des étiquettes",
+        "helper_text": "Distance par rapport au centre (50 % = à mi-distance du centre)."
+      }
+    },
+    "legend_settings": {
+      "label": "Paramètres de la légende",
+      "show": {
+        "label": "Afficher"
+      },
+      "direction": {
+        "label": "Orientation",
+        "options": [
+          "Ligne",
+          "Colonne"
+        ]
+      },
+      "vertical": {
+        "label": "Alignement vertical",
+        "options": [
+          "Haut",
+          "Milieu",
+          "Bas"
+        ]
+      },
+      "horizontal": {
+        "label": "Alignement horizontal",
+        "options": [
+          "Gauche",
+          "Milieu",
+          "Droite"
+        ]
+      },
+      "padding": {
+        "label": "Espacement"
+      },
+      "helper_text": "Contrôlez l'affichage, la position et l'espacement des légendes pour une meilleure lisibilité."
+    }
+  }
+}

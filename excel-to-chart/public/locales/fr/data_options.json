@@ -1,0 +1,181 @@
+{
+  "dialog_title": "Configurer le graphique",
+  "reset_button": "Réinitialiser",
+  "confirm_button": "OK",
+  "data_tab": {
+    "chart_title": {
+      "label": "Titre du graphique (optionnel)",
+      "placeholder": "Saisissez le titre du graphique"
+    },
+    "chart_type": {
+      "label": "Type de graphique"
+    },
+    "select_sheet": {
+      "label": "Sélectionner une feuille",
+      "helper_text": "Choisissez la feuille Excel à utiliser."
+    },
+    "data_selection": {
+      "label": "Sélection des données",
+      "data_columns": {
+        "label": "Colonnes de données",
+        "placeholder": "Rechercher des colonnes...",
+        "label_value_columns": "Sélectionnez les colonnes à inclure dans votre graphique (une colonne d’étiquettes + une colonne de valeurs).",
+        "x_y_axis_columns": "Sélectionnez les colonnes à inclure dans votre graphique (une colonne pour l’axe X + au moins une colonne pour l’axe Y)."
+      },
+      "dimension_column": {
+        "label_column_label": "Colonne d’étiquettes",
+        "x_axis_column_label": "Colonne de l’axe X",
+        "label_column_helper_text": "Sélectionnez la colonne pour nommer les segments du graphique circulaire.",
+        "x_axis_column_helper_text": "Sélectionnez la colonne à afficher sur l’axe horizontal."
+      }
+    },
+    "dual_y_axis_settings": {
+      "label": "Paramètres des doubles axes Y",
+      "primary_axis_chart_type": {
+        "label": "Type de graphique pour l’axe primaire (gauche)",
+        "options": [
+          "Graphique en barres",
+          "Graphique linéaire"
+        ]
+      },
+      "secondary_axis_chart_type": {
+        "label": "Type de graphique pour l’axe secondaire (droite)",
+        "options": [
+          "Graphique en barres",
+          "Graphique linéaire"
+        ]
+      },
+      "columns_for_primary_axis": {
+        "label": "Colonnes pour l’axe primaire",
+        "helper_text": "Sélectionnez les colonnes à afficher sur l’axe Y gauche. Les autres apparaîtront sur l’axe Y droit."
+      }
+    },
+    "advanced_options": {
+      "label": "Options avancées",
+      "stack_columns": {
+        "label": "Empiler les colonnes (optionnel)",
+        "helper_text": "Choisissez les colonnes à empiler dans votre graphique en barres."
+      },
+      "data_filter": {
+        "label": "Filtre des données (optionnel)",
+        "filter_by_column": {
+          "label": "Filtrer par colonne",
+          "options": [
+            "(Aucun filtre)"
+          ],
+          "no_filter_option": "(Aucun filtre)"
+        },
+        "first_operator": {
+          "label": "Filtre",
+          "options": [
+            "égal à",
+            "différent de",
+            "supérieur à",
+            "inférieur à",
+            "supérieur ou égal à",
+            "inférieur ou égal à",
+            "contient",
+            "ne contient pas",
+            "N éléments les plus grands",
+            "N éléments les plus petits"
+          ]
+        },
+        "first_value": {
+          "label": "Valeur"
+        },
+        "logic_operator_and": {
+          "label": "ET"
+        },
+        "logic_operator_or": {
+          "label": "OU"
+        },
+        "second_operator": {
+          "label": "Filtre",
+          "options": [
+            "égal à",
+            "différent de",
+            "supérieur à",
+            "inférieur à",
+            "supérieur ou égal à",
+            "inférieur ou égal à",
+            "contient",
+            "ne contient pas",
+            "N éléments les plus grands",
+            "N éléments les plus petits"
+          ]
+        },
+        "second_value": {
+          "label": "Valeur"
+        },
+        "helper_text": "Appliquez des filtres de colonne : sélectionnez une colonne, définissez les conditions et saisissez les valeurs."
+      },
+      "data_summary": {
+        "label": "Résumé des données (optionnel)",
+        "aggregation_method": {
+          "label": "Résumer les valeurs par",
+          "options": [
+            "(Aucun)",
+            "Somme",
+            "Compte",
+            "Moyenne",
+            "Maximum",
+            "Minimum"
+          ]
+        },
+        "display_method": {
+          "label": "Afficher les valeurs comme",
+          "options": [
+            "Aucun calcul",
+            "Total de la ligne",
+            "Total de la colonne",
+            "Pourcentage de la ligne (%)",
+            "Pourcentage de la colonne (%)",
+            "Pourcentage global (%)",
+            "Différence de colonne adjacente",
+            "Différence de colonne adjacente %",
+            "Différence par rapport à une colonne de référence",
+            "Différence % par rapport à une colonne de référence",
+            "Différence de ligne adjacente",
+            "Différence de ligne adjacente %"
+          ],
+          "not_applicable_option": "(Non applicable)"
+        },
+        "base_column": {
+          "label": "Colonne de référence"
+        },
+        "helper_text": "Résumez et transformez les données pour les analyser à différents niveaux."
+      },
+      "data_sorting": {
+        "label": "Tri des données (optionnel)",
+        "sort_order": {
+          "label": "Ordre de tri",
+          "options": [
+            "(Aucun tri)",
+            "Inverser l’ordre des lignes",
+            "Trier par colonne croissante",
+            "Trier par colonne décroissante"
+          ]
+        },
+        "sort_column": {
+          "label": "Trier par colonne"
+        },
+        "helper_text": "Inversez l’ordre des lignes ou triez les données par valeurs de colonne."
+      },
+      "data_display_limits": {
+        "label": "Limites d’affichage des données",
+        "max_rows": {
+          "label": "Nombre maximum de lignes"
+        },
+        "sample_method": {
+          "label": "Gestion des dépassements",
+          "options": [
+            "Afficher les N premières lignes",
+            "Échantillonner N lignes uniformément",
+            "Échantillonner N lignes aléatoirement"
+          ]
+        },
+        "helper_text": "Définissez le nombre maximum de lignes à afficher dans le graphique (jusqu’à {{maxRows}})."
+      }
+    }
+  }
+}

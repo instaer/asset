@@ -1,0 +1,279 @@
+{
+  "dialog_title": "Stil anpassen",
+  "reset_button": "Zurücksetzen",
+  "confirm_button": "Bestätigen",
+  "basic_tab": {
+    "label": "Grundlegend",
+    "chart_width": {
+      "label": "Diagrammbreite",
+      "helper_text": "Passen Sie die Breite an, um alle Daten klar und vollständig anzuzeigen."
+    },
+    "bar_direction": {
+      "label": "Balkenrichtung",
+      "options": [
+        "Vertikal",
+        "Horizontal"
+      ],
+      "helper_text": "Legen Sie fest, ob die Balken vertikal oder horizontal angezeigt werden."
+    },
+    "grid_lines": {
+      "label": "Gitterlinien",
+      "vertical": {
+        "label": "Vertikal",
+        "options": [
+          "Anzeigen",
+          "Ausblenden"
+        ]
+      },
+      "horizontal": {
+        "label": "Horizontal",
+        "options": [
+          "Anzeigen",
+          "Ausblenden"
+        ]
+      },
+      "helper_text": "Zeigen oder verbergen Sie die Gitterlinien im Hintergrund des Diagramms."
+    },
+    "margin_settings": {
+      "label": "Randabstände",
+      "top": {
+        "label": "Oben"
+      },
+      "bottom": {
+        "label": "Unten"
+      },
+      "left": {
+        "label": "Links"
+      },
+      "right": {
+        "label": "Rechts"
+      },
+      "helper_text": "Passen Sie den Abstand zwischen den Diagrammrändern und dem Plotbereich für Beschriftungen an."
+    }
+  },
+  "style_tab": {
+    "label": "Stil",
+    "background_color": {
+      "label": "Hintergrundfarbe",
+      "options": [
+        "Warmer Beige-Ton",
+        "Transparent",
+        "Weiß",
+        "Hellgrau"
+      ],
+      "helper_text": "Wählen Sie eine Hintergrundfarbe für die Diagrammanzeige und das gespeicherte Bild."
+    },
+    "color_style": {
+      "label": "Farbschema",
+      "options": [
+        "Minimalistisch",
+        "Business",
+        "Tech",
+        "Nordisch",
+        "Sonnenuntergang",
+        "Vintage"
+      ],
+      "helper_text": "Wählen Sie eine vordefinierte Farbpalette für Ihr Diagramm."
+    },
+    "bar_label_type": {
+      "label": "Balkenbeschriftungen",
+      "options": [
+        "Keine",
+        "Wert"
+      ],
+      "helper_text": "Wählen Sie, wie die Werte auf den Balken angezeigt werden sollen."
+    },
+    "line_style": {
+      "label": "Linienstil",
+      "options": [
+        "Linear",
+        "Weich (natürlich)",
+        "Weich (Catmull-Rom)",
+        "Monoton X",
+        "Monoton Y",
+        "Stufenweise",
+        "Stufenweise Vorher",
+        "Stufenweise Nachher"
+      ],
+      "helper_text": "Legen Sie fest, wie die Datenpunkte in Ihrem Liniendiagramm verbunden werden."
+    },
+    "area_fill": {
+      "label": "Flächenfüllung",
+      "options": [
+        "Keine",
+        "Unter der Linie füllen"
+      ],
+      "helper_text": "Wählen Sie, ob nur Linien angezeigt oder die Fläche darunter gefüllt werden soll."
+    },
+    "pie_top_items": {
+      "label": "Kreisdiagramm: Top-Elemente",
+      "helper_text": "Zeigen Sie die Top-N-Elemente an und gruppieren Sie andere unter 'Sonstige'."
+    },
+    "pie_inner_radius": {
+      "label": "Innendurchmesser (Kreisdiagramm)",
+      "helper_text": "Größe des zentralen Lochs (0% = Kreis, 50% = Donut)."
+    }
+  },
+  "axes_legend_tab": {
+    "label": "Achsen & Legende",
+    "axis_range": {
+      "label": "Y-Achsenbereich",
+      "x_axis_range_label": "X-Achsenbereich",
+      "min": {
+        "label": "Minimalwert"
+      },
+      "max": {
+        "label": "Maximalwert"
+      },
+      "helper_text": "Legen Sie den minimalen und maximalen Wertebereich für die Achsenskala fest."
+    },
+    "axis_scale_type_settings": {
+      "label": "Achsen-Skalierungstyp",
+      "x_axis": {
+        "label": "X-Achse",
+        "options": [
+          "Automatisch",
+          "Linear (nur Zahlen)",
+          "Punkt"
+        ],
+        "helper_text": "Legen Sie fest, wie die Datenpunkte entlang der X-Achse verteilt werden."
+      },
+      "y_axis": {
+        "label": "Y-Achse",
+        "options": [
+          "Linear",
+          "Logarithmisch (nur Liniendiagramme)",
+          "Quadratwurzel (nur Liniendiagramme)"
+        ],
+        "helper_text": "Bestimmen Sie die Skalierung der Datenpunkte entlang der Y-Achse."
+      }
+    },
+    "x_axis_label_settings": {
+      "label": "Beschriftung der X-Achse",
+      "text": {
+        "label": "Text",
+        "helper_text": "Text, der unter der X-Achse angezeigt wird (leer lassen, um auszublenden)."
+      },
+      "y_offset": {
+        "label": "Vertikaler Abstand",
+        "helper_text": "Vertikale Entfernung zwischen der X-Achse und den Beschriftungen (größere Werte verschieben nach unten)."
+      }
+    },
+    "y_axis_label_settings": {
+      "label": "Beschriftung der Y-Achse",
+      "primary_y_axis_label_settings": "Primäre Y-Achsen-Beschriftung",
+      "text": {
+        "label": "Text",
+        "helper_text": "Text, der neben der Y-Achse angezeigt wird (leer lassen, um auszublenden)."
+      },
+      "x_offset": {
+        "label": "Horizontaler Abstand",
+        "helper_text_primary": "Horizontale Entfernung zwischen der primären (linken) Y-Achse und den Beschriftungen (negative Werte verschieben nach links).",
+        "helper_text": "Horizontale Entfernung zwischen der Y-Achse und den Beschriftungen (negative Werte verschieben nach links)."
+      }
+    },
+    "secondary_y_axis_label_settings": {
+      "label": "Beschriftung der sekundären Y-Achse",
+      "text": {
+        "label": "Text",
+        "helper_text": "Text, der neben der sekundären (rechten) Y-Achse angezeigt wird (leer lassen, um auszublenden)."
+      },
+      "x_offset": {
+        "label": "Horizontaler Abstand",
+        "helper_text": "Horizontale Entfernung zwischen der sekundären (rechten) Y-Achse und den Beschriftungen (negative Werte verschieben nach links)."
+      }
+    },
+    "reference_line_settings": {
+      "vertical_label": "Referenzlinien (Vertikal)",
+      "horizontal_label": "Referenzlinien (Horizontal)",
+      "show": {
+        "label": "Anzeigen"
+      },
+      "y_axis_value": {
+        "label": "Y-Achsen-Wert"
+      },
+      "label_name": {
+        "label": "Bezeichnung"
+      },
+      "label_position": {
+        "label": "Beschriftungsposition",
+        "options": [
+          "Anfang",
+          "Mitte",
+          "Ende"
+        ]
+      },
+      "line_color": {
+        "label": "Linienfarbe",
+        "options": [
+          "Hellgrau",
+          "Hellblau",
+          "Orange",
+          "Grün",
+          "Lila",
+          "Schwarz"
+        ]
+      },
+      "horizontal_helper_text": "Fügen Sie horizontale Linien mit benutzerdefinierten Beschriftungen, Farben und X-Achsenwerten für Datenvergleiche hinzu.",
+      "vertical_helper_text": "Fügen Sie vertikale Linien mit benutzerdefinierten Beschriftungen, Farben und Y-Achsenwerten für Datenvergleiche hinzu."
+    },
+    "arc_label_settings": {
+      "label": "Segmentbeschriftung",
+      "display_type": {
+        "label": "Anzeigetyp",
+        "options": [
+          "Keine",
+          "Nur Beschriftung",
+          "Nur Wert",
+          "Nur Prozentsatz",
+          "Beschriftung (Wert)",
+          "Beschriftung (Prozentsatz)",
+          "Wert (Prozentsatz)",
+          "Prozentsatz (Wert)"
+        ],
+        "helper_text": "Wählen Sie, wie die Beschriftungen in den Kreisdiagrammsegmenten angezeigt werden."
+      },
+      "min_percentage": {
+        "label": "Minimaler Prozentsatz für Beschriftung",
+        "helper_text": "Legen Sie den Mindestprozentsatz fest, ab dem Beschriftungen angezeigt werden."
+      },
+      "radius": {
+        "label": "Beschriftungsposition",
+        "helper_text": "Abstand vom Zentrum (50% = halbwegs vom Zentrum entfernt)."
+      }
+    },
+    "legend_settings": {
+      "label": "Legende",
+      "show": {
+        "label": "Anzeigen"
+      },
+      "direction": {
+        "label": "Ausrichtung",
+        "options": [
+          "Reihe",
+          "Spalte"
+        ]
+      },
+      "vertical": {
+        "label": "Vertikale Ausrichtung",
+        "options": [
+          "Oben",
+          "Mitte",
+          "Unten"
+        ]
+      },
+      "horizontal": {
+        "label": "Horizontale Ausrichtung",
+        "options": [
+          "Links",
+          "Mitte",
+          "Rechts"
+        ]
+      },
+      "padding": {
+        "label": "Abstand"
+      },
+      "helper_text": "Steuern Sie die Anzeige, Position und Abstände der Legende für eine bessere Lesbarkeit."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "faqs": [
+      {
+        "q": "¿Cómo personalizar el estilo del gráfico?",
+        "a": "<p>Haz clic en el botón de texto “Personalizar estilo” debajo del botón “Crear” para abrir una ventana de configuración. Esta ventana incluye tres pestañas con opciones para personalizar el estilo del gráfico seleccionado:</p><ul><li><b>Básico:</b> Ancho del gráfico, configuración de márgenes, orientación de barras, etc.</li><li><b>Estilo:</b> Color de fondo, esquemas de colores, estilos de líneas, etc.</li><li><b>Ejes y leyenda:</b> Etiquetas de ejes, configuración de etiquetas en gráficos de pastel, opciones de leyenda, etc.</li></ul><p>Cada pestaña ofrece configuraciones específicas para lograr el diseño deseado.</p>"
+      },
+      {
+        "q": "¿Cómo ajustar el espacio entre el gráfico y la leyenda?",
+        "a": "<p>Si la leyenda está superpuesta al gráfico o demasiado cerca/lejos, puedes ajustar el espacio con estos pasos:</p><ol><li>Haz clic en “Personalizar estilo”</li><li>Ve a la pestaña “Básico”</li><li>Busca la opción “Configuración de márgenes”</li><li>Ajusta los valores de margen:</li></ol><ul><li><b>Para leyendas a la derecha:</b> Ajusta el margen “Derecha”</li><li><b>Para leyendas en la parte superior:</b> Ajusta el margen “Superior”</li><li><b>Para leyendas en la parte inferior:</b> Ajusta el margen “Inferior”</li><li><b>Para leyendas a la izquierda:</b> Ajusta el margen “Izquierda”</li></ul><p>Cada margen controla la distancia entre el gráfico y sus límites exteriores, permitiéndote ajustar el diseño con precisión.</p>"
+      },
+      {
+        "q": "¿El gráfico utiliza todos los datos de mi archivo de Excel?",
+        "a": "<p>No. Los datos se leen primero desde la hoja que seleccionaste (por defecto, la primera hoja), y puedes filtrarlos o resumirlos. Por defecto, el gráfico mostrará hasta 500 filas de datos (ajustable en “Límites de visualización de datos” dentro de “Opciones avanzadas”).</p><p>Generalmente, 500 filas son suficientes para crear gráficos significativos. Si deseas representar mejor las características generales de los datos, puedes seleccionar las opciones “Muestrear N filas de manera uniforme” o “Muestrear N filas aleatoriamente” en “Gestión de excedentes” para muestrear hasta 500 filas de manera uniforme o aleatoria.</p>"
+      },
+      {
+        "q": "¿Cómo crear un gráfico con dos ejes Y?",
+        "a": "<p>Puedes crear un gráfico con dos ejes Y utilizando un Gráfico Combinado, el cual permite mostrar datos con diferentes unidades o escalas en ejes Y separados:</p><ul><li>Eje principal (lado izquierdo)</li><li>Eje secundario (lado derecho)</li></ul><p>Para crearlo:</p><ol><li>Selecciona “Gráfico Combinado” en el menú desplegable de tipo de gráfico</li><li>Configura ambos ejes en la sección “Configuración de doble eje Y”:<ul><li>Elige el tipo de gráfico para cada eje</li><li>Selecciona qué columnas mostrar en el eje principal (las columnas restantes usarán automáticamente el eje secundario)</li></ul></li></ol><p>Esto es especialmente útil para comparar datos con diferentes unidades o escalas (por ejemplo, cantidad vs. precio).</p>"
+      },
+      {
+        "q": "¿Qué significa “Mostrar valores como” y cuándo debo usarlo?",
+        "a": "<p>“Mostrar valores como” determina cómo se presentan los resultados calculados en el gráfico. Las opciones comunes incluyen:</p><ul><li><b>Sin cálculo:</b> Muestra los datos originales (útil para valores de dimensión duplicados)</li><li><b>Total de filas:</b> Muestra la suma de las columnas seleccionadas para cada fila</li><li><b>Diferencia de columna adyacente:</b> Muestra la diferencia entre cada columna y la anterior</li></ul><p>Elige la opción que mejor represente la historia que deseas contar con tus datos.</p>"
+      },
+      {
+        "q": "¿Qué significa “Resumir valores por” y cómo funciona?",
+        "a": "<p>“Resumir valores por” determina cómo se procesan los datos originales. Puedes:</p><ul><li>Sumar valores</li><li>Contar ocurrencias</li><li>Calcular promedios</li></ul><p>Esta función procesa automáticamente tus datos originales al crear gráficos, eliminando la necesidad de preprocesarlos en Excel. El resultado final depende de la selección de “Mostrar valores como”.</p>"
+      },
+      {
+        "q": "¿Cómo se manejan los valores duplicados en la columna de etiquetas/eje X?",
+        "a": "<p>Por defecto, solo se utiliza la primera fila con un valor duplicado de etiqueta/eje X. Para resumir estos datos:</p><ol><li>Activa “Resumen de datos” en “Configurar gráfico”</li><li>Elige una opción de “Resumir valores por” (como Suma, Promedio, etc.)</li><li>Configura “Mostrar valores como” en “Sin cálculo”</li></ol>"
+      },
+      {
+        "q": "¿Qué sucede si las columnas de datos contienen valores no numéricos?",
+        "a": "<p>Cualquier valor no numérico en las columnas de datos (excluyendo la columna de etiquetas/eje X) se convertirá automáticamente en 0 al crear el gráfico.</p>"
+      }
+    ]
+  }

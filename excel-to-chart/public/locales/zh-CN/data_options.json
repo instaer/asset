@@ -1,0 +1,181 @@
+{
+  "dialog_title": "配置图表",
+  "reset_button": "重置",
+  "confirm_button": "确认",
+  "data_tab": {
+    "chart_title": {
+      "label": "图表标题（可选）",
+      "placeholder": "输入图表标题"
+    },
+    "chart_type": {
+      "label": "图表类型"
+    },
+    "select_sheet": {
+      "label": "选择工作表",
+      "helper_text": "请选择要使用的 Excel 工作表。"
+    },
+    "data_selection": {
+      "label": "数据选择",
+      "data_columns": {
+        "label": "数据列",
+        "placeholder": "搜索列...",
+        "label_value_columns": "选择要包含在图表中的列（一个标签列 + 一个值列）。",
+        "x_y_axis_columns": "选择要包含在图表中的列（一个 X 轴列 + 至少一个 Y 轴列）。"
+      },
+      "dimension_column": {
+        "label_column_label": "标签列",
+        "x_axis_column_label": "X 轴列",
+        "label_column_helper_text": "选择饼图分段名称的列。",
+        "x_axis_column_helper_text": "选择要显示在横轴上的列。"
+      }
+    },
+    "dual_y_axis_settings": {
+      "label": "双 Y 轴设置",
+      "primary_axis_chart_type": {
+        "label": "主（左）轴图表类型",
+        "options": [
+          "柱状图",
+          "折线图"
+        ]
+      },
+      "secondary_axis_chart_type": {
+        "label": "次（右）轴图表类型",
+        "options": [
+          "柱状图",
+          "折线图"
+        ]
+      },
+      "columns_for_primary_axis": {
+        "label": "主轴列",
+        "helper_text": "选择显示在左 Y 轴的列，其余列将显示在右 Y 轴。"
+      }
+    },
+    "advanced_options": {
+      "label": "高级选项",
+      "stack_columns": {
+        "label": "堆叠列（可选）",
+        "helper_text": "选择在柱状图中需要堆叠的列。"
+      },
+      "data_filter": {
+        "label": "数据筛选（可选）",
+        "filter_by_column": {
+          "label": "按列筛选",
+          "options": [
+            "（不筛选）"
+          ],
+          "no_filter_option": "（不筛选）"
+        },
+        "first_operator": {
+          "label": "筛选条件",
+          "options": [
+            "等于",
+            "不等于",
+            "大于",
+            "小于",
+            "大于或等于",
+            "小于或等于",
+            "包含",
+            "不包含",
+            "最大 N 项",
+            "最小 N 项"
+          ]
+        },
+        "first_value": {
+          "label": "值"
+        },
+        "logic_operator_and": {
+          "label": "并且"
+        },
+        "logic_operator_or": {
+          "label": "或者"
+        },
+        "second_operator": {
+          "label": "筛选条件",
+          "options": [
+            "等于",
+            "不等于",
+            "大于",
+            "小于",
+            "大于或等于",
+            "小于或等于",
+            "包含",
+            "不包含",
+            "最大 N 项",
+            "最小 N 项"
+          ]
+        },
+        "second_value": {
+          "label": "值"
+        },
+        "helper_text": "通过列筛选：选择列、设置条件并输入值。"
+      },
+      "data_summary": {
+        "label": "数据汇总（可选）",
+        "aggregation_method": {
+          "label": "值汇总方式",
+          "options": [
+            "（无）",
+            "求和",
+            "计数",
+            "平均值",
+            "最大值",
+            "最小值"
+          ]
+        },
+        "display_method": {
+          "label": "值显示方式",
+          "options": [
+            "无计算",
+            "行总计",
+            "列总计",
+            "行百分比（%）",
+            "列百分比（%）",
+            "整体百分比（%）",
+            "相邻列差值",
+            "相邻列差值（%）",
+            "基准列差值",
+            "基准列差值（%）",
+            "相邻行差值",
+            "相邻行差值（%）"
+          ],
+          "not_applicable_option": "（不适用）"
+        },
+        "base_column": {
+          "label": "基准列"
+        },
+        "helper_text": "汇总并转换数据，以便在不同层级进行分析。"
+      },
+      "data_sorting": {
+        "label": "数据排序（可选）",
+        "sort_order": {
+          "label": "排序顺序",
+          "options": [
+            "（不排序）",
+            "反转行顺序",
+            "按列升序排序",
+            "按列降序排序"
+          ]
+        },
+        "sort_column": {
+          "label": "按列排序"
+        },
+        "helper_text": "反转行顺序或按列值对数据进行排序。"
+      },
+      "data_display_limits": {
+        "label": "数据展示限制",
+        "max_rows": {
+          "label": "最大行数"
+        },
+        "sample_method": {
+          "label": "溢出处理方式",
+          "options": [
+            "取前 N 行",
+            "均匀取样 N 行",
+            "随机取样 N 行"
+          ]
+        },
+        "helper_text": "设置图表中要显示的最大行数（最多 {{maxRows}}）。"
+      }
+    }
+  }
+}

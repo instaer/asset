@@ -1,0 +1,279 @@
+{
+  "dialog_title": "自訂樣式",
+  "reset_button": "重設",
+  "confirm_button": "確認",
+  "basic_tab": {
+    "label": "基本設定",
+    "chart_width": {
+      "label": "圖表寬度",
+      "helper_text": "設定寬度以確保數據完整且清晰地顯示。"
+    },
+    "bar_direction": {
+      "label": "柱狀圖方向",
+      "options": [
+        "垂直",
+        "水平"
+      ],
+      "helper_text": "設定柱狀圖的顯示方向為水平或垂直。"
+    },
+    "grid_lines": {
+      "label": "網格線",
+      "vertical": {
+        "label": "垂直線",
+        "options": [
+          "顯示",
+          "隱藏"
+        ]
+      },
+      "horizontal": {
+        "label": "水平線",
+        "options": [
+          "顯示",
+          "隱藏"
+        ]
+      },
+      "helper_text": "設定是否在圖表背景中顯示網格線。"
+    },
+    "margin_settings": {
+      "label": "邊距設定",
+      "top": {
+        "label": "上邊距"
+      },
+      "bottom": {
+        "label": "下邊距"
+      },
+      "left": {
+        "label": "左邊距"
+      },
+      "right": {
+        "label": "右邊距"
+      },
+      "helper_text": "調整圖表邊緣與繪圖區域之間的間距以容納標籤。"
+    }
+  },
+  "style_tab": {
+    "label": "樣式設定",
+    "background_color": {
+      "label": "背景顏色",
+      "options": [
+        "暖米色",
+        "透明",
+        "白色",
+        "淺灰色"
+      ],
+      "helper_text": "選擇圖表顯示及匯出圖片的背景顏色。"
+    },
+    "color_style": {
+      "label": "色彩風格",
+      "options": [
+        "極簡風",
+        "商業風",
+        "科技風",
+        "北歐風",
+        "日落風",
+        "復古風"
+      ],
+      "helper_text": "選擇預設的圖表顏色主題風格。"
+    },
+    "bar_label_type": {
+      "label": "柱狀圖標籤",
+      "options": [
+        "無",
+        "數值"
+      ],
+      "helper_text": "選擇是否在每個柱狀圖上顯示數值標籤。"
+    },
+    "line_style": {
+      "label": "折線樣式",
+      "options": [
+        "直線",
+        "自然平滑",
+        "Catmull-Rom 平滑",
+        "單調 X",
+        "單調 Y",
+        "階梯",
+        "階梯前",
+        "階梯後"
+      ],
+      "helper_text": "選擇數據點在折線圖中的連接方式。"
+    },
+    "area_fill": {
+      "label": "區域填充",
+      "options": [
+        "無",
+        "填充線下區域"
+      ],
+      "helper_text": "選擇僅顯示折線或填充折線下方區域。"
+    },
+    "pie_top_items": {
+      "label": "圓餅圖前幾項",
+      "helper_text": "顯示前 N 個項目，其他項目將合併為「其他」。"
+    },
+    "pie_inner_radius": {
+      "label": "圓餅圖內半徑",
+      "helper_text": "設定中心空洞大小（0% = 圓餅圖，50% = 甜甜圈圖）。"
+    }
+  },
+  "axes_legend_tab": {
+    "label": "軸與圖例",
+    "axis_range": {
+      "label": "Y 軸範圍",
+      "x_axis_range_label": "X 軸範圍",
+      "min": {
+        "label": "最小值"
+      },
+      "max": {
+        "label": "最大值"
+      },
+      "helper_text": "設定數據軸的最小值與最大值範圍。"
+    },
+    "axis_scale_type_settings": {
+      "label": "軸比例類型設定",
+      "x_axis": {
+        "label": "X 軸",
+        "options": [
+          "自動",
+          "線性（僅適用於數字）",
+          "點（類別）"
+        ],
+        "helper_text": "選擇數據點在 X 軸上的分佈方式。"
+      },
+      "y_axis": {
+        "label": "Y 軸",
+        "options": [
+          "線性",
+          "對數（僅限折線圖）",
+          "平方根（僅限折線圖）"
+        ],
+        "helper_text": "選擇數據點在 Y 軸上的間距方式。"
+      }
+    },
+    "x_axis_label_settings": {
+      "label": "X 軸標籤設定",
+      "text": {
+        "label": "標籤文字",
+        "helper_text": "顯示在 X 軸下方的文字（留空則隱藏）。"
+      },
+      "y_offset": {
+        "label": "垂直位移",
+        "helper_text": "X 軸與標籤之間的垂直距離（值越大則標籤越往下）。"
+      }
+    },
+    "y_axis_label_settings": {
+      "label": "Y 軸標籤設定",
+      "primary_y_axis_label_settings": "主要 Y 軸標籤設定",
+      "text": {
+        "label": "標籤文字",
+        "helper_text": "顯示在主要 Y 軸旁的文字（留空則隱藏）。"
+      },
+      "x_offset": {
+        "label": "水平位移",
+        "helper_text_primary": "主要（左側）Y 軸與標籤之間的水平距離（負值則向左移動）。",
+        "helper_text": "Y 軸與標籤之間的水平距離（負值則向左移動）。"
+      }
+    },
+    "secondary_y_axis_label_settings": {
+      "label": "次要 Y 軸標籤設定",
+      "text": {
+        "label": "標籤文字",
+        "helper_text": "顯示在次要（右側）Y 軸旁的文字（留空則隱藏）。"
+      },
+      "x_offset": {
+        "label": "水平位移",
+        "helper_text": "次要（右側）Y 軸與標籤之間的水平距離（負值則向左移動）。"
+      }
+    },
+    "reference_line_settings": {
+      "vertical_label": "參考線設定（垂直）",
+      "horizontal_label": "參考線設定（水平）",
+      "show": {
+        "label": "顯示"
+      },
+      "y_axis_value": {
+        "label": "Y 軸值"
+      },
+      "label_name": {
+        "label": "標籤名稱"
+      },
+      "label_position": {
+        "label": "標籤位置",
+        "options": [
+          "起點",
+          "中間",
+          "終點"
+        ]
+      },
+      "line_color": {
+        "label": "線條顏色",
+        "options": [
+          "淺灰色",
+          "淺藍色",
+          "橙色",
+          "綠色",
+          "紫色",
+          "黑色"
+        ]
+      },
+      "horizontal_helper_text": "添加自訂標籤、顏色和 X 軸值的水平線進行數據比較。",
+      "vertical_helper_text": "添加自訂標籤、顏色和 Y 軸值的垂直線進行數據比較。"
+    },
+    "arc_label_settings": {
+      "label": "弧形標籤設定",
+      "display_type": {
+        "label": "顯示格式",
+        "options": [
+          "無",
+          "僅標籤",
+          "僅數值",
+          "僅百分比",
+          "標籤（數值）",
+          "標籤（百分比）",
+          "數值（百分比）",
+          "百分比（數值）"
+        ],
+        "helper_text": "選擇圓餅圖區塊標籤的顯示格式。"
+      },
+      "min_percentage": {
+        "label": "最小標籤百分比",
+        "helper_text": "設定顯示標籤的最小百分比。"
+      },
+      "radius": {
+        "label": "標籤位置",
+        "helper_text": "標籤距離中心的距離（50% = 從中心到邊緣的一半）。"
+      }
+    },
+    "legend_settings": {
+      "label": "圖例設定",
+      "show": {
+        "label": "顯示"
+      },
+      "direction": {
+        "label": "排列方向",
+        "options": [
+          "橫向",
+          "縱向"
+        ]
+      },
+      "vertical": {
+        "label": "垂直對齊",
+        "options": [
+          "上對齊",
+          "中間對齊",
+          "下對齊"
+        ]
+      },
+      "horizontal": {
+        "label": "水平對齊",
+        "options": [
+          "左對齊",
+          "中間對齊",
+          "右對齊"
+        ]
+      },
+      "padding": {
+        "label": "間距"
+      },
+      "helper_text": "調整圖例的顯示、位置與間距，以提升可讀性。"
+    }
+  }
+}

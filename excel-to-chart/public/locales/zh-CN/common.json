@@ -1,0 +1,71 @@
+{
+    "index": {
+      "title": "在线创建图表 | ExcelToChart.com",
+      "description": "从Excel数据在线创建图表。简单易用的图表生成工具，支持柱状图、折线图、饼图、散点图、组合图，并可自定义样式。",
+      "h1": "在线Excel图表生成器",
+      "h2": "从Excel数据在线创建专业图表",
+      "select_file_button": {
+        "label": "选择 Excel 文件",
+        "text": "支持 .xlsx、.xls 和 .csv 格式。",
+        "no_upload_error": "请先选择一个 Excel 文件。",
+        "file_type_error": "文件类型必须是 .xlsx、.xls 或 .csv。",
+        "file_size_error": "文件大小不能超过 {{fileSize}}MB",
+        "sheet_read_error": "无法处理文件。请检查文件格式。",
+        "excel_read_error": "请选择有效的 Excel 文件。"
+      },
+      "configure_button": "配置图表",
+      "configure_button_text": "点击自定义数据选择。",
+      "create_button": "创建",
+      "customize_style_button": "自定义样式",
+      "key_features_title": "{{name}} 主要特点",
+      "faqs_title": "常见问题",
+      "more_charts_title": "更多可创建的图表"
+    },
+    "charts": [
+      {
+        "name": "柱状图",
+        "title": "在线创建柱状图 | ExcelToChart.com",
+        "description": "从Excel数据在线创建柱状图。简单易用的柱状图生成工具，支持垂直、水平、堆叠等多种类型，并可自定义样式。",
+        "h1": "Excel柱状图生成器",
+        "h2": "从Excel数据在线创建专业柱状图",
+        "info": "适用于对比不同类别的数据。可用于展示销售额、调查结果或排名，使数据一目了然。",
+        "shortInfo": "适用于对比不同类别的数据"
+      },
+      {
+        "name": "折线图",
+        "title": "在线创建折线图 | ExcelToChart.com",
+        "description": "从Excel数据在线创建折线图。简单易用的折线图生成工具，支持多系列折线图和面积图，并可自定义样式。",
+        "h1": "Excel折线图生成器",
+        "h2": "从Excel数据在线创建专业折线图（含面积图）",
+        "info": "适用于观察数据变化趋势。可用于展示股票价格、月度收入或一年中的温度变化。",
+        "shortInfo": "适用于观察数据变化趋势"
+      },
+      {
+        "name": "饼图",
+        "title": "在线创建饼图 | ExcelToChart.com",
+        "description": "从Excel数据在线创建饼图。简单易用的饼图生成工具，支持环形图和百分比显示，并可自定义样式。",
+        "h1": "Excel饼图生成器",
+        "h2": "从Excel数据在线创建专业饼图（含环形图）",
+        "info": "用于展示整体中的各部分占比。适合市场份额、预算分配或人口分布等数据可视化。",
+        "shortInfo": "用于展示整体中的各部分占比"
+      },
+      {
+        "name": "散点图",
+        "title": "在线创建散点图 | ExcelToChart.com",
+        "description": "从Excel数据在线创建散点图。简单易用的散点图生成工具，适用于相关性分析。",
+        "h1": "Excel散点图生成器",
+        "h2": "从Excel数据在线创建专业散点图",
+        "info": "揭示两个变量之间的关系。适用于分析身高与体重、销售额与广告支出等数据的相关性。",
+        "shortInfo": "揭示两个变量之间的关系"
+      },
+      {
+        "name": "组合图",
+        "title": "在线创建组合图 | ExcelToChart.com",
+        "description": "从Excel数据在线创建组合图。简单易用的组合图生成工具，支持双轴组合的柱状图和折线图，并可自定义样式。",
+        "h1": "Excel组合图生成器",
+        "h2": "从Excel数据在线创建专业组合图",
+        "info": "结合柱状图和折线图，展示相关指标数据。适用于比较销售量与趋势，或实际业绩与目标值。",
+        "shortInfo": "结合柱状图和折线图，展示相关指标数据"
+      }
+    ]
+}

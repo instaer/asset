@@ -1,0 +1,181 @@
+{
+  "dialog_title": "グラフ設定",
+  "reset_button": "リセット",
+  "confirm_button": "確認",
+  "data_tab": {
+    "chart_title": {
+      "label": "グラフタイトル（任意）",
+      "placeholder": "グラフのタイトルを入力"
+    },
+    "chart_type": {
+      "label": "グラフの種類"
+    },
+    "select_sheet": {
+      "label": "シートを選択",
+      "helper_text": "使用するExcelシートを選択してください。"
+    },
+    "data_selection": {
+      "label": "データ選択",
+      "data_columns": {
+        "label": "データ列",
+        "placeholder": "列を検索...",
+        "label_value_columns": "グラフに含める列を選択してください（ラベル列1つ＋値列1つ）。",
+        "x_y_axis_columns": "グラフに含める列を選択してください（X軸列1つ＋Y軸列1つ以上）。"
+      },
+      "dimension_column": {
+        "label_column_label": "ラベル列",
+        "x_axis_column_label": "X軸列",
+        "label_column_helper_text": "円グラフのセグメント名に使用する列を選択してください。",
+        "x_axis_column_helper_text": "横軸に表示する列を選択してください。"
+      }
+    },
+    "dual_y_axis_settings": {
+      "label": "デュアルY軸設定",
+      "primary_axis_chart_type": {
+        "label": "プライマリ軸（左側）のグラフ種類",
+        "options": [
+          "棒グラフ",
+          "折れ線グラフ"
+        ]
+      },
+      "secondary_axis_chart_type": {
+        "label": "セカンダリ軸（右側）のグラフ種類",
+        "options": [
+          "棒グラフ",
+          "折れ線グラフ"
+        ]
+      },
+      "columns_for_primary_axis": {
+        "label": "プライマリ軸の列",
+        "helper_text": "左側のY軸に表示する列を選択してください。他の列は右側のY軸に表示されます。"
+      }
+    },
+    "advanced_options": {
+      "label": "高度なオプション",
+      "stack_columns": {
+        "label": "列を積み上げる（任意）",
+        "helper_text": "棒グラフで積み上げる列を選択してください。"
+      },
+      "data_filter": {
+        "label": "データフィルタ（任意）",
+        "filter_by_column": {
+          "label": "列でフィルタ",
+          "options": [
+            "（フィルタなし）"
+          ],
+          "no_filter_option": "（フィルタなし）"
+        },
+        "first_operator": {
+          "label": "条件",
+          "options": [
+            "等しい",
+            "等しくない",
+            "より大きい",
+            "より小さい",
+            "以上",
+            "以下",
+            "含む",
+            "含まない",
+            "上位N件",
+            "下位N件"
+          ]
+        },
+        "first_value": {
+          "label": "値"
+        },
+        "logic_operator_and": {
+          "label": "AND"
+        },
+        "logic_operator_or": {
+          "label": "OR"
+        },
+        "second_operator": {
+          "label": "条件",
+          "options": [
+            "等しい",
+            "等しくない",
+            "より大きい",
+            "より小さい",
+            "以上",
+            "以下",
+            "含む",
+            "含まない",
+            "上位N件",
+            "下位N件"
+          ]
+        },
+        "second_value": {
+          "label": "値"
+        },
+        "helper_text": "列を選択し、条件を設定して値を入力してフィルタを適用します。"
+      },
+      "data_summary": {
+        "label": "データ要約（任意）",
+        "aggregation_method": {
+          "label": "値を集計する方法",
+          "options": [
+            "（なし）",
+            "合計",
+            "カウント",
+            "平均",
+            "最大",
+            "最小"
+          ]
+        },
+        "display_method": {
+          "label": "値の表示方法",
+          "options": [
+            "計算なし",
+            "行合計",
+            "列合計",
+            "行の割合（％）",
+            "列の割合（％）",
+            "全体の割合（％）",
+            "隣接列の差分",
+            "隣接列の差分（％）",
+            "基準列の差分",
+            "基準列の差分（％）",
+            "隣接行の差分",
+            "隣接行の差分（％）"
+          ],
+          "not_applicable_option": "（該当なし）"
+        },
+        "base_column": {
+          "label": "基準列"
+        },
+        "helper_text": "データを要約して、さまざまなレベルで分析します。"
+      },
+      "data_sorting": {
+        "label": "データの並べ替え（任意）",
+        "sort_order": {
+          "label": "並べ替え順序",
+          "options": [
+            "（並べ替えなし）",
+            "行を逆順にする",
+            "列を昇順で並べ替える",
+            "列を降順で並べ替える"
+          ]
+        },
+        "sort_column": {
+          "label": "並べ替える列"
+        },
+        "helper_text": "行の順序を逆にするか、列の値でデータを並べ替えます。"
+      },
+      "data_display_limits": {
+        "label": "データ表示の制限",
+        "max_rows": {
+          "label": "最大行数"
+        },
+        "sample_method": {
+          "label": "オーバーフロー処理",
+          "options": [
+            "最初のN行を取る",
+            "N行を均等にサンプリングする",
+            "N行をランダムにサンプリングする"
+          ]
+        },
+        "helper_text": "グラフに表示する最大行数を設定します（最大{{maxRows}}行まで）。"
+      }
+    }
+  }
+}

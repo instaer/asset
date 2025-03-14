@@ -1,0 +1,181 @@
+{
+  "dialog_title": "Configurar Gráfico",
+  "reset_button": "Restablecer",
+  "confirm_button": "Aceptar",
+  "data_tab": {
+    "chart_title": {
+      "label": "Título del Gráfico (Opcional)",
+      "placeholder": "Introduce el título del gráfico"
+    },
+    "chart_type": {
+      "label": "Tipo de Gráfico"
+    },
+    "select_sheet": {
+      "label": "Seleccionar Hoja",
+      "helper_text": "Elige la hoja de Excel que deseas usar."
+    },
+    "data_selection": {
+      "label": "Selección de Datos",
+      "data_columns": {
+        "label": "Columnas de Datos",
+        "placeholder": "Buscar columnas...",
+        "label_value_columns": "Selecciona columnas para el gráfico (una columna de etiquetas y una de valores).",
+        "x_y_axis_columns": "Selecciona columnas para el gráfico (una columna para el eje X y al menos una para el eje Y)."
+      },
+      "dimension_column": {
+        "label_column_label": "Columna de Etiquetas",
+        "x_axis_column_label": "Columna del Eje X",
+        "label_column_helper_text": "Selecciona la columna para los nombres de los segmentos del gráfico circular.",
+        "x_axis_column_helper_text": "Selecciona la columna que se mostrará en el eje horizontal."
+      }
+    },
+    "dual_y_axis_settings": {
+      "label": "Configuración de Ejes Y Dual",
+      "primary_axis_chart_type": {
+        "label": "Tipo de Gráfico del Eje Principal (Izquierdo)",
+        "options": [
+          "Gráfico de Barras",
+          "Gráfico de Líneas"
+        ]
+      },
+      "secondary_axis_chart_type": {
+        "label": "Tipo de Gráfico del Eje Secundario (Derecho)",
+        "options": [
+          "Gráfico de Barras",
+          "Gráfico de Líneas"
+        ]
+      },
+      "columns_for_primary_axis": {
+        "label": "Columnas para el Eje Principal",
+        "helper_text": "Selecciona columnas para mostrar en el eje Y izquierdo. Las demás se mostrarán en el derecho."
+      }
+    },
+    "advanced_options": {
+      "label": "Opciones Avanzadas",
+      "stack_columns": {
+        "label": "Apilar Columnas (Opcional)",
+        "helper_text": "Selecciona columnas para apilar en el gráfico de barras."
+      },
+      "data_filter": {
+        "label": "Filtro de Datos (Opcional)",
+        "filter_by_column": {
+          "label": "Filtrar por Columna",
+          "options": [
+            "(Sin Filtro)"
+          ],
+          "no_filter_option": "(Sin Filtro)"
+        },
+        "first_operator": {
+          "label": "Filtro",
+          "options": [
+            "igual a",
+            "diferente de",
+            "mayor que",
+            "menor que",
+            "mayor o igual a",
+            "menor o igual a",
+            "contiene",
+            "no contiene",
+            "mayores N valores",
+            "menores N valores"
+          ]
+        },
+        "first_value": {
+          "label": "Valor"
+        },
+        "logic_operator_and": {
+          "label": "Y"
+        },
+        "logic_operator_or": {
+          "label": "O"
+        },
+        "second_operator": {
+          "label": "Filtro",
+          "options": [
+            "igual a",
+            "diferente de",
+            "mayor que",
+            "menor que",
+            "mayor o igual a",
+            "menor o igual a",
+            "contiene",
+            "no contiene",
+            "mayores N valores",
+            "menores N valores"
+          ]
+        },
+        "second_value": {
+          "label": "Valor"
+        },
+        "helper_text": "Aplica filtros por columnas: selecciona columna, define condiciones e introduce valores."
+      },
+      "data_summary": {
+        "label": "Resumen de Datos (Opcional)",
+        "aggregation_method": {
+          "label": "Resumir Valores Por",
+          "options": [
+            "(Ninguno)",
+            "Suma",
+            "Conteo",
+            "Promedio",
+            "Máximo",
+            "Mínimo"
+          ]
+        },
+        "display_method": {
+          "label": "Mostrar Valores Como",
+          "options": [
+            "Sin Cálculo",
+            "Total de Fila",
+            "Total de Columna",
+            "Porcentaje de Fila (%)",
+            "Porcentaje de Columna (%)",
+            "Porcentaje Total (%)",
+            "Diferencia con Columna Adyacente",
+            "Porcentaje de Diferencia con Columna Adyacente",
+            "Diferencia con Columna Base",
+            "Porcentaje de Diferencia con Columna Base",
+            "Diferencia con Fila Adyacente",
+            "Porcentaje de Diferencia con Fila Adyacente"
+          ],
+          "not_applicable_option": "(No Aplicable)"
+        },
+        "base_column": {
+          "label": "Columna Base"
+        },
+        "helper_text": "Resume y transforma los datos para analizarlos a distintos niveles."
+      },
+      "data_sorting": {
+        "label": "Ordenación de Datos (Opcional)",
+        "sort_order": {
+          "label": "Orden de Clasificación",
+          "options": [
+            "(Sin Orden)",
+            "Invertir Filas",
+            "Ordenar por Columna Ascendente",
+            "Ordenar por Columna Descendente"
+          ]
+        },
+        "sort_column": {
+          "label": "Ordenar por Columna"
+        },
+        "helper_text": "Invierte el orden de las filas o clasifica los datos por valores de columna."
+      },
+      "data_display_limits": {
+        "label": "Límites de Visualización de Datos",
+        "max_rows": {
+          "label": "Máximo de Filas"
+        },
+        "sample_method": {
+          "label": "Manejo de Excedente",
+          "options": [
+            "Tomar las Primeras N Filas",
+            "Muestrear N Filas Uniformemente",
+            "Muestrear N Filas Aleatoriamente"
+          ]
+        },
+        "helper_text": "Establece el máximo de filas a mostrar en el gráfico (hasta {{maxRows}})."
+      }
+    }
+  }
+}

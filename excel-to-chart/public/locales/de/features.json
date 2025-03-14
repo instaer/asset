@@ -1,0 +1,36 @@
+{
+    "features": [
+      {
+        "title": "Einfache und schnelle Diagramme",
+        "info": "Erstellen Sie professionelle Diagramme sofort, indem Sie eine Excel-Datei auswählen. Keine Excel-Kenntnisse erforderlich – passen Sie einfach die Einstellungen an und generieren Sie Ihre Diagramme."
+      },
+      {
+        "title": "Datenschutz an erster Stelle",
+        "info": "Dateien werden lokal in Ihrem Browser verarbeitet. Kein Hochladen erforderlich, wodurch die vollständige Privatsphäre und Sicherheit Ihrer sensiblen Daten gewährleistet wird."
+      },
+      {
+        "title": "Vielfältige Diagrammtypen",
+        "info": "Erstellen Sie verschiedene Diagrammtypen, darunter Balken-, Linien-, Kreis-, Streu- und Kombinationsdiagramme, um Ihre Daten optimal darzustellen."
+      },
+      {
+        "title": "Erweiterte Kombinationsdiagramme",
+        "info": "Erstellen Sie dynamische Kombinationsdiagramme, die Balken- und Linien-Elemente mit zwei Y-Achsen kombinieren – ideal zur Visualisierung von Beziehungen zwischen Daten mit unterschiedlichen Skalen."
+      },
+      {
+        "title": "Individuelle Gestaltung",
+        "info": "Passen Sie jedes Detail Ihres Diagramms in Echtzeit an – von Farbthemen und Rändern bis hin zu Gitterlinien und Legenden."
+      },
+      {
+        "title": "Datenanalysetools",
+        "info": "Flexible Auswahl von Dimensionen und Datenaggregation. Unterstützung für verschiedene Excel-Funktionen zum Zusammenfassen und Anzeigen von Werten."
+      },
+      {
+        "title": "Dynamische Datenfilterung",
+        "info": "Filtern Sie Ihre Daten mit flexiblen Operatoren wie größer als, kleiner als, enthält oder die obersten N Elemente – und erstellen Sie Diagramme aus dem verfeinerten Datensatz."
+      },
+      {
+        "title": "Reaktionsfähige Anzeige",
+        "info": "Betrachten Sie Diagramme auf jedem Gerät mit Vollbildunterstützung, Zoom-Funktionen und interaktiven Tooltipps – perfekt für Präsentationen."
+      }
+    ]
+  }

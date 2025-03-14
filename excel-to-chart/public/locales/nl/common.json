@@ -1,0 +1,71 @@
+{
+  "index": {
+    "title": "Maak Online Grafieken van Excel | ExcelToChart.com",
+    "description": "Maak online grafieken van Excel-data. Eenvoudige tool voor staafdiagrammen, lijndiagrammen, cirkeldiagrammen, spreidingsdiagrammen en combodiagrammen met aanpasbare stijlen.",
+    "h1": "Online Excel Grafiekmaker",
+    "h2": "Creëer Professionele Grafieken Online van Je Excel-data",
+    "select_file_button": {
+      "label": "Selecteer Excel-bestand",
+      "text": "Ondersteunt .xlsx-, .xls- en .csv-formaten.",
+      "no_upload_error": "Selecteer een Excel-bestand.",
+      "file_type_error": "Het bestandstype moet .xlsx, .xls of .csv zijn.",
+      "file_size_error": "De bestandsgrootte mag niet groter zijn dan {{fileSize}}MB.",
+      "sheet_read_error": "Kan bestand niet verwerken. Controleer het formaat.",
+      "excel_read_error": "Selecteer een geldig Excel-bestand."
+    },
+    "configure_button": "Grafiek Configureren",
+    "configure_button_text": "Klik om de gegevensselectie aan te passen.",
+    "create_button": "Maak Grafiek",
+    "customize_style_button": "Stijl Aanpassen",
+    "key_features_title": "{{name}} Belangrijkste Kenmerken",
+    "faqs_title": "Veelgestelde Vragen",
+    "more_charts_title": "Meer Grafieken Die Je Kunt Maken"
+  },
+  "charts": [
+    {
+      "name": "Staafdiagram",
+      "title": "Maak Staafdiagrammen Online van Excel | ExcelToChart.com",
+      "description": "Maak staafdiagrammen online van Excel-data. Eenvoudige tool voor verticale en horizontale staven, gestapelde opties en aangepaste stijlen.",
+      "h1": "Excel Staafdiagrammaker",
+      "h2": "Creëer Professionele Staafdiagrammen Online van Je Excel-data",
+      "info": "Perfect om waarden tussen categorieën te vergelijken. Ideaal voor het tonen van verkoopcijfers, enquêteresultaten of ranglijsten - maakt data in één oogopslag begrijpelijk.",
+      "shortInfo": "Perfect om waarden tussen categorieën te vergelijken"
+    },
+    {
+      "name": "Lijndiagram",
+      "title": "Maak Lijndiagrammen Online van Excel | ExcelToChart.com",
+      "description": "Maak lijndiagrammen online van Excel-data. Eenvoudige tool voor meerreeksplots en opties voor vlakdiagrammen, met aanpasbare stijlen.",
+      "h1": "Excel Lijndiagrammaker",
+      "h2": "Creëer Professionele Lijndiagrammen Online van Je Excel-data (Inclusief Vlakdiagrammen)",
+      "info": "Het beste om veranderingen in de tijd bij te houden en trends te ontdekken. Geweldig voor het visualiseren van aandelenkoersen, maandelijkse omzet of temperatuurveranderingen door het jaar heen.",
+      "shortInfo": "Het beste om veranderingen in de tijd bij te houden en trends te ontdekken"
+    },
+    {
+      "name": "Cirkeldiagram",
+      "title": "Maak Cirkeldiagrammen Online van Excel | ExcelToChart.com",
+      "description": "Maak cirkeldiagrammen online van Excel-data. Eenvoudige tool voor cirkeldiagrammen, inclusief donutopties en procentuele weergaven, met aanpasbare stijlen.",
+      "h1": "Excel Cirkeldiagrammaker",
+      "h2": "Creëer Professionele Cirkeldiagrammen Online van Je Excel-data (Inclusief Donutdiagrammen)",
+      "info": "Toont delen van een geheel als percentages of verhoudingen. Uitstekend voor het weergeven van marktaandeel, budgetverdeling of demografische gegevens.",
+      "shortInfo": "Toont delen van een geheel als percentages of verhoudingen"
+    },
+    {
+      "name": "Spreidingsdiagram",
+      "title": "Maak Spreidingsdiagrammen Online van Excel | ExcelToChart.com",
+      "description": "Maak spreidingsdiagrammen online van Excel-data. Eenvoudige tool voor het maken van scatterplots, ideaal voor correlatieanalyse.",
+      "h1": "Excel Spreidingsdiagrammaker",
+      "h2": "Creëer Professionele Spreidingsdiagrammen Online van Je Excel-data",
+      "info": "Laat relaties tussen twee variabelen zien. Handig voor het analyseren van correlaties zoals lengte versus gewicht of verkoop versus advertentiebudget.",
+      "shortInfo": "Laat relaties tussen twee variabelen zien"
+    },
+    {
+      "name": "Combodiagram",
+      "title": "Maak Combodiagrammen Online van Excel | ExcelToChart.com",
+      "description": "Maak combodiagrammen online van Excel-data. Eenvoudige tool voor visualisaties met dubbele assen, gecombineerd met staven en lijnen, en aanpasbare stijlen.",
+      "h1": "Excel Combodiagrammaker",
+      "h2": "Creëer Professionele Combodiagrammen Online van Je Excel-data",
+      "info": "Combineert staven en lijnen om gerelateerde statistieken te tonen. Perfect voor het vergelijken van verkoopvolumes met trends of prestaties ten opzichte van doelstellingen.",
+      "shortInfo": "Combineert staven en lijnen om gerelateerde statistieken te tonen"
+    }
+  ]
+}

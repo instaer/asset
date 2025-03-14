@@ -1,0 +1,181 @@
+{
+  "dialog_title": "Configura grafico",
+  "reset_button": "Reimposta",
+  "confirm_button": "Ok",
+  "data_tab": {
+    "chart_title": {
+      "label": "Titolo del grafico (opzionale)",
+      "placeholder": "Inserisci il titolo del grafico"
+    },
+    "chart_type": {
+      "label": "Tipo di grafico"
+    },
+    "select_sheet": {
+      "label": "Seleziona foglio",
+      "helper_text": "Scegli quale foglio Excel utilizzare."
+    },
+    "data_selection": {
+      "label": "Selezione dati",
+      "data_columns": {
+        "label": "Colonne di dati",
+        "placeholder": "Cerca colonne...",
+        "label_value_columns": "Seleziona le colonne da includere nel grafico (una colonna di etichette e una colonna di valori).",
+        "x_y_axis_columns": "Seleziona le colonne da includere nel grafico (una colonna per l'asse X e almeno una colonna per l'asse Y)."
+      },
+      "dimension_column": {
+        "label_column_label": "Colonna etichette",
+        "x_axis_column_label": "Colonna asse X",
+        "label_column_helper_text": "Seleziona la colonna per i nomi dei segmenti nel grafico a torta.",
+        "x_axis_column_helper_text": "Seleziona la colonna da visualizzare sull'asse orizzontale."
+      }
+    },
+    "dual_y_axis_settings": {
+      "label": "Impostazioni asse Y doppio",
+      "primary_axis_chart_type": {
+        "label": "Tipo di grafico asse primario (sinistra)",
+        "options": [
+          "Grafico a barre",
+          "Grafico a linee"
+        ]
+      },
+      "secondary_axis_chart_type": {
+        "label": "Tipo di grafico asse secondario (destra)",
+        "options": [
+          "Grafico a barre",
+          "Grafico a linee"
+        ]
+      },
+      "columns_for_primary_axis": {
+        "label": "Colonne per asse primario",
+        "helper_text": "Seleziona le colonne da mostrare sull'asse Y sinistro; le altre verranno mostrate sull'asse Y destro."
+      }
+    },
+    "advanced_options": {
+      "label": "Opzioni avanzate",
+      "stack_columns": {
+        "label": "Colonne impilate (opzionale)",
+        "helper_text": "Scegli quali colonne impilare nel grafico a barre."
+      },
+      "data_filter": {
+        "label": "Filtro dati (opzionale)",
+        "filter_by_column": {
+          "label": "Filtra per colonna",
+          "options": [
+            "(Nessun filtro)"
+          ],
+          "no_filter_option": "(Nessun filtro)"
+        },
+        "first_operator": {
+          "label": "Condizione",
+          "options": [
+            "uguale a",
+            "diverso da",
+            "maggiore di",
+            "minore di",
+            "maggiore o uguale a",
+            "minore o uguale a",
+            "contiene",
+            "non contiene",
+            "N elementi più grandi",
+            "N elementi più piccoli"
+          ]
+        },
+        "first_value": {
+          "label": "Valore"
+        },
+        "logic_operator_and": {
+          "label": "E"
+        },
+        "logic_operator_or": {
+          "label": "O"
+        },
+        "second_operator": {
+          "label": "Condizione",
+          "options": [
+            "uguale a",
+            "diverso da",
+            "maggiore di",
+            "minore di",
+            "maggiore o uguale a",
+            "minore o uguale a",
+            "contiene",
+            "non contiene",
+            "N elementi più grandi",
+            "N elementi più piccoli"
+          ]
+        },
+        "second_value": {
+          "label": "Valore"
+        },
+        "helper_text": "Applica filtri alle colonne: seleziona colonna, imposta condizioni e inserisci valori."
+      },
+      "data_summary": {
+        "label": "Riepilogo dati (opzionale)",
+        "aggregation_method": {
+          "label": "Riepiloga i valori per",
+          "options": [
+            "(Nessuno)",
+            "Somma",
+            "Conteggio",
+            "Media",
+            "Massimo",
+            "Minimo"
+          ]
+        },
+        "display_method": {
+          "label": "Mostra valori come",
+          "options": [
+            "Nessun calcolo",
+            "Totale riga",
+            "Totale colonna",
+            "Percentuale riga (%)",
+            "Percentuale colonna (%)",
+            "Percentuale totale (%)",
+            "Differenza colonna adiacente",
+            "Differenza colonna adiacente (%)",
+            "Differenza colonna base",
+            "Differenza colonna base (%)",
+            "Differenza riga adiacente",
+            "Differenza riga adiacente (%)"
+          ],
+          "not_applicable_option": "(Non applicabile)"
+        },
+        "base_column": {
+          "label": "Colonna base"
+        },
+        "helper_text": "Riepiloga e trasforma i dati per analizzarli a diversi livelli."
+      },
+      "data_sorting": {
+        "label": "Ordinamento dati (opzionale)",
+        "sort_order": {
+          "label": "Ordine di ordinamento",
+          "options": [
+            "(Nessun ordinamento)",
+            "Inverti righe",
+            "Ordina per colonna crescente",
+            "Ordina per colonna decrescente"
+          ]
+        },
+        "sort_column": {
+          "label": "Ordina per colonna"
+        },
+        "helper_text": "Inverti l'ordine delle righe o ordina i dati in base ai valori della colonna."
+      },
+      "data_display_limits": {
+        "label": "Limiti di visualizzazione dati",
+        "max_rows": {
+          "label": "Numero massimo di righe"
+        },
+        "sample_method": {
+          "label": "Gestione overflow",
+          "options": [
+            "Prendi le prime N righe",
+            "Campiona N righe in modo uniforme",
+            "Campiona N righe casualmente"
+          ]
+        },
+        "helper_text": "Imposta il numero massimo di righe da visualizzare nel grafico (fino a {{maxRows}})."
+      }
+    }
+  }
+}

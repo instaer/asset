@@ -1,0 +1,279 @@
+{
+  "dialog_title": "Stijl Aanpassen",
+  "reset_button": "Resetten",
+  "confirm_button": "Oké",
+  "basic_tab": {
+    "label": "Basis",
+    "chart_width": {
+      "label": "Grafiekbreedte",
+      "helper_text": "Pas de breedte aan om alle gegevens duidelijk en volledig weer te geven."
+    },
+    "bar_direction": {
+      "label": "Staafrichting",
+      "options": [
+        "Verticaal",
+        "Horizontaal"
+      ],
+      "helper_text": "Kies of de staafdiagrammen horizontaal of verticaal worden weergegeven."
+    },
+    "grid_lines": {
+      "label": "Rasterlijnen",
+      "vertical": {
+        "label": "Verticaal",
+        "options": [
+          "Tonen",
+          "Verbergen"
+        ]
+      },
+      "horizontal": {
+        "label": "Horizontaal",
+        "options": [
+          "Tonen",
+          "Verbergen"
+        ]
+      },
+      "helper_text": "Toon of verberg de rasterlijnen in de achtergrond van de grafiek."
+    },
+    "margin_settings": {
+      "label": "Marges Instellen",
+      "top": {
+        "label": "Boven"
+      },
+      "bottom": {
+        "label": "Onder"
+      },
+      "left": {
+        "label": "Links"
+      },
+      "right": {
+        "label": "Rechts"
+      },
+      "helper_text": "Pas de ruimte aan tussen de grafiekranden en het plotgebied voor labels."
+    }
+  },
+  "style_tab": {
+    "label": "Stijl",
+    "background_color": {
+      "label": "Achtergrondkleur",
+      "options": [
+        "Warm Beige",
+        "Transparant",
+        "Wit",
+        "Lichtgrijs"
+      ],
+      "helper_text": "Kies een achtergrondkleur voor zowel de grafiekweergave als het opgeslagen beeld."
+    },
+    "color_style": {
+      "label": "Kleurstijl",
+      "options": [
+        "Minimalistisch",
+        "Zakelijk",
+        "Technisch",
+        "Noords",
+        "Zonsondergang",
+        "Vintage"
+      ],
+      "helper_text": "Selecteer een vooraf gedefinieerd kleurenpalet voor je grafiek."
+    },
+    "bar_label_type": {
+      "label": "Staaflabels",
+      "options": [
+        "Geen",
+        "Waarde"
+      ],
+      "helper_text": "Kies hoe de waarden op elke staaf worden weergegeven."
+    },
+    "line_style": {
+      "label": "Lijnstijl",
+      "options": [
+        "Lineair",
+        "Natuurlijk Smooth",
+        "Catmull-Rom Smooth",
+        "Monotoon X",
+        "Monotoon Y",
+        "Stap",
+        "Stap Voor",
+        "Stap Na"
+      ],
+      "helper_text": "Kies hoe de datapunten in je lijngrafiek worden verbonden."
+    },
+    "area_fill": {
+      "label": "Opvulling Gebied",
+      "options": [
+        "Geen",
+        "Opvullen Onder Lijn"
+      ],
+      "helper_text": "Kies of je alleen lijnen wilt tonen of het gebied eronder wilt opvullen."
+    },
+    "pie_top_items": {
+      "label": "Top Items (Taartdiagram)",
+      "helper_text": "Toon de top N items en groepeer de rest als 'Overig'."
+    },
+    "pie_inner_radius": {
+      "label": "Binnenstraal (Taartdiagram)",
+      "helper_text": "Grootte van het midden (0% = taart, 50% = donut)."
+    }
+  },
+  "axes_legend_tab": {
+    "label": "Assen & Legenda",
+    "axis_range": {
+      "label": "Bereik Y-as",
+      "x_axis_range_label": "Bereik X-as",
+      "min": {
+        "label": "Minimale Waarde"
+      },
+      "max": {
+        "label": "Maximale Waarde"
+      },
+      "helper_text": "Stel de minimale en maximale waarden in voor de schaal van de gegevensas."
+    },
+    "axis_scale_type_settings": {
+      "label": "Schaaltype Instellingen",
+      "x_axis": {
+        "label": "X-as",
+        "options": [
+          "Automatisch",
+          "Lineair (Alleen Getallen)",
+          "Punten"
+        ],
+        "helper_text": "Kies hoe de datapunten worden verdeeld langs de X-as."
+      },
+      "y_axis": {
+        "label": "Y-as",
+        "options": [
+          "Lineair",
+          "Logaritmisch (Alleen Lijngrafieken)",
+          "Wortel (Alleen Lijngrafieken)"
+        ],
+        "helper_text": "Kies hoe je datapunten op de Y-as wilt spreiden."
+      }
+    },
+    "x_axis_label_settings": {
+      "label": "X-as Labelinstellingen",
+      "text": {
+        "label": "Tekst",
+        "helper_text": "Tekst onder de X-as (leeglaten om te verbergen)."
+      },
+      "y_offset": {
+        "label": "Verticale Verplaatsing",
+        "helper_text": "Verticale afstand tussen de X-as en de labels (hogere waarde = verder naar beneden)."
+      }
+    },
+    "y_axis_label_settings": {
+      "label": "Y-as Labelinstellingen",
+      "primary_y_axis_label_settings": "Primaire Y-as Labelinstellingen",
+      "text": {
+        "label": "Tekst",
+        "helper_text": "Tekst naast de Y-as (leeglaten om te verbergen)."
+      },
+      "x_offset": {
+        "label": "Horizontale Verplaatsing",
+        "helper_text_primary": "Horizontale afstand tussen de primaire (linker) Y-as en de labels (negatieve waarde = verder naar links).",
+        "helper_text": "Horizontale afstand tussen de Y-as en de labels (negatieve waarde = verder naar links)."
+      }
+    },
+    "secondary_y_axis_label_settings": {
+      "label": "Secundaire Y-as Labelinstellingen",
+      "text": {
+        "label": "Tekst",
+        "helper_text": "Tekst naast de secundaire (rechter) Y-as (leeglaten om te verbergen)."
+      },
+      "x_offset": {
+        "label": "Horizontale Verplaatsing",
+        "helper_text": "Horizontale afstand tussen de secundaire (rechter) Y-as en de labels (negatieve waarde = verder naar links)."
+      }
+    },
+    "reference_line_settings": {
+      "vertical_label": "Referentielijn Instellingen (Verticaal)",
+      "horizontal_label": "Referentielijn Instellingen (Horizontaal)",
+      "show": {
+        "label": "Weergeven"
+      },
+      "y_axis_value": {
+        "label": "Waarde Y-as"
+      },
+      "label_name": {
+        "label": "Labelnaam"
+      },
+      "label_position": {
+        "label": "Labelpositie",
+        "options": [
+          "Start",
+          "Midden",
+          "Einde"
+        ]
+      },
+      "line_color": {
+        "label": "Lijnkleur",
+        "options": [
+          "Lichtgrijs",
+          "Lichtblauw",
+          "Oranje",
+          "Groen",
+          "Paars",
+          "Zwart"
+        ]
+      },
+      "horizontal_helper_text": "Voeg horizontale lijnen toe met aangepaste labels, kleuren en X-as waarden voor vergelijking.",
+      "vertical_helper_text": "Voeg verticale lijnen toe met aangepaste labels, kleuren en Y-as waarden voor vergelijking."
+    },
+    "arc_label_settings": {
+      "label": "Booglabel Instellingen",
+      "display_type": {
+        "label": "Weergaveformaat",
+        "options": [
+          "Geen",
+          "Alleen Label",
+          "Alleen Waarde",
+          "Alleen Percentage",
+          "Label (Waarde)",
+          "Label (Percentage)",
+          "Waarde (Percentage)",
+          "Percentage (Waarde)"
+        ],
+        "helper_text": "Kies hoe labels worden weergegeven op taartdiagramsegmenten."
+      },
+      "min_percentage": {
+        "label": "Minimale Labelpercentage",
+        "helper_text": "Stel het minimale percentage in om labels weer te geven."
+      },
+      "radius": {
+        "label": "Labelpositie",
+        "helper_text": "Afstand vanaf het midden (50% = halverwege vanaf het midden)."
+      }
+    },
+    "legend_settings": {
+      "label": "Legenda Instellingen",
+      "show": {
+        "label": "Weergeven"
+      },
+      "direction": {
+        "label": "Indelingsrichting",
+        "options": [
+          "Rij",
+          "Kolom"
+        ]
+      },
+      "vertical": {
+        "label": "Verticale Uitlijning",
+        "options": [
+          "Boven",
+          "Midden",
+          "Onder"
+        ]
+      },
+      "horizontal": {
+        "label": "Horizontale Uitlijning",
+        "options": [
+          "Links",
+          "Midden",
+          "Rechts"
+        ]
+      },
+      "padding": {
+        "label": "Afstand"
+      },
+      "helper_text": "Pas de weergave, positie en afstand van de legenda aan voor betere leesbaarheid."
+    }
+  }
+}

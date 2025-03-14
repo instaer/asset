@@ -1,0 +1,71 @@
+{
+  "index": {
+    "title": "從 Excel 快速線上製作圖表 | ExcelToChart.com",
+    "description": "從 Excel 數據線上製作圖表。輕鬆創建柱狀圖、折線圖、圓餅圖、散佈圖、組合圖，並可自訂樣式。",
+    "h1": "線上 Excel 圖表製作工具",
+    "h2": "從您的 Excel 數據快速製作專業圖表",
+    "select_file_button": {
+      "label": "選擇 Excel 檔案",
+      "text": "支援 .xlsx、.xls 和 .csv 格式。",
+      "no_upload_error": "請先選擇一個 Excel 檔案。",
+      "file_type_error": "檔案類型必須是 .xlsx、.xls 或 .csv。",
+      "file_size_error": "檔案大小不能超過 {{fileSize}}MB",
+      "sheet_read_error": "無法處理檔案。請檢查檔案格式。",
+      "excel_read_error": "請選擇有效的 Excel 檔案。"
+    },
+    "configure_button": "設定圖表",
+    "configure_button_text": "點擊以自訂數據選擇。",
+    "create_button": "生成圖表",
+    "customize_style_button": "自訂樣式",
+    "key_features_title": "{{name}} 的主要功能",
+    "faqs_title": "常見問題",
+    "more_charts_title": "更多您可以創建的圖表"
+  },
+  "charts": [
+    {
+      "name": "柱狀圖",
+      "title": "從 Excel 快速製作柱狀圖 | ExcelToChart.com",
+      "description": "從 Excel 數據線上製作柱狀圖。輕鬆創建垂直或水平柱狀圖、堆疊柱狀圖，並可自訂樣式。",
+      "h1": "Excel 柱狀圖製作工具",
+      "h2": "從您的 Excel 數據製作專業柱狀圖",
+      "info": "適合比較不同類別的數據。例如銷售數據、調查結果或排名 - 讓數據一目了然。",
+      "shortInfo": "適合比較不同類別的數據"
+    },
+    {
+      "name": "折線圖",
+      "title": "從 Excel 快速製作折線圖 | ExcelToChart.com",
+      "description": "從 Excel 數據線上製作折線圖。輕鬆創建多組折線圖，支持區域圖選項與自訂樣式。",
+      "h1": "Excel 折線圖製作工具",
+      "h2": "從您的 Excel 數據製作專業折線圖（包含區域圖）",
+      "info": "最適合追蹤數據隨時間的變化，發現趨勢。例如股票價格、每月收入或年度溫度變化。",
+      "shortInfo": "適合追蹤數據變化與趨勢"
+    },
+    {
+      "name": "圓餅圖",
+      "title": "從 Excel 快速製作圓餅圖 | ExcelToChart.com",
+      "description": "從 Excel 數據線上製作圓餅圖。輕鬆創建圓餅圖或甜甜圈圖，支持百分比視覺化與自訂樣式。",
+      "h1": "Excel 圓餅圖製作工具",
+      "h2": "從您的 Excel 數據製作專業圓餅圖（包含甜甜圈圖）",
+      "info": "用於顯示整體的各部分比例或百分比。非常適合展示市場份額、預算分配或人口結構。",
+      "shortInfo": "顯示整體的各部分比例或百分比"
+    },
+    {
+      "name": "散佈圖",
+      "title": "從 Excel 快速製作散佈圖 | ExcelToChart.com",
+      "description": "從 Excel 數據線上製作散佈圖。輕鬆創建散佈圖，特別適合相關性分析。",
+      "h1": "Excel 散佈圖製作工具",
+      "h2": "從您的 Excel 數據製作專業散佈圖",
+      "info": "揭示兩個變量之間的關係。例如身高與體重的關係，或銷售額與廣告支出的相關性。",
+      "shortInfo": "揭示兩個變量之間的關係"
+    },
+    {
+      "name": "組合圖",
+      "title": "從 Excel 快速製作組合圖 | ExcelToChart.com",
+      "description": "從 Excel 數據線上製作組合圖。輕鬆創建雙軸組合圖，結合柱狀圖與折線圖，並可自訂樣式。",
+      "h1": "Excel 組合圖製作工具",
+      "h2": "從您的 Excel 數據製作專業組合圖",
+      "info": "結合柱狀圖與折線圖，展示相關數據。例如比較銷售量與趨勢，或實際業績與目標的對比。",
+      "shortInfo": "結合柱狀圖與折線圖以展示相關數據"
+    }
+  ]
+}

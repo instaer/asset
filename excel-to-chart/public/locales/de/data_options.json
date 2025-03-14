@@ -1,0 +1,181 @@
+{
+  "dialog_title": "Diagramm konfigurieren",
+  "reset_button": "Zurücksetzen",
+  "confirm_button": "Bestätigen",
+  "data_tab": {
+    "chart_title": {
+      "label": "Diagrammtitel (optional)",
+      "placeholder": "Diagrammtitel eingeben"
+    },
+    "chart_type": {
+      "label": "Diagrammtyp"
+    },
+    "select_sheet": {
+      "label": "Tabelle auswählen",
+      "helper_text": "Wählen Sie das Excel-Arbeitsblatt aus, das verwendet werden soll."
+    },
+    "data_selection": {
+      "label": "Datenauswahl",
+      "data_columns": {
+        "label": "Daten-Spalten",
+        "placeholder": "Spalten suchen...",
+        "label_value_columns": "Wählen Sie Spalten für Ihr Diagramm aus (eine Beschriftungsspalte + eine Wertspalte).",
+        "x_y_axis_columns": "Wählen Sie Spalten für Ihr Diagramm aus (eine X-Achse-Spalte + mindestens eine Y-Achse-Spalte)."
+      },
+      "dimension_column": {
+        "label_column_label": "Beschriftungsspalte",
+        "x_axis_column_label": "X-Achse-Spalte",
+        "label_column_helper_text": "Wählen Sie die Spalte für die Bezeichnung der Diagrammsegmente.",
+        "x_axis_column_helper_text": "Wählen Sie die Spalte, die auf der horizontalen Achse angezeigt wird."
+      }
+    },
+    "dual_y_axis_settings": {
+      "label": "Einstellungen für zwei Y-Achsen",
+      "primary_axis_chart_type": {
+        "label": "Diagrammtyp für primäre Achse (links)",
+        "options": [
+          "Balkendiagramm",
+          "Liniendiagramm"
+        ]
+      },
+      "secondary_axis_chart_type": {
+        "label": "Diagrammtyp für sekundäre Achse (rechts)",
+        "options": [
+          "Balkendiagramm",
+          "Liniendiagramm"
+        ]
+      },
+      "columns_for_primary_axis": {
+        "label": "Spalten für primäre Achse",
+        "helper_text": "Wählen Sie Spalten für die linke Y-Achse aus. Andere Spalten werden auf der rechten Y-Achse angezeigt."
+      }
+    },
+    "advanced_options": {
+      "label": "Erweiterte Optionen",
+      "stack_columns": {
+        "label": "Spalten stapeln (optional)",
+        "helper_text": "Wählen Sie Spalten, die in Ihrem Balkendiagramm gestapelt werden sollen."
+      },
+      "data_filter": {
+        "label": "Datenfilter (optional)",
+        "filter_by_column": {
+          "label": "Nach Spalte filtern",
+          "options": [
+            "(Kein Filter)"
+          ],
+          "no_filter_option": "(Kein Filter)"
+        },
+        "first_operator": {
+          "label": "Filter",
+          "options": [
+            "gleich",
+            "ungleich",
+            "größer als",
+            "kleiner als",
+            "größer oder gleich",
+            "kleiner oder gleich",
+            "enthält",
+            "enthält nicht",
+            "N größte Werte",
+            "N kleinste Werte"
+          ]
+        },
+        "first_value": {
+          "label": "Wert"
+        },
+        "logic_operator_and": {
+          "label": "UND"
+        },
+        "logic_operator_or": {
+          "label": "ODER"
+        },
+        "second_operator": {
+          "label": "Filter",
+          "options": [
+            "gleich",
+            "ungleich",
+            "größer als",
+            "kleiner als",
+            "größer oder gleich",
+            "kleiner oder gleich",
+            "enthält",
+            "enthält nicht",
+            "N größte Werte",
+            "N kleinste Werte"
+          ]
+        },
+        "second_value": {
+          "label": "Wert"
+        },
+        "helper_text": "Wenden Sie Spaltenfilter an: Spalte auswählen, Bedingungen festlegen und Werte eingeben."
+      },
+      "data_summary": {
+        "label": "Datenzusammenfassung (optional)",
+        "aggregation_method": {
+          "label": "Werte zusammenfassen nach",
+          "options": [
+            "(Keine)",
+            "Summe",
+            "Anzahl",
+            "Durchschnitt",
+            "Maximum",
+            "Minimum"
+          ]
+        },
+        "display_method": {
+          "label": "Werte anzeigen als",
+          "options": [
+            "Keine Berechnung",
+            "Zeilengesamtergebnis",
+            "Spaltengesamtergebnis",
+            "Zeilenprozentsatz (%)",
+            "Spaltenprozentsatz (%)",
+            "Gesamtprozentsatz (%)",
+            "Differenz zur benachbarten Spalte",
+            "Prozentuale Differenz zur benachbarten Spalte",
+            "Differenz zur Basis-Spalte",
+            "Prozentuale Differenz zur Basis-Spalte",
+            "Differenz zur benachbarten Zeile",
+            "Prozentuale Differenz zur benachbarten Zeile"
+          ],
+          "not_applicable_option": "(Nicht anwendbar)"
+        },
+        "base_column": {
+          "label": "Basis-Spalte"
+        },
+        "helper_text": "Fassen Sie Daten zusammen und transformieren Sie sie für verschiedene Analyseebenen."
+      },
+      "data_sorting": {
+        "label": "Datensortierung (optional)",
+        "sort_order": {
+          "label": "Sortierreihenfolge",
+          "options": [
+            "(Keine Sortierung)",
+            "Zeilen umkehren",
+            "Nach Spalte aufsteigend sortieren",
+            "Nach Spalte absteigend sortieren"
+          ]
+        },
+        "sort_column": {
+          "label": "Nach Spalte sortieren"
+        },
+        "helper_text": "Umkehren der Zeilenreihenfolge oder Sortieren der Daten nach Spaltenwerten."
+      },
+      "data_display_limits": {
+        "label": "Anzeigegrenzen für Daten",
+        "max_rows": {
+          "label": "Maximale Zeilenanzahl"
+        },
+        "sample_method": {
+          "label": "Überlaufbehandlung",
+          "options": [
+            "Erste N Zeilen anzeigen",
+            "N Zeilen gleichmäßig auswählen",
+            "N Zeilen zufällig auswählen"
+          ]
+        },
+        "helper_text": "Legen Sie fest, wie viele Zeilen im Diagramm angezeigt werden sollen (bis zu {{maxRows}})."
+      }
+    }
+  }
+}

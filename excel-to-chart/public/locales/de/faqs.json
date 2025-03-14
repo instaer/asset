@@ -1,0 +1,36 @@
+{
+    "faqs": [
+      {
+        "q": "Wie passe ich den Stil des Diagramms an?",
+        "a": "<p>Klicken Sie auf die Schaltfläche 'Stil anpassen' unterhalb der Schaltfläche 'Erstellen', um einen Dialog zu öffnen. Der Dialog enthält drei Registerkarten mit verschiedenen Stiloptionen für Ihren ausgewählten Diagrammtyp:</p><ul><li><b>Grundlegend:</b> Diagrammbreite, Randeinstellungen, Balkenorientierung für Balkendiagramme usw.</li><li><b>Stil:</b> Hintergrundfarbe, Farbschemata, Linienstile usw.</li><li><b>Achsen & Legende:</b> Achsenbeschriftungen, Beschriftungseinstellungen für Kreisdiagramme und Legendenkonfigurationen usw.</li></ul><p>Jede Registerkarte bietet spezifische Anpassungsoptionen, mit denen Sie das gewünschte Erscheinungsbild Ihres Diagramms erreichen können.</p>"
+      },
+      {
+        "q": "Wie passe ich den Abstand zwischen Diagramm und Legende an?",
+        "a": "<p>Wenn Ihre Legende das Diagramm überlappt oder zu nah/zu weit entfernt erscheint, können Sie den Abstand folgendermaßen anpassen:</p><ol><li>Klicken Sie auf 'Stil anpassen'</li><li>Wechseln Sie zum Reiter 'Grundlegend'</li><li>Suchen Sie nach 'Randeinstellungen'</li><li>Passen Sie die Randwerte an:</li></ol><ul><li><b>Für rechtsseitige Legenden:</b> Ändern Sie den Wert für den rechten Rand</li><li><b>Für obere Legenden:</b> Ändern Sie den Wert für den oberen Rand</li><li><b>Für untere Legenden:</b> Ändern Sie den Wert für den unteren Rand</li><li><b>Für linksseitige Legenden:</b> Ändern Sie den Wert für den linken Rand</li></ul><p>Jede Randoption steuert den Abstand zwischen dem Diagramm und seinen äußeren Grenzen, sodass Sie das Layout feinabstimmen können.</p>"
+      },
+      {
+        "q": "Verwendet das Diagramm alle Daten aus meiner Excel-Datei?",
+        "a": "<p>Nein. Die Daten werden zunächst aus dem ausgewählten Tabellenblatt gelesen (standardmäßig das erste Blatt), das Sie filtern und zusammenfassen können. Standardmäßig zeigt das Diagramm bis zu 500 Zeilen an (einstellbar unter 'Anzeigegrenzen' in den 'Erweiterten Optionen').</p><p>In der Regel reichen 500 Zeilen aus, um aussagekräftige Diagramme zu erstellen. Wenn Sie die Gesamtdaten besser darstellen möchten, können Sie 'N Zeilen gleichmäßig auswählen' oder 'N Zeilen zufällig auswählen' in der Option 'Überlaufbehandlung' verwenden, um bis zu 500 Zeilen entweder gleichmäßig oder zufällig zu sampeln.</p>"
+      },
+      {
+        "q": "Wie erstelle ich ein Diagramm mit zwei Y-Achsen?",
+        "a": "<p>Ein Diagramm mit zwei Y-Achsen können Sie mit einem Kombinationsdiagramm erstellen, das Daten mit unterschiedlichen Einheiten oder Skalen auf separaten Y-Achsen anzeigt:</p><ul><li>Eine primäre Achse (linke Seite)</li><li>Eine sekundäre Achse (rechte Seite)</li></ul><p>So erstellen Sie ein solches Diagramm:</p><ol><li>Wählen Sie 'Kombinationsdiagramm' im Diagrammtyp-Dropdown-Menü aus</li><li>Konfigurieren Sie beide Achsen in den 'Einstellungen für die doppelte Y-Achse':<ul><li>Wählen Sie Diagrammtypen für jede Achse</li><li>Wählen Sie aus, welche Spalten auf der primären Achse angezeigt werden sollen (die restlichen Spalten werden automatisch der sekundären Achse zugewiesen)</li></ul></li></ol><p>Dies ist besonders nützlich, wenn Sie Daten mit unterschiedlichen Einheiten oder Skalen vergleichen (z. B. Menge vs. Preis).</p>"
+      },
+      {
+        "q": "Was bedeutet 'Werte anzeigen als' und wann sollte ich es verwenden?",
+        "a": "<p>'Werte anzeigen als' bestimmt, wie die berechneten Ergebnisse im Diagramm dargestellt werden. Häufige Optionen sind:</p><ul><li><b>Keine Berechnung:</b> Zeigt Rohdaten an (nützlich bei doppelten Dimensionenwerten)</li><li><b>Zeilensumme:</b> Zeigt die Summe der ausgewählten Spalten für jede Zeile</li><li><b>Unterschied zur angrenzenden Spalte:</b> Zeigt die Differenz zwischen jeder Spalte und der vorherigen an</li></ul><p>Wählen Sie die Option, die Ihre Daten am besten darstellt.</p>"
+      },
+      {
+        "q": "Was bedeutet 'Werte zusammenfassen nach' und wie funktioniert es?",
+        "a": "<p>'Werte zusammenfassen nach' legt fest, wie Ihre Rohdaten berechnet werden. Es ermöglicht Ihnen:</p><ul><li>Werte zu summieren</li><li>Vorkommen zu zählen</li><li>Durchschnittswerte zu berechnen</li></ul><p>Diese Funktion verarbeitet Ihre Rohdaten automatisch bei der Diagrammerstellung, sodass keine Vorverarbeitung in Excel erforderlich ist. Die endgültige Anzeige hängt von Ihrer Auswahl bei 'Werte anzeigen als' ab.</p>"
+      },
+      {
+        "q": "Wie werden doppelte Werte in der Beschriftungs-/X-Achsen-Spalte behandelt?",
+        "a": "<p>Standardmäßig wird nur die erste Zeile mit einem doppelten Beschriftungs-/X-Achsen-Wert verwendet. Um diese Daten zusammenzufassen:</p><ol><li>Aktivieren Sie 'Datenzusammenfassung' unter 'Diagramm konfigurieren'</li><li>Wählen Sie eine Option für 'Werte zusammenfassen nach' (Summe, Durchschnitt usw.)</li><li>Setzen Sie 'Werte anzeigen als' auf 'Keine Berechnung'</li></ol>"
+      },
+      {
+        "q": "Was passiert, wenn Datenspalten nicht-numerische Werte enthalten?",
+        "a": "<p>Alle nicht-numerischen Werte in den Datenspalten (außer der Beschriftungs-/X-Achsen-Spalte) werden bei der Diagrammerstellung automatisch in 0 umgewandelt.</p>"
+      }
+    ]
+  }

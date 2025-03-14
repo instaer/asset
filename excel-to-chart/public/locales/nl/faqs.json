@@ -1,0 +1,36 @@
+{
+    "faqs": [
+      {
+        "q": "Hoe pas ik de stijl van de grafiek aan?",
+        "a": "<p>Klik op de knop 'Stijl aanpassen' onder de knop 'Aanmaken' om een dialoogvenster te openen. Dit venster bevat drie tabs met verschillende opties voor het aanpassen van de stijl van de geselecteerde grafiek:</p><ul><li><b>Basis:</b> Grafiekbreedte, marges, oriëntatie van staafdiagrammen, enz.</li><li><b>Stijl:</b> Achtergrondkleur, kleurenschema's, lijnstijlen, enz.</li><li><b>Assen & Legenda:</b> Aslabels, instellingen voor labels in cirkeldiagrammen en configuratie van de legenda, enz.</li></ul><p>Elke tab biedt specifieke aanpassingsopties om de grafiek naar wens te maken.</p>"
+      },
+      {
+        "q": "Hoe pas ik de afstand tussen de grafiek en de legenda aan?",
+        "a": "<p>Als de legenda de grafiek overlapt of te dicht bij of ver weg lijkt, kun je de afstand aanpassen door deze stappen te volgen:</p><ol><li>Klik op 'Stijl aanpassen'</li><li>Ga naar de tab 'Basis'</li><li>Zoek naar 'Marges'</li><li>Pas de marges aan:</li></ol><ul><li><b>Voor legenda aan de rechterkant:</b> Pas de marge 'Rechts' aan</li><li><b>Voor legenda bovenaan:</b> Pas de marge 'Boven' aan</li><li><b>Voor legenda onderaan:</b> Pas de marge 'Onder' aan</li><li><b>Voor legenda aan de linkerkant:</b> Pas de marge 'Links' aan</li></ul><p>Met deze instellingen kun je de lay-out nauwkeurig aanpassen.</p>"
+      },
+      {
+        "q": "Gebruikt de grafiek alle gegevens uit mijn Excel-bestand?",
+        "a": "<p>Nee. De gegevens worden eerst gelezen uit het geselecteerde werkblad (standaard is het eerste werkblad), die je kunt filteren en samenvatten. Standaard toont de grafiek maximaal 500 rijen gegevens (aanpasbaar in 'Gegevenslimieten' onder 'Geavanceerde Opties').</p><p>Meestal zijn 500 rijen voldoende voor het maken van informatieve grafieken. Als je een beter overzicht wilt van de gegevens, kun je in 'Overflow Handling' kiezen voor 'Selecteer N rijen gelijkmatig' of 'Selecteer N rijen willekeurig' om tot 500 rijen te bemonsteren, gelijkmatig of willekeurig.</p>"
+      },
+      {
+        "q": "Hoe maak ik een grafiek met twee Y-assen?",
+        "a": "<p>Je kunt een grafiek met twee Y-assen maken door een Combinatiegrafiek te gebruiken. Hiermee kun je gegevens met verschillende eenheden of schalen weergeven met aparte Y-assen:</p><ul><li>Een primaire as (linkerkant)</li><li>Een secundaire as (rechterkant)</li></ul><p>Om dit te doen:</p><ol><li>Selecteer 'Combinatiegrafiek' in het dropdownmenu 'Grafiektype'</li><li>Configureer beide assen in de instellingen voor 'Dubbele Y-as':<ul><li>Kies grafiektypen voor elke as</li><li>Selecteer welke kolommen op de primaire as worden weergegeven (de overige kolommen worden automatisch toegewezen aan de secundaire as)</li></ul></li></ol><p>Dit is vooral handig wanneer je gegevens met verschillende eenheden of schalen wilt vergelijken (bijv. hoeveelheden versus prijzen).</p>"
+      },
+      {
+        "q": "Wat betekent 'Waarden tonen als' en wanneer moet ik het gebruiken?",
+        "a": "<p>'Waarden tonen als' bepaalt hoe de berekende resultaten in de grafiek worden weergegeven. Veelgebruikte opties zijn:</p><ul><li><b>Geen berekening:</b> Toont ruwe gegevens (handig bij dubbele dimensiewaarden)</li><li><b>Rijtotaal:</b> Toont de som van geselecteerde kolommen per rij</li><li><b>Verschil met aangrenzende kolom:</b> Toont het verschil tussen elke kolom en de vorige</li></ul><p>Kies de optie die het beste bij jouw gegevenspresentatie past.</p>"
+      },
+      {
+        "q": "Wat is 'Waarden samenvatten als' en hoe werkt het?",
+        "a": "<p>'Waarden samenvatten als' bepaalt hoe de ruwe gegevens worden berekend. Het stelt je in staat om:</p><ul><li>Waarden op te tellen</li><li>Voorkomens te tellen</li><li>Gemiddelden te berekenen</li></ul><p>Deze functie verwerkt je ruwe gegevens automatisch bij het maken van grafieken, waardoor voorafgaande bewerkingen in Excel niet nodig zijn. De uiteindelijke weergave hangt af van je keuze in 'Waarden tonen als'.</p>"
+      },
+      {
+        "q": "Hoe worden dubbele waarden in de Label/X-As-kolom behandeld?",
+        "a": "<p>Standaard wordt alleen de eerste rij met een dubbele label/x-as-waarde gebruikt. Om deze gegevens samen te vatten:</p><ol><li>Schakel 'Gegevens samenvatten' in via 'Grafiek configureren'</li><li>Kies een optie voor 'Waarden samenvatten als' (som, gemiddelde, enz.)</li><li>Stel 'Waarden tonen als' in op 'Geen berekening'</li></ol>"
+      },
+      {
+        "q": "Wat gebeurt er als gegevenskolommen niet-numerieke waarden bevatten?",
+        "a": "<p>Alle niet-numerieke waarden in gegevenskolommen (met uitzondering van de Label/X-As-kolom) worden automatisch omgezet naar 0 bij het maken van de grafiek.</p>"
+      }
+    ]
+  }

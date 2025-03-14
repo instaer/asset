@@ -1,0 +1,36 @@
+{
+    "features": [
+      {
+        "title": "Snel en Eenvoudig Grafieken Maken",
+        "info": "Maak direct professionele grafieken door een Excel-bestand te selecteren. Geen Excel-kennis nodig - pas de instellingen aan en genereer eenvoudig."
+      },
+      {
+        "title": "Data Privacy Voorop",
+        "info": "Bestanden worden lokaal in je browser verwerkt. Geen uploads nodig, wat volledige privacy en beveiliging van je gevoelige gegevens garandeert."
+      },
+      {
+        "title": "Meerdere Grafiektypen",
+        "info": "Maak verschillende soorten grafieken, zoals staafdiagrammen, lijndiagrammen, cirkeldiagrammen, spreidingsdiagrammen en gecombineerde grafieken om je data optimaal te visualiseren."
+      },
+      {
+        "title": "Geavanceerde Gecombineerde Grafieken",
+        "info": "Maak dynamische gecombineerde grafieken die staaf- en lijnelementen combineren met dubbele Y-assen, ideaal voor het visualiseren van multi-schaal dataverhoudingen."
+      },
+      {
+        "title": "Aangepaste Stijlen",
+        "info": "Pas elk aspect van je grafieken aan met een realtime voorbeeld - van kleurenschema’s en marges tot rasterlijnen en legenda’s."
+      },
+      {
+        "title": "Data-analysetools",
+        "info": "Flexibele selectie van dimensies en data-aggregatieopties. Ondersteunt verschillende Excel-functies voor samenvatten en waardeberekeningen."
+      },
+      {
+        "title": "Dynamische Datafiltering",
+        "info": "Filter je data met flexibele operators zoals groter dan, kleiner dan, bevat of top N-items—en maak grafieken op basis van de gefilterde dataset."
+      },
+      {
+        "title": "Responsieve Weergave",
+        "info": "Bekijk grafieken op elk apparaat met volledige schermweergave, zoomfunctionaliteit en interactieve datatooltips - perfect voor presentaties."
+      }
+    ]
+  }

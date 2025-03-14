@@ -1,0 +1,279 @@
+{
+  "dialog_title": "スタイルをカスタマイズ",
+  "reset_button": "リセット",
+  "confirm_button": "確認",
+  "basic_tab": {
+    "label": "基本設定",
+    "chart_width": {
+      "label": "チャート幅",
+      "helper_text": "すべてのデータを明確かつ完全に表示するための幅を設定します。"
+    },
+    "bar_direction": {
+      "label": "バーの向き",
+      "options": [
+        "縦方向",
+        "横方向"
+      ],
+      "helper_text": "バーを縦方向または横方向に表示します。"
+    },
+    "grid_lines": {
+      "label": "グリッド線",
+      "vertical": {
+        "label": "縦方向",
+        "options": [
+          "表示",
+          "非表示"
+        ]
+      },
+      "horizontal": {
+        "label": "横方向",
+        "options": [
+          "表示",
+          "非表示"
+        ]
+      },
+      "helper_text": "チャート背景にグリッド線を表示または非表示にします。"
+    },
+    "margin_settings": {
+      "label": "マージン設定",
+      "top": {
+        "label": "上部"
+      },
+      "bottom": {
+        "label": "下部"
+      },
+      "left": {
+        "label": "左側"
+      },
+      "right": {
+        "label": "右側"
+      },
+      "helper_text": "ラベルのためにチャートの端とプロットエリアの間のスペースを調整します。"
+    }
+  },
+  "style_tab": {
+    "label": "スタイル",
+    "background_color": {
+      "label": "背景色",
+      "options": [
+        "ウォームベージュ",
+        "透明",
+        "白",
+        "ライトグレー"
+      ],
+      "helper_text": "チャート表示および保存画像の背景色を選択します。"
+    },
+    "color_style": {
+      "label": "カラースタイル",
+      "options": [
+        "ミニマリスト",
+        "ビジネス",
+        "テック",
+        "北欧",
+        "サンセット",
+        "ヴィンテージ"
+      ],
+      "helper_text": "チャートのための事前定義されたカラーパレットを選択します。"
+    },
+    "bar_label_type": {
+      "label": "バーラベル",
+      "options": [
+        "なし",
+        "値"
+      ],
+      "helper_text": "各バーに値を表示する方法を選択します。"
+    },
+    "line_style": {
+      "label": "ラインスタイル",
+      "options": [
+        "直線",
+        "スムースナチュラル",
+        "スムース Catmull-Rom",
+        "モノトーン X",
+        "モノトーン Y",
+        "ステップ",
+        "ステップ（前）",
+        "ステップ（後）"
+      ],
+      "helper_text": "ラインチャートのデータポイントの接続方法を選択します。"
+    },
+    "area_fill": {
+      "label": "エリアフィル",
+      "options": [
+        "なし",
+        "ライン下部を塗りつぶし"
+      ],
+      "helper_text": "ラインのみを表示するか、ライン下部のエリアを塗りつぶすかを選択します。"
+    },
+    "pie_top_items": {
+      "label": "円グラフ上位項目",
+      "helper_text": "上位N項目を表示し、それ以外を「その他」としてグループ化します。"
+    },
+    "pie_inner_radius": {
+      "label": "円グラフ内半径",
+      "helper_text": "中央の穴のサイズ（0% = 円グラフ、50% = ドーナツグラフ）。"
+    }
+  },
+  "axes_legend_tab": {
+    "label": "軸と凡例",
+    "axis_range": {
+      "label": "Y軸範囲",
+      "x_axis_range_label": "X軸範囲",
+      "min": {
+        "label": "最小値"
+      },
+      "max": {
+        "label": "最大値"
+      },
+      "helper_text": "データ軸スケールの最小値と最大値を設定します。"
+    },
+    "axis_scale_type_settings": {
+      "label": "軸スケールタイプ設定",
+      "x_axis": {
+        "label": "X軸",
+        "options": [
+          "自動",
+          "線形（数値のみ）",
+          "ポイント"
+        ],
+        "helper_text": "X軸に沿ってデータポイントをどのように分布させるかを選択します。"
+      },
+      "y_axis": {
+        "label": "Y軸",
+        "options": [
+          "線形",
+          "対数（ラインチャートのみ）",
+          "平方根（ラインチャートのみ）"
+        ],
+        "helper_text": "Y軸上のデータポイントの間隔を選択します。"
+      }
+    },
+    "x_axis_label_settings": {
+      "label": "X軸ラベル設定",
+      "text": {
+        "label": "テキスト",
+        "helper_text": "X軸の下に表示されるテキスト（非表示の場合は空白のままにします）。"
+      },
+      "y_offset": {
+        "label": "垂直オフセット",
+        "helper_text": "X軸とラベル間の垂直距離（大きい値で下方向に移動）。"
+      }
+    },
+    "y_axis_label_settings": {
+      "label": "Y軸ラベル設定",
+      "primary_y_axis_label_settings": "主Y軸ラベル設定",
+      "text": {
+        "label": "テキスト",
+        "helper_text": "Y軸の横に表示されるテキスト（非表示の場合は空白のままにします）。"
+      },
+      "x_offset": {
+        "label": "水平オフセット",
+        "helper_text_primary": "主（左）Y軸とラベル間の水平距離（負の値で左に移動）。",
+        "helper_text": "Y軸とラベル間の水平距離（負の値で左に移動）。"
+      }
+    },
+    "secondary_y_axis_label_settings": {
+      "label": "副Y軸ラベル設定",
+      "text": {
+        "label": "テキスト",
+        "helper_text": "副（右）Y軸の横に表示されるテキスト（非表示の場合は空白のままにします）。"
+      },
+      "x_offset": {
+        "label": "水平オフセット",
+        "helper_text": "副（右）Y軸とラベル間の水平距離（負の値で左に移動）。"
+      }
+    },
+    "reference_line_settings": {
+      "vertical_label": "基準線設定（縦）",
+      "horizontal_label": "基準線設定（横）",
+      "show": {
+        "label": "表示"
+      },
+      "y_axis_value": {
+        "label": "Y軸値"
+      },
+      "label_name": {
+        "label": "ラベル名"
+      },
+      "label_position": {
+        "label": "ラベル位置",
+        "options": [
+          "開始",
+          "中央",
+          "終了"
+        ]
+      },
+      "line_color": {
+        "label": "線の色",
+        "options": [
+          "ライトグレー",
+          "ライトブルー",
+          "オレンジ",
+          "グリーン",
+          "パープル",
+          "ブラック"
+        ]
+      },
+      "horizontal_helper_text": "カスタムラベル、色、X軸値と共に横基準線を追加してデータを比較します。",
+      "vertical_helper_text": "カスタムラベル、色、Y軸値と共に縦基準線を追加してデータを比較します。"
+    },
+    "arc_label_settings": {
+      "label": "円弧ラベル設定",
+      "display_type": {
+        "label": "表示形式",
+        "options": [
+          "なし",
+          "ラベルのみ",
+          "値のみ",
+          "割合のみ",
+          "ラベル（値）",
+          "ラベル（割合）",
+          "値（割合）",
+          "割合（値）"
+        ],
+        "helper_text": "円グラフセグメントのラベル表示方法を選択します。"
+      },
+      "min_percentage": {
+        "label": "最小ラベル割合",
+        "helper_text": "ラベルを表示する最小割合を設定します。"
+      },
+      "radius": {
+        "label": "ラベル位置",
+        "helper_text": "中心からの距離（50% = 中心から半分の位置）。"
+      }
+    },
+    "legend_settings": {
+      "label": "凡例設定",
+      "show": {
+        "label": "表示"
+      },
+      "direction": {
+        "label": "レイアウト方向",
+        "options": [
+          "行",
+          "列"
+        ]
+      },
+      "vertical": {
+        "label": "縦方向配置",
+        "options": [
+          "上",
+          "中央",
+          "下"
+        ]
+      },
+      "horizontal": {
+        "label": "横方向配置",
+        "options": [
+          "左",
+          "中央",
+          "右"
+        ]
+      },
+      "padding": {
+        "label": "余白"
+      },
+      "helper_text": "凡例の表示、位置、間隔オプションを調整して読みやすくします。"
+    }
+  }
+}

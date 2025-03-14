@@ -1,0 +1,279 @@
+{
+  "dialog_title": "Personalizar Estilo",
+  "reset_button": "Redefinir",
+  "confirm_button": "Confirmar",
+  "basic_tab": {
+    "label": "Básico",
+    "chart_width": {
+      "label": "Largura do Gráfico",
+      "helper_text": "Defina a largura para exibir todos os dados de forma clara e completa."
+    },
+    "bar_direction": {
+      "label": "Direção das Barras",
+      "options": [
+        "Vertical",
+        "Horizontal"
+      ],
+      "helper_text": "Defina se as barras serão exibidas na horizontal ou vertical."
+    },
+    "grid_lines": {
+      "label": "Linhas de Grade",
+      "vertical": {
+        "label": "Vertical",
+        "options": [
+          "Mostrar",
+          "Ocultar"
+        ]
+      },
+      "horizontal": {
+        "label": "Horizontal",
+        "options": [
+          "Mostrar",
+          "Ocultar"
+        ]
+      },
+      "helper_text": "Mostrar ou ocultar as linhas de grade no fundo do gráfico."
+    },
+    "margin_settings": {
+      "label": "Margens",
+      "top": {
+        "label": "Superior"
+      },
+      "bottom": {
+        "label": "Inferior"
+      },
+      "left": {
+        "label": "Esquerda"
+      },
+      "right": {
+        "label": "Direita"
+      },
+      "helper_text": "Ajuste o espaço entre as bordas do gráfico e a área de plotagem para acomodar os rótulos."
+    }
+  },
+  "style_tab": {
+    "label": "Estilo",
+    "background_color": {
+      "label": "Cor de Fundo",
+      "options": [
+        "Bege Quente",
+        "Transparente",
+        "Branco",
+        "Cinza Claro"
+      ],
+      "helper_text": "Selecione a cor de fundo para exibição no gráfico e na imagem salva."
+    },
+    "color_style": {
+      "label": "Estilo de Cores",
+      "options": [
+        "Minimalista",
+        "Corporativo",
+        "Tecnológico",
+        "Nórdico",
+        "Pôr do Sol",
+        "Vintage"
+      ],
+      "helper_text": "Escolha uma paleta de cores pré-definida para o seu gráfico."
+    },
+    "bar_label_type": {
+      "label": "Rótulos nas Barras",
+      "options": [
+        "Nenhum",
+        "Valor"
+      ],
+      "helper_text": "Escolha como os valores serão exibidos em cada barra."
+    },
+    "line_style": {
+      "label": "Estilo das Linhas",
+      "options": [
+        "Linear",
+        "Suave Natural",
+        "Suave Catmull-Rom",
+        "Monotônico X",
+        "Monotônico Y",
+        "Degrau",
+        "Degrau Antes",
+        "Degrau Depois"
+      ],
+      "helper_text": "Defina como os pontos de dados serão conectados no gráfico de linha."
+    },
+    "area_fill": {
+      "label": "Preenchimento de Área",
+      "options": [
+        "Nenhum",
+        "Preencher Abaixo da Linha"
+      ],
+      "helper_text": "Escolha entre exibir apenas as linhas ou preencher a área abaixo das linhas."
+    },
+    "pie_top_items": {
+      "label": "Principais Itens no Gráfico de Pizza",
+      "helper_text": "Exiba os N principais itens e agrupe os demais como 'Outros'."
+    },
+    "pie_inner_radius": {
+      "label": "Raio Interno do Gráfico de Pizza",
+      "helper_text": "Tamanho do furo central (0% = pizza, 50% = rosquinha)."
+    }
+  },
+  "axes_legend_tab": {
+    "label": "Eixos & Legenda",
+    "axis_range": {
+      "label": "Intervalo do Eixo Y",
+      "x_axis_range_label": "Intervalo do Eixo X",
+      "min": {
+        "label": "Valor Mínimo"
+      },
+      "max": {
+        "label": "Valor Máximo"
+      },
+      "helper_text": "Defina os valores mínimo e máximo para a escala do eixo de dados."
+    },
+    "axis_scale_type_settings": {
+      "label": "Configurações de Escala do Eixo",
+      "x_axis": {
+        "label": "Eixo X",
+        "options": [
+          "Automático",
+          "Linear (Apenas Números)",
+          "Pontos"
+        ],
+        "helper_text": "Escolha como os pontos de dados serão distribuídos ao longo do eixo X."
+      },
+      "y_axis": {
+        "label": "Eixo Y",
+        "options": [
+          "Linear",
+          "Logarítmico (Apenas Gráficos de Linhas)",
+          "Raiz Quadrada (Apenas Gráficos de Linhas)"
+        ],
+        "helper_text": "Escolha como espaçar os pontos de dados no eixo Y."
+      }
+    },
+    "x_axis_label_settings": {
+      "label": "Configurações do Rótulo do Eixo X",
+      "text": {
+        "label": "Texto",
+        "helper_text": "Texto exibido abaixo do eixo X (deixe vazio para ocultar)."
+      },
+      "y_offset": {
+        "label": "Deslocamento Vertical",
+        "helper_text": "Distância vertical entre o eixo X e os rótulos (valores maiores movem para baixo)."
+      }
+    },
+    "y_axis_label_settings": {
+      "label": "Configurações do Rótulo do Eixo Y",
+      "primary_y_axis_label_settings": "Configurações do Rótulo do Eixo Y Primário",
+      "text": {
+        "label": "Texto",
+        "helper_text": "Texto exibido ao lado do eixo Y (deixe vazio para ocultar)."
+      },
+      "x_offset": {
+        "label": "Deslocamento Horizontal",
+        "helper_text_primary": "Distância horizontal entre o eixo Y primário (esquerda) e os rótulos (valores negativos movem para a esquerda).",
+        "helper_text": "Distância horizontal entre o eixo Y e os rótulos (valores negativos movem para a esquerda)."
+      }
+    },
+    "secondary_y_axis_label_settings": {
+      "label": "Configurações do Rótulo do Eixo Y Secundário",
+      "text": {
+        "label": "Texto",
+        "helper_text": "Texto exibido ao lado do eixo Y secundário (direita) (deixe vazio para ocultar)."
+      },
+      "x_offset": {
+        "label": "Deslocamento Horizontal",
+        "helper_text": "Distância horizontal entre o eixo Y secundário (direita) e os rótulos (valores negativos movem para a esquerda)."
+      }
+    },
+    "reference_line_settings": {
+      "vertical_label": "Configurações de Linha de Referência (Vertical)",
+      "horizontal_label": "Configurações de Linha de Referência (Horizontal)",
+      "show": {
+        "label": "Exibir"
+      },
+      "y_axis_value": {
+        "label": "Valor no Eixo Y"
+      },
+      "label_name": {
+        "label": "Nome do Rótulo"
+      },
+      "label_position": {
+        "label": "Posição do Rótulo",
+        "options": [
+          "Início",
+          "Meio",
+          "Fim"
+        ]
+      },
+      "line_color": {
+        "label": "Cor da Linha",
+        "options": [
+          "Cinza Claro",
+          "Azul Claro",
+          "Laranja",
+          "Verde",
+          "Roxo",
+          "Preto"
+        ]
+      },
+      "horizontal_helper_text": "Adicione linhas horizontais com rótulos, cores e valores de eixo X personalizados para comparar dados.",
+      "vertical_helper_text": "Adicione linhas verticais com rótulos, cores e valores de eixo Y personalizados para comparar dados."
+    },
+    "arc_label_settings": {
+      "label": "Configurações de Rótulos no Arco",
+      "display_type": {
+        "label": "Formato de Exibição",
+        "options": [
+          "Nenhum",
+          "Apenas Rótulo",
+          "Apenas Valor",
+          "Apenas Porcentagem",
+          "Rótulo (Valor)",
+          "Rótulo (Porcentagem)",
+          "Valor (Porcentagem)",
+          "Porcentagem (Valor)"
+        ],
+        "helper_text": "Escolha como os rótulos aparecem nos segmentos do gráfico de pizza."
+      },
+      "min_percentage": {
+        "label": "Porcentagem Mínima para Rótulos",
+        "helper_text": "Defina a porcentagem mínima para exibir os rótulos."
+      },
+      "radius": {
+        "label": "Posição do Rótulo",
+        "helper_text": "Distância do centro (50% = metade do caminho a partir do centro)."
+      }
+    },
+    "legend_settings": {
+      "label": "Configurações da Legenda",
+      "show": {
+        "label": "Exibir"
+      },
+      "direction": {
+        "label": "Direção do Layout",
+        "options": [
+          "Linha",
+          "Coluna"
+        ]
+      },
+      "vertical": {
+        "label": "Alinhamento Vertical",
+        "options": [
+          "Topo",
+          "Meio",
+          "Base"
+        ]
+      },
+      "horizontal": {
+        "label": "Alinhamento Horizontal",
+        "options": [
+          "Esquerda",
+          "Meio",
+          "Direita"
+        ]
+      },
+      "padding": {
+        "label": "Espaçamento"
+      },
+      "helper_text": "Controle a exibição, posição e espaçamento da legenda para melhorar a legibilidade."
+    }
+  }
+}
