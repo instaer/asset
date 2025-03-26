@@ -17,6 +17,21 @@
     "configure_button_text": "Нажмите, чтобы настроить выбор данных.",
     "create_button": "Создать",
     "customize_style_button": "Настроить стиль",
+    "chart_quick_fixes": {
+      "title": "Быстрая настройка графика",
+      "fix_chart_width": {
+        "label": "Нужно больше или меньше места на графике?",
+        "instruction": "Перетащите, чтобы настроить ширину до идеального вида!",
+        "minMarkLabel": "Уже",
+        "maxMarkLabel": "Шире"
+      },
+      "fix_legend_spacing": {
+        "label": "Легенда слишком близко или далеко от графика?",
+        "instruction": "Отрегулируйте идеальное расстояние между графиком и легендой!",
+        "minMarkLabel": "Ближе",
+        "maxMarkLabel": "Дальше"
+      }
+    },
     "key_features_title": "Ключевые особенности {{name}}",
     "faqs_title": "Часто задаваемые вопросы",
     "more_charts_title": "Другие графики, которые вы можете создать"

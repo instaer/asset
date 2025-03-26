@@ -48,7 +48,7 @@
       "right": {
         "label": "Rechts"
       },
-      "helper_text": "Passen Sie den Abstand zwischen den Diagrammrändern und dem Plotbereich für Beschriftungen an."
+      "helper_text": "Passe den Platz um das Diagramm an. Verhindere Überlappungen oder bringe Elemente näher zusammen."
     }
   },
   "style_tab": {
@@ -145,7 +145,7 @@
           "Logarithmisch (nur Liniendiagramme)",
           "Quadratwurzel (nur Liniendiagramme)"
         ],
-        "helper_text": "Bestimmen Sie die Skalierung der Datenpunkte entlang der Y-Achse."
+        "helper_text": "Wähle aus, wie die Daten auf der Y-Achse verteilt werden."
       }
     },
     "x_axis_label_settings": {

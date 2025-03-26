@@ -48,7 +48,7 @@
       "right": {
         "label": "Destra"
       },
-      "helper_text": "Regola lo spazio tra i bordi del grafico e l'area di tracciamento per le etichette."
+      "helper_text": "Regola lo spazio del grafico per una buona visualizzazione. Evita sovrapposizioni o avvicina gli elementi."
     }
   },
   "style_tab": {
@@ -145,7 +145,7 @@
           "Logaritmica (Solo Grafici a Linea)",
           "Radice Quadrata (Solo Grafici a Linea)"
         ],
-        "helper_text": "Scegli come distribuire i punti dati lungo l'asse Y."
+        "helper_text": "Scegli come distribuire i dati sull'asse Y."
       }
     },
     "x_axis_label_settings": {

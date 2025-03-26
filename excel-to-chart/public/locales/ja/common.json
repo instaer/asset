@@ -17,6 +17,21 @@
     "configure_button_text": "データ選択をカスタマイズするにはクリックしてください。",
     "create_button": "作成する",
     "customize_style_button": "スタイルをカスタマイズ",
+    "chart_quick_fixes": {
+      "title": "グラフの簡単調整",
+      "fix_chart_width": {
+        "label": "グラフの幅を調整したいですか？",
+        "instruction": "スライドして、見やすい幅に調整できます！",
+        "minMarkLabel": "狭く",
+        "maxMarkLabel": "広く"
+      },
+      "fix_legend_spacing": {
+        "label": "凡例とグラフの間隔を調整したいですか？",
+        "instruction": "スライドして、最適な間隔に調整できます！",
+        "minMarkLabel": "近く",
+        "maxMarkLabel": "遠く"
+      }
+    },
     "key_features_title": "{{name}}の主な特徴",
     "faqs_title": "よくある質問",
     "more_charts_title": "作成可能な他のグラフ"

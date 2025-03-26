@@ -17,6 +17,21 @@
     "configure_button_text": "Clique para personalizar a seleção de dados.",
     "create_button": "Criar",
     "customize_style_button": "Personalizar Estilo",
+    "chart_quick_fixes": {
+      "title": "Ajustes Rápidos do Gráfico",
+      "fix_chart_width": {
+        "label": "Precisa de mais ou menos espaço no seu gráfico?",
+        "instruction": "Arraste para ajustar a largura até ficar perfeito!",
+        "minMarkLabel": "Mais estreito",
+        "maxMarkLabel": "Mais largo"
+      },
+      "fix_legend_spacing": {
+        "label": "Legenda muito próxima ou distante do gráfico?",
+        "instruction": "Deslize para ajustar o espaçamento ideal entre o gráfico e a legenda!",
+        "minMarkLabel": "Mais perto",
+        "maxMarkLabel": "Mais longe"
+      }
+    },
     "key_features_title": "Principais Recursos de {{name}}",
     "faqs_title": "Perguntas Frequentes",
     "more_charts_title": "Mais Gráficos que Você Pode Criar"

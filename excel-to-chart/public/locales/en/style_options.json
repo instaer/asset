@@ -48,7 +48,7 @@
       "right": {
         "label": "Right"
       },
-      "helper_text": "Adjust spacing between chart edges and plot area for labels."
+      "helper_text": "Adjust the chart's outer spacing to prevent overlap and ensure enough room for labels, titles, or legends."
     }
   },
   "style_tab": {

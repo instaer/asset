@@ -48,7 +48,7 @@
       "right": {
         "label": "Direita"
       },
-      "helper_text": "Ajuste o espaço entre as bordas do gráfico e a área de plotagem para acomodar os rótulos."
+      "helper_text": "Ajuste o espaço do gráfico para melhor visualização. Evite sobreposições ou aproxime os elementos."
     }
   },
   "style_tab": {
@@ -145,7 +145,7 @@
           "Logarítmico (Apenas Gráficos de Linhas)",
           "Raiz Quadrada (Apenas Gráficos de Linhas)"
         ],
-        "helper_text": "Escolha como espaçar os pontos de dados no eixo Y."
+        "helper_text": "Escolha como os dados serão distribuídos no eixo Y."
       }
     },
     "x_axis_label_settings": {

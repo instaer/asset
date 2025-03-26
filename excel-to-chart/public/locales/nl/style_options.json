@@ -48,7 +48,7 @@
       "right": {
         "label": "Rechts"
       },
-      "helper_text": "Pas de ruimte aan tussen de grafiekranden en het plotgebied voor labels."
+      "helper_text": "Pas de ruimte van de grafiek aan voor goede zichtbaarheid. Voorkom overlapping of breng elementen dichterbij."
     }
   },
   "style_tab": {
@@ -145,7 +145,7 @@
           "Logaritmisch (Alleen Lijngrafieken)",
           "Wortel (Alleen Lijngrafieken)"
         ],
-        "helper_text": "Kies hoe je datapunten op de Y-as wilt spreiden."
+        "helper_text": "Kies hoe de gegevens op de Y-as worden verdeeld."
       }
     },
     "x_axis_label_settings": {

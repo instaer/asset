@@ -48,7 +48,7 @@
       "right": {
         "label": "Droite"
       },
-      "helper_text": "Ajustez l'espace entre les bords du graphique et la zone de tracé pour les étiquettes."
+      "helper_text": "Ajustez l'espace du graphique pour une bonne visibilité. Évitez les superpositions ou rapprochez les éléments."
     }
   },
   "style_tab": {
@@ -145,7 +145,7 @@
           "Logarithmique (graphiques en ligne uniquement)",
           "Racine carrée (graphiques en ligne uniquement)"
         ],
-        "helper_text": "Choisissez comment espacer vos points de données sur l'axe Y."
+        "helper_text": "Choisissez la façon dont les données sont espacées sur l'axe Y."
       }
     },
     "x_axis_label_settings": {

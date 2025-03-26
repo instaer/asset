@@ -17,6 +17,21 @@
     "configure_button_text": "اضغط لتخصيص اختيار البيانات.",
     "create_button": "إنشاء",
     "customize_style_button": "تخصيص النمط",
+    "chart_quick_fixes": {
+      "title": "تعديلات سريعة للرسم البياني",
+      "fix_chart_width": {
+        "label": "تحتاج مساحة أكبر أو أصغر في الرسم البياني؟",
+        "instruction": "اسحب لضبط العرض حتى يبدو مثالياً!",
+        "minMarkLabel": "أضيق",
+        "maxMarkLabel": "أوسع"
+      },
+      "fix_legend_spacing": {
+        "label": "وسيلة الإيضاح قريبة جداً أو بعيدة عن الرسم؟",
+        "instruction": "حرك لضبط المسافة المثالية بين الرسم البياني ووسيلة الإيضاح!",
+        "minMarkLabel": "أقرب",
+        "maxMarkLabel": "أبعد"
+      }
+    },
     "key_features_title": "أهم ميزات {{name}}",
     "faqs_title": "الأسئلة الشائعة",
     "more_charts_title": "المزيد من الرسوم البيانية التي يمكنك إنشاؤها"

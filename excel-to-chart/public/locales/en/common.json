@@ -17,6 +17,21 @@
     "configure_button_text": "Click to customize data selection.",
     "create_button": "Create",
     "customize_style_button": "Customize Style",
+    "chart_quick_fixes": {
+      "title": "Quick Chart Fixes",
+      "fix_chart_width": {
+        "label": "Need more or less space in your chart?",
+        "instruction": "Drag to adjust the chart width until it looks just right!",
+        "minMarkLabel": "Narrower",
+        "maxMarkLabel": "Wider"
+      },
+      "fix_legend_spacing": {
+        "label": "Chart and legend too close or too far?",
+        "instruction": "Slide to adjust the perfect spacing between chart and legend!",
+        "minMarkLabel": "Closer",
+        "maxMarkLabel": "Farther"
+      }
+    },
     "key_features_title": "{{name}} Key Features",
     "faqs_title": "FAQs",
     "more_charts_title": "More Charts You Can Create"

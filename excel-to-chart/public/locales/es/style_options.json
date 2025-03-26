@@ -48,7 +48,7 @@
       "right": {
         "label": "Derecho"
       },
-      "helper_text": "Ajusta el espacio entre los bordes del gráfico y el área de trazado para las etiquetas."
+      "helper_text": "Ajusta el espacio del gráfico para que todo se vea bien. Evita que se superpongan o acércalos."
     }
   },
   "style_tab": {
@@ -145,7 +145,7 @@
           "Logarítmico (solo gráficos de línea)",
           "Raíz cuadrada (solo gráficos de línea)"
         ],
-        "helper_text": "Elige cómo espaciar los puntos de datos en el eje Y."
+        "helper_text": "Elige cómo se distribuyen los datos en el eje Y."
       }
     },
     "x_axis_label_settings": {

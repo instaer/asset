@@ -17,6 +17,21 @@
     "configure_button_text": "데이터 선택을 커스터마이즈하려면 클릭하세요.",
     "create_button": "생성하기",
     "customize_style_button": "스타일 커스터마이즈",
+    "chart_quick_fixes": {
+      "title": "차트 빠른 조정",
+      "fix_chart_width": {
+        "label": "차트 공간을 더 넓게 또는 좁게 조정하고 싶으신가요?",
+        "instruction": "차트 폭을 원하는 크기로 조절해보세요!",
+        "minMarkLabel": "좁게",
+        "maxMarkLabel": "넓게"
+      },
+      "fix_legend_spacing": {
+        "label": "범례와 차트 사이 간격이 너무 좁거나 넓나요?",
+        "instruction": "차트와 범례 사이의 간격을 조절해보세요!",
+        "minMarkLabel": "더 가깝게",
+        "maxMarkLabel": "더 멀게"
+      }
+    },
     "key_features_title": "{{name}} 주요 특징",
     "faqs_title": "자주 묻는 질문",
     "more_charts_title": "더 많은 차트를 만들어보세요"

@@ -17,6 +17,21 @@
     "configure_button_text": "點擊以自訂數據選擇。",
     "create_button": "生成圖表",
     "customize_style_button": "自訂樣式",
+    "chart_quick_fixes": {
+      "title": "圖表快速調整",
+      "fix_chart_width": {
+        "label": "想調整圖表的顯示空間？",
+        "instruction": "拖動滑塊來調整圖表寬度，讓顯示效果更好！",
+        "minMarkLabel": "收窄",
+        "maxMarkLabel": "加寬"
+      },
+      "fix_legend_spacing": {
+        "label": "圖例和圖表的間距不合適？",
+        "instruction": "滑動來調整圖表與圖例之間的距離！",
+        "minMarkLabel": "收緊",
+        "maxMarkLabel": "放寬"
+      }
+    },
     "key_features_title": "{{name}} 的主要功能",
     "faqs_title": "常見問題",
     "more_charts_title": "更多您可以創建的圖表"

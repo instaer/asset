@@ -17,6 +17,21 @@
     "configure_button_text": "Klik om de gegevensselectie aan te passen.",
     "create_button": "Maak Grafiek",
     "customize_style_button": "Stijl Aanpassen",
+    "chart_quick_fixes": {
+      "title": "Snelle Grafiekaanpassingen",
+      "fix_chart_width": {
+        "label": "Meer of minder ruimte nodig in je grafiek?",
+        "instruction": "Sleep om de breedte aan te passen tot het er perfect uitziet!",
+        "minMarkLabel": "Smaller",
+        "maxMarkLabel": "Breder"
+      },
+      "fix_legend_spacing": {
+        "label": "Legenda te dicht bij of te ver van de grafiek?",
+        "instruction": "Schuif om de perfecte afstand tussen grafiek en legenda te vinden!",
+        "minMarkLabel": "Dichterbij",
+        "maxMarkLabel": "Verder weg"
+      }
+    },
     "key_features_title": "{{name}} Belangrijkste Kenmerken",
     "faqs_title": "Veelgestelde Vragen",
     "more_charts_title": "Meer Grafieken Die Je Kunt Maken"

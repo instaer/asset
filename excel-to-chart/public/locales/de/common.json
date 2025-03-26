@@ -17,6 +17,21 @@
     "configure_button_text": "Klicken Sie, um die Datenauswahl anzupassen.",
     "create_button": "Erstellen",
     "customize_style_button": "Stil anpassen",
+    "chart_quick_fixes": {
+      "title": "Schnelle Diagramm-Anpassungen",
+      "fix_chart_width": {
+        "label": "Mehr oder weniger Platz im Diagramm benötigt?",
+        "instruction": "Ziehen Sie den Regler, bis die Breite optimal ist!",
+        "minMarkLabel": "Schmaler",
+        "maxMarkLabel": "Breiter"
+      },
+      "fix_legend_spacing": {
+        "label": "Legende zu nah oder zu weit vom Diagramm?",
+        "instruction": "Stellen Sie den perfekten Abstand zwischen Diagramm und Legende ein!",
+        "minMarkLabel": "Näher",
+        "maxMarkLabel": "Weiter"
+      }
+    },
     "key_features_title": "{{name}} Hauptfunktionen",
     "faqs_title": "Häufig gestellte Fragen",
     "more_charts_title": "Weitere Diagramme, die Sie erstellen können"
