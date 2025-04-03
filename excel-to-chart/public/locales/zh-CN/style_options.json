@@ -184,13 +184,22 @@
       }
     },
     "reference_line_settings": {
-      "vertical_label": "参考线设置（垂直）",
-      "horizontal_label": "参考线设置（水平）",
+      "label": "参考线设置",
       "show": {
         "label": "显示"
       },
+      "orientation": {
+        "label": "方向",
+        "options": [
+          "水平",
+          "垂直"
+        ]
+      },
       "y_axis_value": {
-        "label": "Y 轴值"
+        "label": "Y轴值"
+      },
+      "x_axis_value": {
+        "label": "X轴值"
       },
       "label_name": {
         "label": "标签名称"
@@ -198,7 +207,7 @@
       "label_position": {
         "label": "标签位置",
         "options": [
-          "起始",
+          "开始",
           "中间",
           "末尾"
         ]
@@ -214,8 +223,7 @@
           "黑色"
         ]
       },
-      "horizontal_helper_text": "添加水平参考线，并可自定义标签、颜色和X 轴值。",
-      "vertical_helper_text": "添加垂直参考线，并可自定义标签、颜色和Y 轴值。"
+      "helper_text": "添加带颜色和标签的水平或垂直线，用于对比数据点。"
     },
     "arc_label_settings": {
       "label": "饼图标签设置",

@@ -1,0 +1,51 @@
+{
+  "pageTitle": "隐私政策 | ExcelToChart.com",
+  "mainTitle": "隐私政策",
+  "lastUpdated": "最后更新时间：{{date}}",
+  "introduction": {
+    "paragraph1": "在 {{name}} ({{url}})，我们致力于保护您的隐私。本隐私政策解释了我们的数据处理惯例。"
+  },
+  "dataCollection": {
+    "title": "数据收集和使用",
+    "list": {
+      "item1": "我们不收集、存储或传输您的任何 Excel 文件或数据",
+      "item2": "所有文件处理都在您的浏览器本地进行",
+      "item3": "没有用户数据上传到我们的服务器"
+    }
+  },
+  "technicalInfo": {
+    "title": "技术信息",
+    "paragraph1": "我们可能会收集基本的分析数据，例如：",
+    "list": {
+      "item1": "浏览器类型和版本",
+      "item2": "操作系统",
+      "item3": "页面访问统计",
+      "item4": "来源网站"
+    }
+  },
+  "cookies": {
+    "title": "Cookies",
+    "list": {
+      "item1": "我们仅将必要的 Cookie 用于网站功能",
+      "item2": "不使用跟踪或广告 Cookie"
+    }
+  },
+  "dataSecurity": {
+    "title": "数据安全",
+    "list": {
+      "item1": "由于所有数据处理都在您的浏览器本地进行，您的文件将保持安全",
+      "item2": "我们实施标准的安全措施来保护我们的网站"
+    }
+  },
+  "changes": {
+    "title": "隐私政策变更",
+    "paragraph1": "我们可能会根据需要更新此政策。更改将发布在此页面上。"
+  },
+  "contact": {
+    "title": "联系我们",
+    "paragraph1": "有关隐私问题，请联系："
+  },
+  "footer": {
+    "text1": "使用 {{name}} 即表示您同意本隐私政策。"
+  }
+}

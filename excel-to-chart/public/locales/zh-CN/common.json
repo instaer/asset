@@ -36,6 +36,10 @@
     "faqs_title": "常见问题",
     "more_charts_title": "更多图表类型"
   },
+  "footer": {
+    "feedback_label": "反馈",
+    "privacy_label": "隐私"
+  },
   "charts": [
     {
       "name": "柱状图",

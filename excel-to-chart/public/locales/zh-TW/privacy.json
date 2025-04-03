@@ -1,0 +1,51 @@
+{
+  "pageTitle": "隱私權政策 | ExcelToChart.com",
+  "mainTitle": "隱私權政策",
+  "lastUpdated": "最後更新時間：{{date}}",
+  "introduction": {
+    "paragraph1": "在 {{name}} ({{url}})，我們致力於保護您的隱私。本隱私權政策說明了我們的資料處理方式。"
+  },
+  "dataCollection": {
+    "title": "資料收集與使用",
+    "list": {
+      "item1": "我們不收集、儲存或傳輸您的任何 Excel 檔案或資料",
+      "item2": "所有檔案處理都在您的瀏覽器本機進行",
+      "item3": "沒有使用者資料上傳到我們的伺服器"
+    }
+  },
+  "technicalInfo": {
+    "title": "技術資訊",
+    "paragraph1": "我們可能會收集基本的分析資料，例如：",
+    "list": {
+      "item1": "瀏覽器類型與版本",
+      "item2": "作業系統",
+      "item3": "頁面造訪統計",
+      "item4": "來源網站"
+    }
+  },
+  "cookies": {
+    "title": "Cookies",
+    "list": {
+      "item1": "我們僅將必要的 Cookie 用於網站功能",
+      "item2": "不使用追蹤或廣告 Cookie"
+    }
+  },
+  "dataSecurity": {
+    "title": "資料安全",
+    "list": {
+      "item1": "由於所有資料處理都在您的瀏覽器本機進行，您的檔案將保持安全",
+      "item2": "我們實施標準的安全措施來保護我們的網站"
+    }
+  },
+  "changes": {
+    "title": "隱私權政策變更",
+    "paragraph1": "我們可能會視需要更新此政策。變更將發佈在此頁面上。"
+  },
+  "contact": {
+    "title": "聯絡我們",
+    "paragraph1": "有關隱私權問題，請聯絡："
+  },
+  "footer": {
+    "text1": "使用 {{name}} 即表示您同意本隱私權政策。"
+  }
+}

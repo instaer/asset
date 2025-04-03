@@ -184,13 +184,22 @@
       }
     },
     "reference_line_settings": {
-      "vertical_label": "基準線設定（縦）",
-      "horizontal_label": "基準線設定（横）",
+      "label": "参照線設定",
       "show": {
         "label": "表示"
       },
+      "orientation": {
+        "label": "方向",
+        "options": [
+          "水平",
+          "垂直"
+        ]
+      },
       "y_axis_value": {
-        "label": "Y軸値"
+        "label": "Y軸の値"
+      },
+      "x_axis_value": {
+        "label": "X軸の値"
       },
       "label_name": {
         "label": "ラベル名"
@@ -214,8 +223,7 @@
           "ブラック"
         ]
       },
-      "horizontal_helper_text": "カスタムラベル、色、X軸値と共に横基準線を追加してデータを比較します。",
-      "vertical_helper_text": "カスタムラベル、色、Y軸値と共に縦基準線を追加してデータを比較します。"
+      "helper_text": "データポイントを比較するために、色とラベル付きの水平または垂直線を追加します。"
     },
     "arc_label_settings": {
       "label": "円弧ラベル設定",

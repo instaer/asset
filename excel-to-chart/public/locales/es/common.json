@@ -36,6 +36,10 @@
     "faqs_title": "Preguntas Frecuentes",
     "more_charts_title": "Más Gráficos que Puedes Crear"
   },
+  "footer": {
+    "feedback_label": "Comentarios",
+    "privacy_label": "Privacidad"
+  },
   "charts": [
     {
       "name": "Gráfico de Barras",

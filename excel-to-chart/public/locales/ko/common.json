@@ -36,6 +36,10 @@
     "faqs_title": "자주 묻는 질문",
     "more_charts_title": "더 많은 차트를 만들어보세요"
   },
+  "footer": {
+    "feedback_label": "피드백",
+    "privacy_label": "개인 정보 보호"
+  },
   "charts": [
     {
       "name": "막대 차트",

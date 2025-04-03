@@ -184,13 +184,22 @@
       }
     },
     "reference_line_settings": {
-      "vertical_label": "Configuración de línea de referencia (Vertical)",
-      "horizontal_label": "Configuración de línea de referencia (Horizontal)",
+      "label": "Configuración de la línea de referencia",
       "show": {
         "label": "Mostrar"
       },
+      "orientation": {
+        "label": "Orientación",
+        "options": [
+          "Horizontal",
+          "Vertical"
+        ]
+      },
       "y_axis_value": {
         "label": "Valor del eje Y"
+      },
+      "x_axis_value": {
+        "label": "Valor del eje X"
       },
       "label_name": {
         "label": "Nombre de la etiqueta"
@@ -210,12 +219,11 @@
           "Azul claro",
           "Naranja",
           "Verde",
-          "Púrpura",
+          "Morado",
           "Negro"
         ]
       },
-      "horizontal_helper_text": "Agrega líneas horizontales con etiquetas personalizadas, colores y valores del eje X para comparar datos.",
-      "vertical_helper_text": "Agrega líneas verticales con etiquetas personalizadas, colores y valores del eje Y para comparar datos."
+      "helper_text": "Añade líneas horizontales o verticales con colores y etiquetas para comparar puntos de datos."
     },
     "arc_label_settings": {
       "label": "Configuración de etiquetas de arco",

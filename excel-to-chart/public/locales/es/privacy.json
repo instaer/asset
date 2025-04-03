@@ -1,0 +1,51 @@
+{
+  "pageTitle": "Política de Privacidad | ExcelToChart.com",
+  "mainTitle": "Política de Privacidad",
+  "lastUpdated": "Última actualización: {{date}}",
+  "introduction": {
+    "paragraph1": "En {{name}} ({{url}}), estamos comprometidos a proteger su privacidad. Esta Política de Privacidad explica nuestras prácticas de datos."
+  },
+  "dataCollection": {
+    "title": "Recopilación y Uso de Datos",
+    "list": {
+      "item1": "No recopilamos, almacenamos ni transmitimos ninguno de sus archivos o datos de Excel",
+      "item2": "Todo el procesamiento de archivos ocurre localmente en su navegador",
+      "item3": "No se cargan datos de usuario en nuestros servidores"
+    }
+  },
+  "technicalInfo": {
+    "title": "Información Técnica",
+    "paragraph1": "Podemos recopilar datos analíticos básicos como:",
+    "list": {
+      "item1": "Tipo y versión del navegador",
+      "item2": "Sistema operativo",
+      "item3": "Estadísticas de visitas a la página",
+      "item4": "Sitio web de referencia"
+    }
+  },
+  "cookies": {
+    "title": "Cookies",
+    "list": {
+      "item1": "Utilizamos cookies esenciales únicamente para la funcionalidad del sitio web",
+      "item2": "No se utilizan cookies de seguimiento ni publicitarias"
+    }
+  },
+  "dataSecurity": {
+    "title": "Seguridad de los Datos",
+    "list": {
+      "item1": "Dado que todo el procesamiento de datos ocurre localmente en su navegador, sus archivos permanecen seguros",
+      "item2": "Implementamos medidas de seguridad estándar para proteger nuestro sitio web"
+    }
+  },
+  "changes": {
+    "title": "Cambios en la Política de Privacidad",
+    "paragraph1": "Podemos actualizar esta política según sea necesario. Los cambios se publicarán en esta página."
+  },
+  "contact": {
+    "title": "Contacto",
+    "paragraph1": "Para preguntas sobre privacidad, contacte a:"
+  },
+  "footer": {
+    "text1": "Al usar {{name}}, usted acepta esta Política de Privacidad."
+  }
+}

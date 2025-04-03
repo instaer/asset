@@ -1,0 +1,51 @@
+{
+  "pageTitle": "Privacy Policy | ExcelToChart.com",
+  "mainTitle": "Privacy Policy",
+  "lastUpdated": "Last updated: {{date}}",
+  "introduction": {
+    "paragraph1": "At {{name}} ({{url}}), we are committed to protecting your privacy. This Privacy Policy explains our data practices."
+  },
+  "dataCollection": {
+    "title": "Data Collection and Usage",
+    "list": {
+      "item1": "We do not collect, store, or transmit any of your Excel files or data",
+      "item2": "All file processing occurs locally in your browser",
+      "item3": "No user data is uploaded to our servers"
+    }
+  },
+  "technicalInfo": {
+    "title": "Technical Information",
+    "paragraph1": "We may collect basic analytics data such as:",
+    "list": {
+      "item1": "Browser type and version",
+      "item2": "Operating system",
+      "item3": "Page visit statistics",
+      "item4": "Referring website"
+    }
+  },
+  "cookies": {
+    "title": "Cookies",
+    "list": {
+      "item1": "We use essential cookies only for website functionality",
+      "item2": "No tracking or advertising cookies are used"
+    }
+  },
+  "dataSecurity": {
+    "title": "Data Security",
+    "list": {
+      "item1": "Since all data processing occurs locally in your browser, your files remain secure",
+      "item2": "We implement standard security measures to protect our website"
+    }
+  },
+  "changes": {
+    "title": "Changes to Privacy Policy",
+    "paragraph1": "We may update this policy as needed. Changes will be posted on this page."
+  },
+  "contact": {
+    "title": "Contact",
+    "paragraph1": "For privacy questions, contact:"
+  },
+  "footer": {
+    "text1": "By using {{name}}, you agree to this Privacy Policy."
+  }
+}

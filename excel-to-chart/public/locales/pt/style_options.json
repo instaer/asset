@@ -184,19 +184,28 @@
       }
     },
     "reference_line_settings": {
-      "vertical_label": "Configurações de Linha de Referência (Vertical)",
-      "horizontal_label": "Configurações de Linha de Referência (Horizontal)",
+      "label": "Configurações da linha de referência",
       "show": {
         "label": "Exibir"
       },
+      "orientation": {
+        "label": "Orientação",
+        "options": [
+          "Horizontal",
+          "Vertical"
+        ]
+      },
       "y_axis_value": {
-        "label": "Valor no Eixo Y"
+        "label": "Valor do eixo Y"
+      },
+      "x_axis_value": {
+        "label": "Valor do eixo X"
       },
       "label_name": {
-        "label": "Nome do Rótulo"
+        "label": "Nome do rótulo"
       },
       "label_position": {
-        "label": "Posição do Rótulo",
+        "label": "Posição do rótulo",
         "options": [
           "Início",
           "Meio",
@@ -204,18 +213,17 @@
         ]
       },
       "line_color": {
-        "label": "Cor da Linha",
+        "label": "Cor da linha",
         "options": [
-          "Cinza Claro",
-          "Azul Claro",
+          "Cinza claro",
+          "Azul claro",
           "Laranja",
           "Verde",
           "Roxo",
           "Preto"
         ]
       },
-      "horizontal_helper_text": "Adicione linhas horizontais com rótulos, cores e valores de eixo X personalizados para comparar dados.",
-      "vertical_helper_text": "Adicione linhas verticais com rótulos, cores e valores de eixo Y personalizados para comparar dados."
+      "helper_text": "Adicione linhas horizontais ou verticais com cores e rótulos para comparar pontos de dados."
     },
     "arc_label_settings": {
       "label": "Configurações de Rótulos no Arco",

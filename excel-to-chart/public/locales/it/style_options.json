@@ -184,19 +184,28 @@
       }
     },
     "reference_line_settings": {
-      "vertical_label": "Impostazioni Linea di Riferimento (Verticale)",
-      "horizontal_label": "Impostazioni Linea di Riferimento (Orizzontale)",
+      "label": "Impostazioni linea di riferimento",
       "show": {
         "label": "Mostra"
       },
+      "orientation": {
+        "label": "Orientamento",
+        "options": [
+          "Orizzontale",
+          "Verticale"
+        ]
+      },
       "y_axis_value": {
-        "label": "Valore Asse Y"
+        "label": "Valore asse Y"
+      },
+      "x_axis_value": {
+        "label": "Valore asse X"
       },
       "label_name": {
-        "label": "Nome Etichetta"
+        "label": "Nome etichetta"
       },
       "label_position": {
-        "label": "Posizione Etichetta",
+        "label": "Posizione etichetta",
         "options": [
           "Inizio",
           "Centro",
@@ -204,18 +213,17 @@
         ]
       },
       "line_color": {
-        "label": "Colore Linea",
+        "label": "Colore linea",
         "options": [
-          "Grigio Chiaro",
-          "Blu Chiaro",
+          "Grigio chiaro",
+          "Azzurro",
           "Arancione",
           "Verde",
           "Viola",
           "Nero"
         ]
       },
-      "horizontal_helper_text": "Aggiungi linee orizzontali con etichette, colori e valori asse X personalizzati per confrontare i dati.",
-      "vertical_helper_text": "Aggiungi linee verticali con etichette, colori e valori asse Y personalizzati per confrontare i dati."
+      "helper_text": "Aggiungi linee orizzontali o verticali con colori ed etichette per confrontare i punti dati."
     },
     "arc_label_settings": {
       "label": "Impostazioni Etichette Arco",

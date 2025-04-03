@@ -36,6 +36,10 @@
     "faqs_title": "FAQs",
     "more_charts_title": "More Charts You Can Create"
   },
+  "footer": {
+    "feedback_label": "Feedback",
+    "privacy_label": "Privacy"
+  },
   "charts": [
     {
       "name": "Bar Chart",

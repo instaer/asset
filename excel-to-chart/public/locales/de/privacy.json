@@ -1,0 +1,51 @@
+{
+  "pageTitle": "Datenschutzrichtlinie | ExcelToChart.com",
+  "mainTitle": "Datenschutzrichtlinie",
+  "lastUpdated": "Zuletzt aktualisiert: {{date}}",
+  "introduction": {
+    "paragraph1": "Bei {{name}} ({{url}}) verpflichten wir uns, Ihre Privatsphäre zu schützen. Diese Datenschutzrichtlinie erläutert unsere Datenpraktiken."
+  },
+  "dataCollection": {
+    "title": "Datenerhebung und -nutzung",
+    "list": {
+      "item1": "Wir sammeln, speichern oder übertragen keine Ihrer Excel-Dateien oder -Daten",
+      "item2": "Die gesamte Dateiverarbeitung erfolgt lokal in Ihrem Browser",
+      "item3": "Es werden keine Benutzerdaten auf unsere Server hochgeladen"
+    }
+  },
+  "technicalInfo": {
+    "title": "Technische Informationen",
+    "paragraph1": "Wir können grundlegende Analysedaten sammeln, wie z.B.:",
+    "list": {
+      "item1": "Browsertyp und -version",
+      "item2": "Betriebssystem",
+      "item3": "Seitenbesuchsstatistiken",
+      "item4": "Verweisende Website"
+    }
+  },
+  "cookies": {
+    "title": "Cookies",
+    "list": {
+      "item1": "Wir verwenden essentielle Cookies nur für die Funktionalität der Website",
+      "item2": "Es werden keine Tracking- oder Werbe-Cookies verwendet"
+    }
+  },
+  "dataSecurity": {
+    "title": "Datensicherheit",
+    "list": {
+      "item1": "Da die gesamte Datenverarbeitung lokal in Ihrem Browser stattfindet, bleiben Ihre Dateien sicher",
+      "item2": "Wir implementieren Standard-Sicherheitsmaßnahmen zum Schutz unserer Website"
+    }
+  },
+  "changes": {
+    "title": "Änderungen der Datenschutzrichtlinie",
+    "paragraph1": "Wir können diese Richtlinie bei Bedarf aktualisieren. Änderungen werden auf dieser Seite veröffentlicht."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "paragraph1": "Bei Fragen zum Datenschutz kontaktieren Sie bitte:"
+  },
+  "footer": {
+    "text1": "Durch die Nutzung von {{name}} stimmen Sie dieser Datenschutzrichtlinie zu."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "pageTitle": "Informativa sulla Privacy | ExcelToChart.com",
+  "mainTitle": "Informativa sulla Privacy",
+  "lastUpdated": "Ultimo aggiornamento: {{date}}",
+  "introduction": {
+    "paragraph1": "Presso {{name}} ({{url}}), ci impegniamo a proteggere la tua privacy. Questa Informativa sulla Privacy spiega le nostre pratiche relative ai dati."
+  },
+  "dataCollection": {
+    "title": "Raccolta e Utilizzo dei Dati",
+    "list": {
+      "item1": "Non raccogliamo, memorizziamo o trasmettiamo alcuno dei tuoi file o dati Excel",
+      "item2": "Tutta l'elaborazione dei file avviene localmente nel tuo browser",
+      "item3": "Nessun dato utente viene caricato sui nostri server"
+    }
+  },
+  "technicalInfo": {
+    "title": "Informazioni Tecniche",
+    "paragraph1": "Potremmo raccogliere dati analitici di base come:",
+    "list": {
+      "item1": "Tipo e versione del browser",
+      "item2": "Sistema operativo",
+      "item3": "Statistiche sulle visite alle pagine",
+      "item4": "Sito web di provenienza"
+    }
+  },
+  "cookies": {
+    "title": "Cookie",
+    "list": {
+      "item1": "Utilizziamo cookie essenziali solo per la funzionalità del sito web",
+      "item2": "Non vengono utilizzati cookie di tracciamento o pubblicitari"
+    }
+  },
+  "dataSecurity": {
+    "title": "Sicurezza dei Dati",
+    "list": {
+      "item1": "Poiché tutta l'elaborazione dei dati avviene localmente nel tuo browser, i tuoi file rimangono sicuri",
+      "item2": "Implementiamo misure di sicurezza standard per proteggere il nostro sito web"
+    }
+  },
+  "changes": {
+    "title": "Modifiche all'Informativa sulla Privacy",
+    "paragraph1": "Potremmo aggiornare questa informativa secondo necessità. Le modifiche verranno pubblicate su questa pagina."
+  },
+  "contact": {
+    "title": "Contatti",
+    "paragraph1": "Per domande sulla privacy, contatta:"
+  },
+  "footer": {
+    "text1": "Utilizzando {{name}}, accetti questa Informativa sulla Privacy."
+  }
+}

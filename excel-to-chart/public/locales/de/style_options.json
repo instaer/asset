@@ -184,16 +184,25 @@
       }
     },
     "reference_line_settings": {
-      "vertical_label": "Referenzlinien (Vertikal)",
-      "horizontal_label": "Referenzlinien (Horizontal)",
+      "label": "Referenzlinien-Einstellungen",
       "show": {
         "label": "Anzeigen"
+      },
+      "orientation": {
+        "label": "Ausrichtung",
+        "options": [
+          "Horizontal",
+          "Vertikal"
+        ]
       },
       "y_axis_value": {
         "label": "Y-Achsen-Wert"
       },
+      "x_axis_value": {
+        "label": "X-Achsen-Wert"
+      },
       "label_name": {
-        "label": "Bezeichnung"
+        "label": "Beschriftungsname"
       },
       "label_position": {
         "label": "Beschriftungsposition",
@@ -214,8 +223,7 @@
           "Schwarz"
         ]
       },
-      "horizontal_helper_text": "Fügen Sie horizontale Linien mit benutzerdefinierten Beschriftungen, Farben und X-Achsenwerten für Datenvergleiche hinzu.",
-      "vertical_helper_text": "Fügen Sie vertikale Linien mit benutzerdefinierten Beschriftungen, Farben und Y-Achsenwerten für Datenvergleiche hinzu."
+      "helper_text": "Fügen Sie horizontale oder vertikale Linien mit Farben und Beschriftungen hinzu, um Datenpunkte zu vergleichen."
     },
     "arc_label_settings": {
       "label": "Segmentbeschriftung",

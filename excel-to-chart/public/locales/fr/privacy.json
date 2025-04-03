@@ -1,0 +1,51 @@
+{
+  "pageTitle": "Politique de Confidentialité | ExcelToChart.com",
+  "mainTitle": "Politique de Confidentialité",
+  "lastUpdated": "Dernière mise à jour : {{date}}",
+  "introduction": {
+    "paragraph1": "Chez {{name}} ({{url}}), nous nous engageons à protéger votre vie privée. Cette Politique de Confidentialité explique nos pratiques en matière de données."
+  },
+  "dataCollection": {
+    "title": "Collecte et Utilisation des Données",
+    "list": {
+      "item1": "Nous ne collectons, ne stockons ni ne transmettons aucun de vos fichiers ou données Excel",
+      "item2": "Tout le traitement des fichiers se fait localement dans votre navigateur",
+      "item3": "Aucune donnée utilisateur n'est téléchargée sur nos serveurs"
+    }
+  },
+  "technicalInfo": {
+    "title": "Informations Techniques",
+    "paragraph1": "Nous pouvons collecter des données analytiques de base telles que :",
+    "list": {
+      "item1": "Type et version du navigateur",
+      "item2": "Système d'exploitation",
+      "item3": "Statistiques de visite des pages",
+      "item4": "Site web référent"
+    }
+  },
+  "cookies": {
+    "title": "Cookies",
+    "list": {
+      "item1": "Nous utilisons des cookies essentiels uniquement pour la fonctionnalité du site web",
+      "item2": "Aucun cookie de suivi ou publicitaire n'est utilisé"
+    }
+  },
+  "dataSecurity": {
+    "title": "Sécurité des Données",
+    "list": {
+      "item1": "Étant donné que tout le traitement des données se fait localement dans votre navigateur, vos fichiers restent sécurisés",
+      "item2": "Nous mettons en œuvre des mesures de sécurité standard pour protéger notre site web"
+    }
+  },
+  "changes": {
+    "title": "Modifications de la Politique de Confidentialité",
+    "paragraph1": "Nous pouvons mettre à jour cette politique si nécessaire. Les modifications seront publiées sur cette page."
+  },
+  "contact": {
+    "title": "Contact",
+    "paragraph1": "Pour les questions relatives à la confidentialité, contactez :"
+  },
+  "footer": {
+    "text1": "En utilisant {{name}}, vous acceptez cette Politique de Confidentialité."
+  }
+}

@@ -184,13 +184,22 @@
       }
     },
     "reference_line_settings": {
-      "vertical_label": "Reference Line Settings (Vertical)",
-      "horizontal_label": "Reference Line Settings (Horizontal)",
+      "label": "Reference Line Settings",
       "show": {
         "label": "Show"
       },
+      "orientation": {
+        "label": "Orientation",
+        "options": [
+          "Horizontal",
+          "Vertical"
+        ]
+      },
       "y_axis_value": {
         "label": "Y-Axis Value"
+      },
+      "x_axis_value": {
+        "label": "X-Axis Value"
       },
       "label_name": {
         "label": "Label Name"
@@ -214,8 +223,7 @@
           "Black"
         ]
       },
-      "horizontal_helper_text": "Add horizontal lines with custom labels, colors and X-axis values for data comparison.",
-      "vertical_helper_text": "Add horizontal lines with custom labels, colors and Y-axis values for data comparison."
+      "helper_text": "Add horizontal or vertical lines with colors and labels to compare data points."
     },
     "arc_label_settings": {
       "label": "Arc Label Settings",

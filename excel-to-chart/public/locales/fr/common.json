@@ -36,6 +36,10 @@
     "faqs_title": "Foire Aux Questions",
     "more_charts_title": "Autres Graphiques Que Vous Pouvez Créer"
   },
+  "footer": {
+    "feedback_label": "Commentaires",
+    "privacy_label": "Confidentialité"
+  },
   "charts": [
     {
       "name": "Graphique à Barres",

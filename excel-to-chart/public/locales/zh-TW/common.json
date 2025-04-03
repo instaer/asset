@@ -36,6 +36,10 @@
     "faqs_title": "常見問題",
     "more_charts_title": "更多您可以創建的圖表"
   },
+  "footer": {
+    "feedback_label": "意見回饋",
+    "privacy_label": "隱私權"
+  },
   "charts": [
     {
       "name": "柱狀圖",

@@ -184,13 +184,22 @@
       }
     },
     "reference_line_settings": {
-      "vertical_label": "Referentielijn Instellingen (Verticaal)",
-      "horizontal_label": "Referentielijn Instellingen (Horizontaal)",
+      "label": "Instellingen voor referentielijnen",
       "show": {
-        "label": "Weergeven"
+        "label": "Tonen"
+      },
+      "orientation": {
+        "label": "Oriëntatie",
+        "options": [
+          "Horizontaal",
+          "Verticaal"
+        ]
       },
       "y_axis_value": {
-        "label": "Waarde Y-as"
+        "label": "Y-as waarde"
+      },
+      "x_axis_value": {
+        "label": "X-as waarde"
       },
       "label_name": {
         "label": "Labelnaam"
@@ -198,7 +207,7 @@
       "label_position": {
         "label": "Labelpositie",
         "options": [
-          "Start",
+          "Begin",
           "Midden",
           "Einde"
         ]
@@ -214,8 +223,7 @@
           "Zwart"
         ]
       },
-      "horizontal_helper_text": "Voeg horizontale lijnen toe met aangepaste labels, kleuren en X-as waarden voor vergelijking.",
-      "vertical_helper_text": "Voeg verticale lijnen toe met aangepaste labels, kleuren en Y-as waarden voor vergelijking."
+      "helper_text": "Voeg horizontale of verticale lijnen toe met kleuren en labels om gegevenspunten te vergelijken."
     },
     "arc_label_settings": {
       "label": "Booglabel Instellingen",

@@ -36,6 +36,10 @@
     "faqs_title": "よくある質問",
     "more_charts_title": "作成可能な他のグラフ"
   },
+  "footer": {
+    "feedback_label": "フィードバック",
+    "privacy_label": "プライバシー"
+  },
   "charts": [
     {
       "name": "棒グラフ",

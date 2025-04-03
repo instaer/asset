@@ -36,6 +36,10 @@
     "faqs_title": "Häufig gestellte Fragen",
     "more_charts_title": "Weitere Diagramme, die Sie erstellen können"
   },
+  "footer": {
+    "feedback_label": "Feedback",
+    "privacy_label": "Datenschutz"
+  },
   "charts": [
     {
       "name": "Balkendiagramm",

@@ -184,13 +184,22 @@
       }
     },
     "reference_line_settings": {
-      "vertical_label": "Réglages des lignes de référence (verticales)",
-      "horizontal_label": "Réglages des lignes de référence (horizontales)",
+      "label": "Paramètres de ligne de référence",
       "show": {
         "label": "Afficher"
       },
+      "orientation": {
+        "label": "Orientation",
+        "options": [
+          "Horizontale",
+          "Verticale"
+        ]
+      },
       "y_axis_value": {
-        "label": "Valeur (axe Y)"
+        "label": "Valeur de l'axe Y"
+      },
+      "x_axis_value": {
+        "label": "Valeur de l'axe X"
       },
       "label_name": {
         "label": "Nom de l'étiquette"
@@ -214,8 +223,7 @@
           "Noir"
         ]
       },
-      "horizontal_helper_text": "Ajoutez des lignes horizontales avec des étiquettes, couleurs et valeurs d'axe X personnalisées pour comparer les données.",
-      "vertical_helper_text": "Ajoutez des lignes verticales avec des étiquettes, couleurs et valeurs d'axe Y personnalisées pour comparer les données."
+      "helper_text": "Ajoutez des lignes horizontales ou verticales avec des couleurs et des étiquettes pour comparer les points de données."
     },
     "arc_label_settings": {
       "label": "Paramètres des étiquettes (arc)",

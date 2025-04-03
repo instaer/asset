@@ -184,19 +184,28 @@
       }
     },
     "reference_line_settings": {
-      "vertical_label": "참조선 설정 (세로)",
-      "horizontal_label": "참조선 설정 (가로)",
+      "label": "참고선 설정",
       "show": {
         "label": "표시"
+      },
+      "orientation": {
+        "label": "방향",
+        "options": [
+          "수평",
+          "수직"
+        ]
       },
       "y_axis_value": {
         "label": "Y축 값"
       },
+      "x_axis_value": {
+        "label": "X축 값"
+      },
       "label_name": {
-        "label": "레이블 이름"
+        "label": "라벨 이름"
       },
       "label_position": {
-        "label": "레이블 위치",
+        "label": "라벨 위치",
         "options": [
           "시작",
           "중간",
@@ -206,16 +215,15 @@
       "line_color": {
         "label": "선 색상",
         "options": [
-          "밝은 회색",
-          "밝은 파랑",
+          "연회색",
+          "연파랑",
           "주황색",
-          "녹색",
+          "초록색",
           "보라색",
           "검정색"
         ]
       },
-      "horizontal_helper_text": "가로선에 사용자 지정 레이블, 색상 및 X축 값을 추가하여 데이터를 비교하세요.",
-      "vertical_helper_text": "세로선에 사용자 지정 레이블, 색상 및 Y축 값을 추가하여 데이터를 비교하세요."
+      "helper_text": "데이터 포인트를 비교하기 위해 색상과 라벨이 있는 수평선 또는 수직선을 추가하세요."
     },
     "arc_label_settings": {
       "label": "호 레이블 설정",

@@ -1,0 +1,51 @@
+{
+  "pageTitle": "Privacybeleid | ExcelToChart.com",
+  "mainTitle": "Privacybeleid",
+  "lastUpdated": "Laatst bijgewerkt: {{date}}",
+  "introduction": {
+    "paragraph1": "Bij {{name}} ({{url}}) zetten we ons in om uw privacy te beschermen. Dit Privacybeleid legt onze gegevenspraktijken uit."
+  },
+  "dataCollection": {
+    "title": "Gegevensverzameling en Gebruik",
+    "list": {
+      "item1": "Wij verzamelen, slaan op of verzenden geen van uw Excel-bestanden of -gegevens",
+      "item2": "Alle bestandsverwerking gebeurt lokaal in uw browser",
+      "item3": "Er worden geen gebruikersgegevens naar onze servers geüpload"
+    }
+  },
+  "technicalInfo": {
+    "title": "Technische Informatie",
+    "paragraph1": "We kunnen basisanalysegegevens verzamelen, zoals:",
+    "list": {
+      "item1": "Browsertype en -versie",
+      "item2": "Besturingssysteem",
+      "item3": "Statistieken over paginabezoeken",
+      "item4": "Verwijzende website"
+    }
+  },
+  "cookies": {
+    "title": "Cookies",
+    "list": {
+      "item1": "We gebruiken essentiële cookies alleen voor de functionaliteit van de website",
+      "item2": "Er worden geen tracking- of advertentiecookies gebruikt"
+    }
+  },
+  "dataSecurity": {
+    "title": "Gegevensbeveiliging",
+    "list": {
+      "item1": "Aangezien alle gegevensverwerking lokaal in uw browser plaatsvindt, blijven uw bestanden veilig",
+      "item2": "We implementeren standaard beveiligingsmaatregelen om onze website te beschermen"
+    }
+  },
+  "changes": {
+    "title": "Wijzigingen in het Privacybeleid",
+    "paragraph1": "We kunnen dit beleid indien nodig bijwerken. Wijzigingen worden op deze pagina geplaatst."
+  },
+  "contact": {
+    "title": "Contact",
+    "paragraph1": "Voor privacyvragen, neem contact op met:"
+  },
+  "footer": {
+    "text1": "Door {{name}} te gebruiken, gaat u akkoord met dit Privacybeleid."
+  }
+}

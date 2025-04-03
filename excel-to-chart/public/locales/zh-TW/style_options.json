@@ -184,13 +184,22 @@
       }
     },
     "reference_line_settings": {
-      "vertical_label": "參考線設定（垂直）",
-      "horizontal_label": "參考線設定（水平）",
+      "label": "參考線設定",
       "show": {
         "label": "顯示"
       },
+      "orientation": {
+        "label": "方向",
+        "options": [
+          "水平",
+          "垂直"
+        ]
+      },
       "y_axis_value": {
-        "label": "Y 軸值"
+        "label": "Y軸值"
+      },
+      "x_axis_value": {
+        "label": "X軸值"
       },
       "label_name": {
         "label": "標籤名稱"
@@ -198,9 +207,9 @@
       "label_position": {
         "label": "標籤位置",
         "options": [
-          "起點",
+          "開始",
           "中間",
-          "終點"
+          "結尾"
         ]
       },
       "line_color": {
@@ -214,8 +223,7 @@
           "黑色"
         ]
       },
-      "horizontal_helper_text": "添加自訂標籤、顏色和 X 軸值的水平線進行數據比較。",
-      "vertical_helper_text": "添加自訂標籤、顏色和 Y 軸值的垂直線進行數據比較。"
+      "helper_text": "添加帶有顏色和標籤的水平或垂直線，用於比較數據點。"
     },
     "arc_label_settings": {
       "label": "弧形標籤設定",
