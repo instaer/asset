@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[795],{1993:function(n,_,u){(window.__NEXT_P=window.__NEXT_P||[]).push(["/spelling-bee",function(){return u(8046)}])}},function(n){n.O(0,[492,203,644,834,425,46,774,888,179],function(){return n(n.s=1993)}),_N_E=n.O()}]);
