@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Wordle letter reveal preview</title>
+  <desc id="desc">A compact abstract preview of a five-letter Wordle answer with individual letters revealed.</desc>
+  <defs>
+    <filter id="softShadow" x="-8%" y="-12%" width="116%" height="124%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#000000" flood-opacity="0.08"/>
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <pattern id="greenGrid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <rect width="44" height="44" fill="#6aaa64"/>
+      <path d="M0 0h22l22 22v22H22L0 22z" fill="#ffffff" opacity="0.055"/>
+    </pattern>
+  </defs>
+
+  <rect width="640" height="360" fill="#fafafa"/>
+
+  <g filter="url(#softShadow)">
+    <rect x="72" y="54" width="496" height="252" rx="10" fill="#ffffff"/>
+  </g>
+
+  <g transform="translate(104 82)">
+    <rect width="432" height="76" rx="8" fill="url(#greenGrid)"/>
+    <rect x="28" y="18" width="376" height="15" rx="7.5" fill="#ffffff" opacity="0.42"/>
+    <rect x="28" y="45" width="286" height="10" rx="5" fill="#ffffff" opacity="0.28"/>
+    <circle cx="390" cy="50" r="4" fill="#ffffff" opacity="0.34"/>
+  </g>
+
+  <g transform="translate(117 190)" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Roboto, Arial, sans-serif" text-anchor="middle">
+    <g>
+      <rect x="0" y="0" width="70" height="70" rx="5" fill="#f1f8e9" stroke="#6aaa64" stroke-width="3" opacity="0.92"/>
+      <text x="35" y="46" fill="#4e8d49" font-size="30" font-weight="800" opacity="0.62">?</text>
+    </g>
+    <g transform="translate(86 0)">
+      <rect x="0" y="0" width="70" height="70" rx="5" fill="#f1f8e9" stroke="#6aaa64" stroke-width="3" opacity="0.92"/>
+      <text x="35" y="46" fill="#4e8d49" font-size="30" font-weight="800" opacity="0.62">?</text>
+    </g>
+    <g transform="translate(172 0)">
+      <rect x="0" y="0" width="70" height="70" rx="5" fill="#6aaa64"/>
+      <text x="35" y="46" fill="#ffffff" font-size="31" font-weight="800">A</text>
+    </g>
+    <g transform="translate(258 0)">
+      <rect x="0" y="0" width="70" height="70" rx="5" fill="#f1f8e9" stroke="#6aaa64" stroke-width="3" opacity="0.92"/>
+      <text x="35" y="46" fill="#4e8d49" font-size="30" font-weight="800" opacity="0.62">?</text>
+    </g>
+    <g transform="translate(344 0)">
+      <rect x="0" y="0" width="70" height="70" rx="5" fill="#6aaa64"/>
+      <text x="35" y="46" fill="#ffffff" font-size="31" font-weight="800">E</text>
+    </g>
+  </g>
+
+  <g transform="translate(236 282)">
+    <rect width="168" height="1" fill="#000000" opacity="0.06"/>
+    <circle cx="70" cy="0.5" r="3" fill="#6aaa64" opacity="0.28"/>
+    <circle cx="84" cy="0.5" r="3" fill="#6aaa64" opacity="0.42"/>
+    <circle cx="98" cy="0.5" r="3" fill="#6aaa64" opacity="0.28"/>
+  </g>
+</svg>

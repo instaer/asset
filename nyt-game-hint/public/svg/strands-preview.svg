@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Strands path reveal preview</title>
+  <desc id="desc">A compact abstract preview of a Strands letter grid with blue theme-word and yellow Spangram paths.</desc>
+  <defs>
+    <filter id="softShadow" x="-8%" y="-12%" width="116%" height="124%">
+      <feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#000000" flood-opacity="0.08"/>
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <pattern id="blueWash" width="44" height="44" patternUnits="userSpaceOnUse">
+      <rect width="44" height="44" fill="#e3f4f9"/>
+      <path d="M0 0h22l22 22v22H22L0 22z" fill="#4a82c3" opacity="0.045"/>
+    </pattern>
+  </defs>
+
+  <rect width="640" height="360" fill="#fafafa"/>
+
+  <g filter="url(#softShadow)">
+    <rect x="72" y="54" width="496" height="252" rx="10" fill="#ffffff"/>
+  </g>
+
+  <g transform="translate(104 78)">
+    <rect width="432" height="202" rx="9" fill="url(#blueWash)"/>
+    <rect x="26" y="18" width="210" height="8" rx="4" fill="#4a82c3" opacity="0.18"/>
+    <rect x="252" y="18" width="88" height="8" rx="4" fill="#4a82c3" opacity="0.11"/>
+  </g>
+
+  <g transform="translate(196 112)" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Roboto, Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle">
+    <path d="M25 25H69L113 69H157L201 113H245" fill="none" stroke="#f2c94c" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" opacity="0.88"/>
+    <path d="M245 25H201L201 69H157L113 113H69" fill="none" stroke="#4a82c3" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" opacity="0.86"/>
+
+    <g fill="#ffffff" opacity="0.22">
+      <circle cx="25" cy="25" r="15"/>
+      <circle cx="69" cy="25" r="15"/>
+      <circle cx="113" cy="25" r="15"/>
+      <circle cx="157" cy="25" r="15"/>
+      <circle cx="201" cy="25" r="15"/>
+      <circle cx="245" cy="25" r="15"/>
+      <circle cx="25" cy="69" r="15"/>
+      <circle cx="69" cy="69" r="15"/>
+      <circle cx="113" cy="69" r="15"/>
+      <circle cx="157" cy="69" r="15"/>
+      <circle cx="201" cy="69" r="15"/>
+      <circle cx="245" cy="69" r="15"/>
+      <circle cx="25" cy="113" r="15"/>
+      <circle cx="69" cy="113" r="15"/>
+      <circle cx="113" cy="113" r="15"/>
+      <circle cx="157" cy="113" r="15"/>
+      <circle cx="201" cy="113" r="15"/>
+      <circle cx="245" cy="113" r="15"/>
+      <circle cx="25" cy="157" r="15"/>
+      <circle cx="69" cy="157" r="15"/>
+      <circle cx="113" cy="157" r="15"/>
+      <circle cx="157" cy="157" r="15"/>
+      <circle cx="201" cy="157" r="15"/>
+      <circle cx="245" cy="157" r="15"/>
+    </g>
+
+    <g fill="#202124" opacity="0.62">
+      <text x="25" y="31">S</text>
+      <text x="69" y="31">T</text>
+      <text x="113" y="31">R</text>
+      <text x="157" y="31">A</text>
+      <text x="201" y="31">N</text>
+      <text x="245" y="31">D</text>
+      <text x="25" y="75">L</text>
+      <text x="69" y="75">O</text>
+      <text x="113" y="75">P</text>
+      <text x="157" y="75">E</text>
+      <text x="201" y="75">M</text>
+      <text x="245" y="75">I</text>
+      <text x="25" y="119">H</text>
+      <text x="69" y="119">C</text>
+      <text x="113" y="119">A</text>
+      <text x="157" y="119">T</text>
+      <text x="201" y="119">E</text>
+      <text x="245" y="119">S</text>
+      <text x="25" y="163">R</text>
+      <text x="69" y="163">N</text>
+      <text x="113" y="163">U</text>
+      <text x="157" y="163">G</text>
+      <text x="201" y="163">A</text>
+      <text x="245" y="163">M</text>
+    </g>
+
+    <g fill="#ffffff" opacity="0.96">
+      <text x="25" y="31">S</text>
+      <text x="69" y="31">T</text>
+      <text x="113" y="75">P</text>
+      <text x="157" y="75">E</text>
+      <text x="201" y="119">E</text>
+      <text x="245" y="119">S</text>
+      <text x="245" y="31">D</text>
+      <text x="201" y="31">N</text>
+      <text x="201" y="75">M</text>
+      <text x="157" y="75">E</text>
+      <text x="113" y="119">A</text>
+      <text x="69" y="119">C</text>
+    </g>
+  </g>
+
+  <g transform="translate(238 288)">
+    <circle cx="0" cy="0" r="5" fill="#4a82c3" opacity="0.72"/>
+    <rect x="12" y="-3" width="54" height="6" rx="3" fill="#4a82c3" opacity="0.18"/>
+    <circle cx="96" cy="0" r="5" fill="#f2c94c" opacity="0.86"/>
+    <rect x="108" y="-3" width="54" height="6" rx="3" fill="#f2c94c" opacity="0.26"/>
+  </g>
+</svg>
